@@ -34,4 +34,8 @@ public class LoginFormTests extends MagentoTestBasePage {
         sleep(1000);
     }
 
+    //1. login with invalid credentials
+    //2. login without password (check the button login)
+
+
 }

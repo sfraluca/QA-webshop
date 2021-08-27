@@ -21,4 +21,5 @@ public class MagentoTestBasePage extends ScreenShooter {
         open("http://testfasttrackit.info/magento-test/men.html");
         takeScreenShot("Open Website");
     }
+    //takescreenshot in steps
 }

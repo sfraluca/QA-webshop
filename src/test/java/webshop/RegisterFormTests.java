@@ -45,4 +45,6 @@ public class RegisterFormTests {
         sleep(2500);
     }
 
+    //verify with required fields
+
 }
