@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.532 s <<< FAILURE! - in TestSuite
+webshop.RegisterFormTests.can_register_with_valid_credentials  Time elapsed: 0.053 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "webshop.RegisterForm.clickOnAccountLink()" because "this.registerForm" is null
+	at webshop.RegisterFormTests.can_register_with_valid_credentials(RegisterFormTests.java:20)
+

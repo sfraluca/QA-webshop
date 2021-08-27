@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","demoshop.LoginTest.can_open_login_modal","1032",""
+"passed","demoshop.LoginTest.can_login_with_valid_credentials","1065",""
+"passed","webshop.RegisterFormTests.can_register_with_valid_credentials","9669",""
+"passed","demoshop.LoginTest.can_login_with_valid_credentials","875",""
+"passed","webshop.LoginFormTests.can_login_with_valid_credentials","9956",""
+"passed","demoshop.LoginTest.can_login_with_valid_credentials","857",""

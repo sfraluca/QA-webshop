@@ -1,0 +1,61 @@
+[ {
+  "uid" : "db97b966f469f26",
+  "name" : "I can login with valid credentials",
+  "time" : {
+    "start" : 1630045196421,
+    "stop" : 1630045206377,
+    "duration" : 9956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38f3607a536d2893",
+  "name" : "I can register with valid credentials",
+  "time" : {
+    "start" : 1630045206522,
+    "stop" : 1630045216191,
+    "duration" : 9669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7271c5ba86dc8041",
+  "name" : "I can open a Demo app Homepage.",
+  "time" : {
+    "start" : 1629986840873,
+    "stop" : 1629986841905,
+    "duration" : 1032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c352a2d524c7c0de",
+  "name" : "I can login with valid credentials {0}",
+  "time" : {
+    "start" : 1629986839994,
+    "stop" : 1629986840869,
+    "duration" : 875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e23aaad879d46af3",
+  "name" : "I can login with valid credentials {0}",
+  "time" : {
+    "start" : 1629986839133,
+    "stop" : 1629986839990,
+    "duration" : 857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b0785c8ce5ff138",
+  "name" : "I can login with valid credentials {0}",
+  "time" : {
+    "start" : 1629986838004,
+    "stop" : 1629986839069,
+    "duration" : 1065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

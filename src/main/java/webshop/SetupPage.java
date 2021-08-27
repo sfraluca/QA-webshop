@@ -1,4 +1,5 @@
 package webshop;
+
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Allure;
 import io.qameta.allure.selenide.AllureSelenide;
