@@ -1,47 +1,47 @@
 {
-  "uid" : "b1c01412eab8f747",
+  "uid" : "623c653c226d8323",
   "name" : "I can login with valid credentials {0}",
   "fullName" : "demoshop.LoginTest.can_login_with_valid_credentials",
-  "historyId" : "3aae31863ba6517cf358a75a78d9aa69",
+  "historyId" : "aaa400899d50315d5f532fc97f68fd99",
   "time" : {
-    "start" : 1629985663137,
-    "stop" : 1629985663926,
-    "duration" : 789
+    "start" : 1629986839133,
+    "stop" : 1629986839990,
+    "duration" : 857
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1629985657846,
-      "stop" : 1629985661112,
-      "duration" : 3266
+      "start" : 1629986836162,
+      "stop" : 1629986837940,
+      "duration" : 1778
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8a5b053e2b6733a4",
+      "uid" : "476c56cbeae99874",
       "name" : "PrintScreen Click on Login button.",
-      "source" : "8a5b053e2b6733a4.png",
+      "source" : "476c56cbeae99874.png",
       "type" : "image/png",
-      "size" : 111639
+      "size" : 110738
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -67,7 +67,7 @@
     "value" : "DESKTOP-AI7I6V4"
   }, {
     "name" : "thread",
-    "value" : "12632@DESKTOP-AI7I6V4.main(1)"
+    "value" : "1480@DESKTOP-AI7I6V4.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -86,15 +86,33 @@
   } ],
   "parameters" : [ {
     "name" : "arg0",
-    "value" : "Correct_Login_with_user_beetle"
+    "value" : "Correct_Login_with_user_turtle"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5752d35d91868473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629986770161,
+        "stop" : 1629986770993,
+        "duration" : 832
+      }
+    }, {
+      "uid" : "5171023cc259d40c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629985662279,
+        "stop" : 1629985663132,
+        "duration" : 853
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b1c01412eab8f747.json",
-  "parameterValues" : [ "Correct_Login_with_user_beetle" ]
+  "source" : "623c653c226d8323.json",
+  "parameterValues" : [ "Correct_Login_with_user_turtle" ]
 }

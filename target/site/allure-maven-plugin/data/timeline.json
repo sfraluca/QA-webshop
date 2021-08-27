@@ -7,7 +7,7 @@
       "name" : "1480@DESKTOP-AI7I6V4.main(1)",
       "children" : [ {
         "name" : "I can open a Demo app Homepage.",
-        "uid" : "7271c5ba86dc8041",
+        "uid" : "f86dad914872a87a",
         "parentUid" : "571d745064fabbe099fc4dd4d074a148",
         "status" : "passed",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ ]
       }, {
         "name" : "I can login with valid credentials {0}",
-        "uid" : "6b0785c8ce5ff138",
+        "uid" : "5eab99119473b23c",
         "parentUid" : "571d745064fabbe099fc4dd4d074a148",
         "status" : "passed",
         "time" : {
@@ -31,7 +31,7 @@
         "parameters" : [ "Correct_Login_with_user_dino" ]
       }, {
         "name" : "I can login with valid credentials {0}",
-        "uid" : "c352a2d524c7c0de",
+        "uid" : "72af9766d0ecfa9c",
         "parentUid" : "571d745064fabbe099fc4dd4d074a148",
         "status" : "passed",
         "time" : {
@@ -43,7 +43,7 @@
         "parameters" : [ "Correct_Login_with_user_beetle" ]
       }, {
         "name" : "I can login with valid credentials {0}",
-        "uid" : "e23aaad879d46af3",
+        "uid" : "623c653c226d8323",
         "parentUid" : "571d745064fabbe099fc4dd4d074a148",
         "status" : "passed",
         "time" : {
@@ -56,33 +56,33 @@
       } ],
       "uid" : "571d745064fabbe099fc4dd4d074a148"
     }, {
-      "name" : "18036@DESKTOP-AI7I6V4.main(1)",
+      "name" : "10676@DESKTOP-AI7I6V4.main(1)",
       "children" : [ {
-        "name" : "I can register with valid credentials",
-        "uid" : "38f3607a536d2893",
-        "parentUid" : "db6a82a0c71c521ea4e8f91f97bcde47",
-        "status" : "passed",
-        "time" : {
-          "start" : 1630045206522,
-          "stop" : 1630045216191,
-          "duration" : 9669
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
         "name" : "I can login with valid credentials",
-        "uid" : "db97b966f469f26",
-        "parentUid" : "db6a82a0c71c521ea4e8f91f97bcde47",
+        "uid" : "8bbe156e404e7f56",
+        "parentUid" : "5fd86325be6cdb6cbbb2773aa4973d6d",
         "status" : "passed",
         "time" : {
-          "start" : 1630045196421,
-          "stop" : 1630045206377,
-          "duration" : 9956
+          "start" : 1630049270595,
+          "stop" : 1630049272779,
+          "duration" : 2184
         },
         "flaky" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "I can register with valid credentials",
+        "uid" : "dfd0a9d67da24407",
+        "parentUid" : "5fd86325be6cdb6cbbb2773aa4973d6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630049272933,
+          "stop" : 1630049277083,
+          "duration" : 4150
+        },
+        "flaky" : true,
+        "parameters" : [ ]
       } ],
-      "uid" : "db6a82a0c71c521ea4e8f91f97bcde47"
+      "uid" : "5fd86325be6cdb6cbbb2773aa4973d6d"
     } ],
     "uid" : "c72c16edc7abbb0999e86eb9368c23b2"
   } ]

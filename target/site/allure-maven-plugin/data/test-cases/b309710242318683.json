@@ -1,12 +1,12 @@
 {
-  "uid" : "5bf584b8a83c0b1",
-  "name" : "I can login with valid credentials {0}",
-  "fullName" : "demoshop.LoginTest.can_login_with_valid_credentials",
-  "historyId" : "5d407282c52bfd26eaeacf9c38068ae4",
+  "uid" : "b309710242318683",
+  "name" : "I can open a Demo app Homepage.",
+  "fullName" : "demoshop.LoginTest.can_open_login_modal",
+  "historyId" : "fb52659073d8a422f41c031430975fea",
   "time" : {
-    "start" : 1629985661170,
-    "stop" : 1629985662219,
-    "duration" : 1049
+    "start" : 1629985663933,
+    "stop" : 1629985664918,
+    "duration" : 985
   },
   "status" : "passed",
   "flaky" : false,
@@ -22,26 +22,26 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d6e7495bf6c20197",
-      "name" : "PrintScreen Click on Login button.",
-      "source" : "d6e7495bf6c20197.png",
+      "uid" : "6c5a6790c1697432",
+      "name" : "PrintScreen Login modal is visible",
+      "source" : "6c5a6790c1697432.png",
       "type" : "image/png",
-      "size" : 107586
+      "size" : 111702
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -52,7 +52,7 @@
     "value" : "demoshop.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "can_login_with_valid_credentials"
+    "value" : "can_open_login_modal"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -76,7 +76,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Login"
+    "value" : "Modal"
   }, {
     "name" : "epic",
     "value" : "Login Tests"
@@ -84,10 +84,7 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "arg0",
-    "value" : "Correct_Login_with_user_dino"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : true,
   "retry" : true,
@@ -95,6 +92,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5bf584b8a83c0b1.json",
-  "parameterValues" : [ "Correct_Login_with_user_dino" ]
+  "source" : "b309710242318683.json",
+  "parameterValues" : [ ]
 }

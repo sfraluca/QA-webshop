@@ -1,5 +1,5 @@
 {
-  "uid" : "db97b966f469f26",
+  "uid" : "ba62b4882c412a02",
   "name" : "I can login with valid credentials",
   "fullName" : "webshop.LoginFormTests.can_login_with_valid_credentials",
   "historyId" : "e48fb504472cc40a1e11f3869b9a560e",
@@ -24,10 +24,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"open\") http://testfasttrackit.info/magento-test/men.html",
       "time" : {
@@ -39,10 +39,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\".skip-link.skip-account\") click()",
       "time" : {
@@ -54,10 +54,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"a[title='Log In']\") click()",
       "time" : {
@@ -69,10 +69,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#email\") should be(visible)",
       "time" : {
@@ -84,10 +84,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#email\") send keys(test1@yahoo.com)",
       "time" : {
@@ -99,10 +99,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#pass\") should be(visible)",
       "time" : {
@@ -114,10 +114,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#pass\") send keys(1a2b3c4d)",
       "time" : {
@@ -129,29 +129,29 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "c754a74994c962a6",
+      "uid" : "29fa69dcc116458a",
       "name" : "PrintScreen Open Website",
-      "source" : "c754a74994c962a6.png",
+      "source" : "29fa69dcc116458a.png",
       "type" : "image/png",
       "size" : 908560
     }, {
-      "uid" : "fe2e21d818623ba6",
+      "uid" : "1e9bc4914379b832",
       "name" : "PrintScreen Open Website",
-      "source" : "fe2e21d818623ba6.png",
+      "source" : "1e9bc4914379b832.png",
       "type" : "image/png",
       "size" : 908560
     } ],
     "parameters" : [ ],
-    "stepsCount" : 8,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 8
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -190,14 +190,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "db97b966f469f26.json",
+  "source" : "ba62b4882c412a02.json",
   "parameterValues" : [ ]
 }

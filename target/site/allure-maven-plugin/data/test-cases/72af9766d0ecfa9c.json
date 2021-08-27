@@ -1,12 +1,12 @@
 {
-  "uid" : "6b0785c8ce5ff138",
+  "uid" : "72af9766d0ecfa9c",
   "name" : "I can login with valid credentials {0}",
   "fullName" : "demoshop.LoginTest.can_login_with_valid_credentials",
-  "historyId" : "5d407282c52bfd26eaeacf9c38068ae4",
+  "historyId" : "3aae31863ba6517cf358a75a78d9aa69",
   "time" : {
-    "start" : 1629986838004,
-    "stop" : 1629986839069,
-    "duration" : 1065
+    "start" : 1629986839994,
+    "stop" : 1629986840869,
+    "duration" : 875
   },
   "status" : "passed",
   "flaky" : false,
@@ -22,26 +22,26 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "636892e1afd8de46",
+      "uid" : "9d38945400195bf7",
       "name" : "PrintScreen Click on Login button.",
-      "source" : "636892e1afd8de46.png",
+      "source" : "9d38945400195bf7.png",
       "type" : "image/png",
-      "size" : 108070
+      "size" : 111744
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -86,7 +86,7 @@
   } ],
   "parameters" : [ {
     "name" : "arg0",
-    "value" : "Correct_Login_with_user_dino"
+    "value" : "Correct_Login_with_user_beetle"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -94,25 +94,25 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "d7cca6d4a2f1a777",
+      "uid" : "870c690a61614255",
       "status" : "passed",
       "time" : {
-        "start" : 1629986769085,
-        "stop" : 1629986770102,
-        "duration" : 1017
+        "start" : 1629986770997,
+        "stop" : 1629986771799,
+        "duration" : 802
       }
     }, {
-      "uid" : "5bf584b8a83c0b1",
+      "uid" : "9c514e6bc8615f84",
       "status" : "passed",
       "time" : {
-        "start" : 1629985661170,
-        "stop" : 1629985662219,
-        "duration" : 1049
+        "start" : 1629985663137,
+        "stop" : 1629985663926,
+        "duration" : 789
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6b0785c8ce5ff138.json",
-  "parameterValues" : [ "Correct_Login_with_user_dino" ]
+  "source" : "72af9766d0ecfa9c.json",
+  "parameterValues" : [ "Correct_Login_with_user_beetle" ]
 }
