@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: webshop.RegisterFormTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.665 s - in webshop.RegisterFormTests

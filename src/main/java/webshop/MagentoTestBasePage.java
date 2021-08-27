@@ -5,7 +5,7 @@ import io.qameta.allure.Step;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class MagentoTestBasePage extends SetupPage{
+public class MagentoTestBasePage extends ScreenShooter {
     public SelenideElement accountLink = $(".skip-link.skip-account");
 
     public MagentoTestBasePage() {

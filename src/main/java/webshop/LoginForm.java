@@ -5,7 +5,7 @@ import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class LoginForm extends SetupPage {
+public class LoginForm extends ScreenShooter {
     public SelenideElement loginLink = $("a[title='Log In']");
     public SelenideElement emailInputLogin = $("input#email");
     public SelenideElement passwordInputLogin = $("input#pass");

@@ -4,6 +4,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.sleep;
@@ -11,8 +12,13 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Epic("RegisterFormTests")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "Register Homepage tests suit")
-public class RegisterFormTests extends  MagentoTestBasePage {
+public class RegisterFormTests {
+    MagentoTestBasePage magentoTestBasePage;
 
+    @BeforeClass
+    public void setup() {
+        magentoTestBasePage = new MagentoTestBasePage();
+    }
     RegisterForm registerForm = new RegisterForm();
     MagentoTestBasePage accountLink = new MagentoTestBasePage();
 
