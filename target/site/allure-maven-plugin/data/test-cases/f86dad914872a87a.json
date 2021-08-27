@@ -1,47 +1,47 @@
 {
-  "uid" : "db8ff361f249ab0a",
+  "uid" : "f86dad914872a87a",
   "name" : "I can open a Demo app Homepage.",
   "fullName" : "demoshop.LoginTest.can_open_login_modal",
   "historyId" : "fb52659073d8a422f41c031430975fea",
   "time" : {
-    "start" : 1629986771806,
-    "stop" : 1629986772789,
-    "duration" : 983
+    "start" : 1629986840873,
+    "stop" : 1629986841905,
+    "duration" : 1032
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1629986766406,
-      "stop" : 1629986769032,
-      "duration" : 2626
+      "start" : 1629986836162,
+      "stop" : 1629986837940,
+      "duration" : 1778
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "9073f1dabcdffd22",
+      "uid" : "fc62b6eb6cffdb6e",
       "name" : "PrintScreen Login modal is visible",
-      "source" : "9073f1dabcdffd22.png",
+      "source" : "fc62b6eb6cffdb6e.png",
       "type" : "image/png",
-      "size" : 114474
+      "size" : 113677
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -67,7 +67,7 @@
     "value" : "DESKTOP-AI7I6V4"
   }, {
     "name" : "thread",
-    "value" : "16700@DESKTOP-AI7I6V4.main(1)"
+    "value" : "1480@DESKTOP-AI7I6V4.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -86,12 +86,30 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bebf5b405f2fe80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629986771806,
+        "stop" : 1629986772789,
+        "duration" : 983
+      }
+    }, {
+      "uid" : "b309710242318683",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629985663933,
+        "stop" : 1629985664918,
+        "duration" : 985
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "db8ff361f249ab0a.json",
+  "source" : "f86dad914872a87a.json",
   "parameterValues" : [ ]
 }

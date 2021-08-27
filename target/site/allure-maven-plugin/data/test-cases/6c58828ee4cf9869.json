@@ -1,5 +1,5 @@
 {
-  "uid" : "801681bb5c1d634f",
+  "uid" : "6c58828ee4cf9869",
   "name" : "I can register with valid credentials",
   "fullName" : "webshop.RegisterFormTests.can_register_with_valid_credentials",
   "historyId" : "735db01b3312c5ff41c5c1167642bc6c",
@@ -62,6 +62,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "801681bb5c1d634f.json",
+  "source" : "6c58828ee4cf9869.json",
   "parameterValues" : [ ]
 }

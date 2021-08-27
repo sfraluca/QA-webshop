@@ -1,12 +1,12 @@
 {
-  "uid" : "bc4d52c8d57c0735",
+  "uid" : "9c514e6bc8615f84",
   "name" : "I can login with valid credentials {0}",
   "fullName" : "demoshop.LoginTest.can_login_with_valid_credentials",
-  "historyId" : "aaa400899d50315d5f532fc97f68fd99",
+  "historyId" : "3aae31863ba6517cf358a75a78d9aa69",
   "time" : {
-    "start" : 1629985662279,
-    "stop" : 1629985663132,
-    "duration" : 853
+    "start" : 1629985663137,
+    "stop" : 1629985663926,
+    "duration" : 789
   },
   "status" : "passed",
   "flaky" : false,
@@ -22,26 +22,26 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fc417f54c460abd7",
+      "uid" : "66bb2c623b6b1a09",
       "name" : "PrintScreen Click on Login button.",
-      "source" : "fc417f54c460abd7.png",
+      "source" : "66bb2c623b6b1a09.png",
       "type" : "image/png",
-      "size" : 111423
+      "size" : 111639
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -86,7 +86,7 @@
   } ],
   "parameters" : [ {
     "name" : "arg0",
-    "value" : "Correct_Login_with_user_turtle"
+    "value" : "Correct_Login_with_user_beetle"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bc4d52c8d57c0735.json",
-  "parameterValues" : [ "Correct_Login_with_user_turtle" ]
+  "source" : "9c514e6bc8615f84.json",
+  "parameterValues" : [ "Correct_Login_with_user_beetle" ]
 }

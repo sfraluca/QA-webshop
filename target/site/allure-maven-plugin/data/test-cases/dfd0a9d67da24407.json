@@ -1,12 +1,12 @@
 {
-  "uid" : "38f3607a536d2893",
+  "uid" : "dfd0a9d67da24407",
   "name" : "I can register with valid credentials",
   "fullName" : "webshop.RegisterFormTests.can_register_with_valid_credentials",
   "historyId" : "735db01b3312c5ff41c5c1167642bc6c",
   "time" : {
-    "start" : 1630045206522,
-    "stop" : 1630045216191,
-    "duration" : 9669
+    "start" : 1630049272933,
+    "stop" : 1630049277083,
+    "duration" : 4150
   },
   "status" : "passed",
   "flaky" : true,
@@ -14,299 +14,257 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "$(\"open\") http://testfasttrackit.info/magento-test/men.html",
-      "time" : {
-        "start" : 1630045206522,
-        "stop" : 1630045208653,
-        "duration" : 2131
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "$(\"open\") http://testfasttrackit.info/magento-test/men.html",
-      "time" : {
-        "start" : 1630045209482,
-        "stop" : 1630045211115,
-        "duration" : 1633
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
       "name" : "$(\".skip-link.skip-account\") click()",
       "time" : {
-        "start" : 1630045211940,
-        "stop" : 1630045212041,
-        "duration" : 101
+        "start" : 1630049272933,
+        "stop" : 1630049273036,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"a[title=Register]\") click()",
       "time" : {
-        "start" : 1630045212041,
-        "stop" : 1630045212791,
-        "duration" : 750
+        "start" : 1630049273036,
+        "stop" : 1630049273700,
+        "duration" : 664
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#firstname.input-text\") should be(visible)",
       "time" : {
-        "start" : 1630045212792,
-        "stop" : 1630045212834,
-        "duration" : 42
+        "start" : 1630049273700,
+        "stop" : 1630049273749,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#firstname.input-text\") send keys(Test)",
       "time" : {
-        "start" : 1630045212834,
-        "stop" : 1630045212906,
-        "duration" : 72
+        "start" : 1630049273749,
+        "stop" : 1630049273824,
+        "duration" : 75
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#middlename.input-text\") should be(visible)",
       "time" : {
-        "start" : 1630045212906,
-        "stop" : 1630045212956,
-        "duration" : 50
+        "start" : 1630049273824,
+        "stop" : 1630049273881,
+        "duration" : 57
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#middlename.input-text\") send keys(R)",
       "time" : {
-        "start" : 1630045212956,
-        "stop" : 1630045213046,
-        "duration" : 90
+        "start" : 1630049273881,
+        "stop" : 1630049273972,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#lastname.input-text\") should be(visible)",
       "time" : {
-        "start" : 1630045213047,
-        "stop" : 1630045213100,
-        "duration" : 53
+        "start" : 1630049273973,
+        "stop" : 1630049274014,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#lastname.input-text\") send keys(Marina)",
       "time" : {
-        "start" : 1630045213100,
-        "stop" : 1630045213194,
-        "duration" : 94
+        "start" : 1630049274015,
+        "stop" : 1630049274106,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#email_address.input-text\") should be(visible)",
       "time" : {
-        "start" : 1630045213194,
-        "stop" : 1630045213232,
-        "duration" : 38
+        "start" : 1630049274106,
+        "stop" : 1630049274142,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#email_address.input-text\") send keys(test1@yahoo.com)",
       "time" : {
-        "start" : 1630045213232,
-        "stop" : 1630045213333,
-        "duration" : 101
+        "start" : 1630049274142,
+        "stop" : 1630049274242,
+        "duration" : 100
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#email_address.input-text\") should be(visible)",
       "time" : {
-        "start" : 1630045213333,
-        "stop" : 1630045213370,
-        "duration" : 37
+        "start" : 1630049274243,
+        "stop" : 1630049274277,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#password.input-text\") send keys(1a2b3c4d)",
       "time" : {
-        "start" : 1630045213370,
-        "stop" : 1630045213469,
-        "duration" : 99
+        "start" : 1630049274278,
+        "stop" : 1630049274373,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#email_address.input-text\") should be(visible)",
       "time" : {
-        "start" : 1630045213469,
-        "stop" : 1630045213504,
+        "start" : 1630049274373,
+        "stop" : 1630049274408,
         "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\"input#confirmation.input-text\") send keys(1a2b3c4d)",
       "time" : {
-        "start" : 1630045213504,
-        "stop" : 1630045213609,
-        "duration" : 105
+        "start" : 1630049274408,
+        "stop" : 1630049274508,
+        "duration" : 100
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\".buttons-set button[type=submit].button\") should be(visible)",
       "time" : {
-        "start" : 1630045213609,
-        "stop" : 1630045213657,
-        "duration" : 48
+        "start" : 1630049274509,
+        "stop" : 1630049274547,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "$(\".buttons-set button[type=submit].button\") should be(enabled)",
       "time" : {
-        "start" : 1630045213658,
-        "stop" : 1630045213683,
-        "duration" : 25
+        "start" : 1630049274547,
+        "stop" : 1630049274582,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
-    "attachments" : [ {
-      "uid" : "8e308932dddbbdb8",
-      "name" : "PrintScreen Open Website",
-      "source" : "8e308932dddbbdb8.png",
-      "type" : "image/png",
-      "size" : 908560
-    }, {
-      "uid" : "8ff6b1577bda0cbe",
-      "name" : "PrintScreen Open Website",
-      "source" : "8ff6b1577bda0cbe.png",
-      "type" : "image/png",
-      "size" : 908560
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 18,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 2
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 16
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "webshop"
+    "value" : "webshop.RegisterFormTests"
   }, {
     "name" : "testClass",
     "value" : "webshop.RegisterFormTests"
@@ -314,17 +272,23 @@
     "name" : "testMethod",
     "value" : "can_register_with_valid_credentials"
   }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
     "name" : "suite",
-    "value" : "Register Homepage tests suit"
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "webshop.RegisterFormTests"
   }, {
     "name" : "host",
     "value" : "DESKTOP-AI7I6V4"
   }, {
     "name" : "thread",
-    "value" : "18036@DESKTOP-AI7I6V4.main(1)"
+    "value" : "10676@DESKTOP-AI7I6V4.main(1)"
   }, {
     "name" : "framework",
-    "value" : "junit4"
+    "value" : "testng"
   }, {
     "name" : "language",
     "value" : "java"
@@ -335,6 +299,9 @@
     "name" : "epic",
     "value" : "RegisterFormTests"
   }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -343,9 +310,17 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "critical",
     "retries" : [ {
-      "uid" : "a2dbb361a8422ffc",
+      "uid" : "4552d318753df4ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630045206522,
+        "stop" : 1630045216191,
+        "duration" : 9669
+      }
+    }, {
+      "uid" : "5f3e93abe509b30c",
       "status" : "broken",
       "statusDetails" : "Cannot invoke \"webshop.RegisterForm.clickOnAccountLink()\" because \"this.registerForm\" is null",
       "time" : {
@@ -354,7 +329,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "7fd3b98f6a99a47e",
+      "uid" : "bf601522c04a5be",
       "status" : "broken",
       "statusDetails" : "Cannot invoke \"webshop.RegisterForm.clickOnAccountLink()\" because \"this.registerForm\" is null",
       "time" : {
@@ -363,7 +338,7 @@
         "duration" : 4
       }
     }, {
-      "uid" : "801681bb5c1d634f",
+      "uid" : "6c58828ee4cf9869",
       "status" : "broken",
       "statusDetails" : "Cannot invoke \"webshop.RegisterForm.clickOnAccountLink()\" because \"this.registerForm\" is null",
       "time" : {
@@ -375,6 +350,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "38f3607a536d2893.json",
+  "source" : "dfd0a9d67da24407.json",
   "parameterValues" : [ ]
 }

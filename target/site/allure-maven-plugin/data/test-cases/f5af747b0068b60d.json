@@ -1,47 +1,47 @@
 {
-  "uid" : "d7cca6d4a2f1a777",
+  "uid" : "f5af747b0068b60d",
   "name" : "I can login with valid credentials {0}",
   "fullName" : "demoshop.LoginTest.can_login_with_valid_credentials",
   "historyId" : "5d407282c52bfd26eaeacf9c38068ae4",
   "time" : {
-    "start" : 1629986769085,
-    "stop" : 1629986770102,
-    "duration" : 1017
+    "start" : 1629985661170,
+    "stop" : 1629985662219,
+    "duration" : 1049
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1629986766406,
-      "stop" : 1629986769032,
-      "duration" : 2626
+      "start" : 1629985657846,
+      "stop" : 1629985661112,
+      "duration" : 3266
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2a286b5ddb8a93e9",
+      "uid" : "83f13954c646021c",
       "name" : "PrintScreen Click on Login button.",
-      "source" : "2a286b5ddb8a93e9.png",
+      "source" : "83f13954c646021c.png",
       "type" : "image/png",
-      "size" : 108052
+      "size" : 107586
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -67,7 +67,7 @@
     "value" : "DESKTOP-AI7I6V4"
   }, {
     "name" : "thread",
-    "value" : "16700@DESKTOP-AI7I6V4.main(1)"
+    "value" : "12632@DESKTOP-AI7I6V4.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d7cca6d4a2f1a777.json",
+  "source" : "f5af747b0068b60d.json",
   "parameterValues" : [ "Correct_Login_with_user_dino" ]
 }

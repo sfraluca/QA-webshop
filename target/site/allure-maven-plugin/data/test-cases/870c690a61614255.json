@@ -1,5 +1,5 @@
 {
-  "uid" : "ca4ed460955f8e17",
+  "uid" : "870c690a61614255",
   "name" : "I can login with valid credentials {0}",
   "fullName" : "demoshop.LoginTest.can_login_with_valid_credentials",
   "historyId" : "3aae31863ba6517cf358a75a78d9aa69",
@@ -22,26 +22,26 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8d636627987b36fc",
+      "uid" : "92e0e9570d8e5426",
       "name" : "PrintScreen Click on Login button.",
-      "source" : "8d636627987b36fc.png",
+      "source" : "92e0e9570d8e5426.png",
       "type" : "image/png",
       "size" : 111603
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ca4ed460955f8e17.json",
+  "source" : "870c690a61614255.json",
   "parameterValues" : [ "Correct_Login_with_user_beetle" ]
 }

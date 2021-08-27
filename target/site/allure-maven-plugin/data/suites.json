@@ -9,7 +9,7 @@
         "name" : "demoshop.LoginTest",
         "children" : [ {
           "name" : "I can login with valid credentials {0}",
-          "uid" : "6b0785c8ce5ff138",
+          "uid" : "5eab99119473b23c",
           "parentUid" : "a01c1b773c91aa0d08ee3f3aef873a54",
           "status" : "passed",
           "time" : {
@@ -21,7 +21,7 @@
           "parameters" : [ "Correct_Login_with_user_dino" ]
         }, {
           "name" : "I can login with valid credentials {0}",
-          "uid" : "e23aaad879d46af3",
+          "uid" : "623c653c226d8323",
           "parentUid" : "a01c1b773c91aa0d08ee3f3aef873a54",
           "status" : "passed",
           "time" : {
@@ -33,7 +33,7 @@
           "parameters" : [ "Correct_Login_with_user_turtle" ]
         }, {
           "name" : "I can login with valid credentials {0}",
-          "uid" : "c352a2d524c7c0de",
+          "uid" : "72af9766d0ecfa9c",
           "parentUid" : "a01c1b773c91aa0d08ee3f3aef873a54",
           "status" : "passed",
           "time" : {
@@ -45,7 +45,7 @@
           "parameters" : [ "Correct_Login_with_user_beetle" ]
         }, {
           "name" : "I can open a Demo app Homepage.",
-          "uid" : "7271c5ba86dc8041",
+          "uid" : "f86dad914872a87a",
           "parentUid" : "a01c1b773c91aa0d08ee3f3aef873a54",
           "status" : "passed",
           "time" : {
@@ -57,41 +57,41 @@
           "parameters" : [ ]
         } ],
         "uid" : "a01c1b773c91aa0d08ee3f3aef873a54"
+      }, {
+        "name" : "webshop.LoginFormTests",
+        "children" : [ {
+          "name" : "I can login with valid credentials",
+          "uid" : "8bbe156e404e7f56",
+          "parentUid" : "2d201b7d79aaaf5e8ebba7102f623fd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630049270595,
+            "stop" : 1630049272779,
+            "duration" : 2184
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2d201b7d79aaaf5e8ebba7102f623fd8"
+      }, {
+        "name" : "webshop.RegisterFormTests",
+        "children" : [ {
+          "name" : "I can register with valid credentials",
+          "uid" : "dfd0a9d67da24407",
+          "parentUid" : "34d673eb9dc0d6d1b38ab90719f4a98c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630049272933,
+            "stop" : 1630049277083,
+            "duration" : 4150
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "34d673eb9dc0d6d1b38ab90719f4a98c"
       } ],
       "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
     } ],
     "uid" : "940a09faf31371a51747026c9d178f0a"
-  }, {
-    "name" : "Login Form Homepage tests suit",
-    "children" : [ {
-      "name" : "I can login with valid credentials",
-      "uid" : "db97b966f469f26",
-      "parentUid" : "fb021b6d99a60ad4a56b026557084c4d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630045196421,
-        "stop" : 1630045206377,
-        "duration" : 9956
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "fb021b6d99a60ad4a56b026557084c4d"
-  }, {
-    "name" : "Register Homepage tests suit",
-    "children" : [ {
-      "name" : "I can register with valid credentials",
-      "uid" : "38f3607a536d2893",
-      "parentUid" : "a03373f0497a708fb1776729bab1c542",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630045206522,
-        "stop" : 1630045216191,
-        "duration" : 9669
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    } ],
-    "uid" : "a03373f0497a708fb1776729bab1c542"
   } ]
 }

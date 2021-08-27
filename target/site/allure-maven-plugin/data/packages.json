@@ -5,7 +5,7 @@
     "name" : "demoshop.LoginTest",
     "children" : [ {
       "name" : "can_login_with_valid_credentials",
-      "uid" : "6b0785c8ce5ff138",
+      "uid" : "5eab99119473b23c",
       "parentUid" : "6e32494b2f4b8b3a00355659acfede48",
       "status" : "passed",
       "time" : {
@@ -17,7 +17,7 @@
       "parameters" : [ "Correct_Login_with_user_dino" ]
     }, {
       "name" : "can_login_with_valid_credentials",
-      "uid" : "e23aaad879d46af3",
+      "uid" : "623c653c226d8323",
       "parentUid" : "6e32494b2f4b8b3a00355659acfede48",
       "status" : "passed",
       "time" : {
@@ -29,7 +29,7 @@
       "parameters" : [ "Correct_Login_with_user_turtle" ]
     }, {
       "name" : "can_login_with_valid_credentials",
-      "uid" : "c352a2d524c7c0de",
+      "uid" : "72af9766d0ecfa9c",
       "parentUid" : "6e32494b2f4b8b3a00355659acfede48",
       "status" : "passed",
       "time" : {
@@ -41,7 +41,7 @@
       "parameters" : [ "Correct_Login_with_user_beetle" ]
     }, {
       "name" : "can_open_login_modal",
-      "uid" : "7271c5ba86dc8041",
+      "uid" : "f86dad914872a87a",
       "parentUid" : "6e32494b2f4b8b3a00355659acfede48",
       "status" : "passed",
       "time" : {
@@ -56,29 +56,37 @@
   }, {
     "name" : "webshop",
     "children" : [ {
-      "name" : "can_login_with_valid_credentials",
-      "uid" : "db97b966f469f26",
-      "parentUid" : "cbdce86839693880094496240af30b7c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630045196421,
-        "stop" : 1630045206377,
-        "duration" : 9956
-      },
-      "flaky" : false,
-      "parameters" : [ ]
+      "name" : "LoginFormTests",
+      "children" : [ {
+        "name" : "can_login_with_valid_credentials",
+        "uid" : "8bbe156e404e7f56",
+        "parentUid" : "07211306823e633c29564961fd55fdc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630049270595,
+          "stop" : 1630049272779,
+          "duration" : 2184
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07211306823e633c29564961fd55fdc9"
     }, {
-      "name" : "can_register_with_valid_credentials",
-      "uid" : "38f3607a536d2893",
-      "parentUid" : "cbdce86839693880094496240af30b7c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1630045206522,
-        "stop" : 1630045216191,
-        "duration" : 9669
-      },
-      "flaky" : true,
-      "parameters" : [ ]
+      "name" : "RegisterFormTests",
+      "children" : [ {
+        "name" : "can_register_with_valid_credentials",
+        "uid" : "dfd0a9d67da24407",
+        "parentUid" : "2f69b2f2bf95e28ba8a4807312337c52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630049272933,
+          "stop" : 1630049277083,
+          "duration" : 4150
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f69b2f2bf95e28ba8a4807312337c52"
     } ],
     "uid" : "cbdce86839693880094496240af30b7c"
   } ]

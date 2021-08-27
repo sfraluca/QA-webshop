@@ -1,12 +1,12 @@
 {
-  "uid" : "a2dbb361a8422ffc",
+  "uid" : "bf601522c04a5be",
   "name" : "I can register with valid credentials",
   "fullName" : "webshop.RegisterFormTests.can_register_with_valid_credentials",
   "historyId" : "735db01b3312c5ff41c5c1167642bc6c",
   "time" : {
-    "start" : 1629986901257,
-    "stop" : 1629986901257,
-    "duration" : 0
+    "start" : 1629986841911,
+    "stop" : 1629986841915,
+    "duration" : 4
   },
   "status" : "broken",
   "statusMessage" : "Cannot invoke \"webshop.RegisterForm.clickOnAccountLink()\" because \"this.registerForm\" is null",
@@ -37,7 +37,7 @@
     "value" : "DESKTOP-AI7I6V4"
   }, {
     "name" : "thread",
-    "value" : "7028@DESKTOP-AI7I6V4.main(1)"
+    "value" : "1480@DESKTOP-AI7I6V4.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -62,6 +62,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a2dbb361a8422ffc.json",
+  "source" : "bf601522c04a5be.json",
   "parameterValues" : [ ]
 }
