@@ -12,6 +12,9 @@ public class DataProviderCredentials {
         HashMap<String,String> correctCredentialsTest1 = new HashMap<>();
         correctCredentialsTest1.put("email", "test1@yahoo.com");
         correctCredentialsTest1.put("password", "1a2b3c4d");
+        correctCredentialsTest1.put("firstname", "Test");
+        correctCredentialsTest1.put("middlename", "R");
+        correctCredentialsTest1.put("lastname", "Marina");
         genericData.put("Correct_Login_with_email_test1", correctCredentialsTest1);
     }
 

@@ -31,11 +31,29 @@ public class LoginFormTests extends MagentoTestBasePage {
         loginForm.fillInEmailLoginForm(email);
         loginForm.isPasswordLoginVisible();
         loginForm.fillInPasswordLoginForm(password);
+        loginForm.clickOnLoginButton();
         sleep(1000);
     }
 
+    @Feature("Logout")
+    @Test(description = "I can logout {0}",
+            testName = "Logout {0}",
+            dataProvider = "correct_credentials", dataProviderClass = DataProviderCredentials.class)
+    public void can_logout(UserForTest user) {
+        can_login_with_valid_credentials(user);
+        String firstname = user.getFirstname();
+        String middlename = user.getMiddlename();
+        String lastname = user.getLastname();
+        accountLink.verifyWelcomeMessageByText("WELCOME, " +
+                                                    firstname + " " +
+                                                    middlename + " " +
+                                                    lastname + "!");
+        accountLink.clickOnAccountLink();
+        loginForm.clickOnLogoutLink();
+    }
+
+
     //1. login with invalid credentials
     //2. login without password (check the button login)
-
 
 }

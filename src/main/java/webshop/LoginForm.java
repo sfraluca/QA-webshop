@@ -10,14 +10,15 @@ public class LoginForm extends ScreenShooter {
     public SelenideElement emailInputLogin = $("input#email");
     public SelenideElement passwordInputLogin = $("input#pass");
     public SelenideElement accountLink = $(".skip-link.skip-account");
-
+    public SelenideElement logoutLink = $("a[title='Log Out']");
+    public SelenideElement loginButton = $(".account-login button#send2.button");
 
     /**
      * Validators
      */
-    public void isEmailLoginVisible() {emailInputLogin.shouldBe(Condition.visible);}
+    public void isEmailLoginVisible() { emailInputLogin.shouldBe(Condition.visible);}
 
-    public void isPasswordLoginVisible() {passwordInputLogin.shouldBe(Condition.visible);}
+    public void isPasswordLoginVisible() { passwordInputLogin.shouldBe(Condition.visible);}
 
     /**
      * Actions
@@ -33,5 +34,9 @@ public class LoginForm extends ScreenShooter {
     public void clickOnAccountLink() {
         accountLink.click();
     }
+
+    public void clickOnLogoutLink() { logoutLink.click(); }
+
+    public void clickOnLoginButton() { loginButton.click(); }
 
 }
