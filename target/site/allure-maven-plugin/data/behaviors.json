@@ -1,0 +1,117 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "FirstPageTests",
+    "children" : [ {
+      "name" : "Slider",
+      "children" : [ {
+        "name" : "First page Homepage Tests suit",
+        "uid" : "917f68cff0e7e0bb",
+        "parentUid" : "f9d710d469b068492158c6f894ce88ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630315997097,
+          "stop" : 1630316005422,
+          "duration" : 8325
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9d710d469b068492158c6f894ce88ec"
+    }, {
+      "name" : "PromoBanner",
+      "children" : [ {
+        "name" : "I can access the pages through promo banners",
+        "uid" : "965158f424e93094",
+        "parentUid" : "b11dc4cf47f6e9bd47a1c29e74ab6a00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630326822569,
+          "stop" : 1630326829272,
+          "duration" : 6703
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b11dc4cf47f6e9bd47a1c29e74ab6a00"
+    } ],
+    "uid" : "1c654fc03bb30ea1a362d48ae710beef"
+  }, {
+    "name" : "LoginFormTests",
+    "children" : [ {
+      "name" : "Login",
+      "children" : [ {
+        "name" : "I can login with valid credentials {0}",
+        "uid" : "1ff2b71330ea0841",
+        "parentUid" : "936665e77a178b4b42d63b29b7dd1109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630326829408,
+          "stop" : 1630326833672,
+          "duration" : 4264
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_Login_with_email_test1" ]
+      } ],
+      "uid" : "936665e77a178b4b42d63b29b7dd1109"
+    }, {
+      "name" : "Logout",
+      "children" : [ {
+        "name" : "I can logout {0}",
+        "uid" : "54dce986a0e65e3a",
+        "parentUid" : "7e36fa982790a03609ad459a04d5fa67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630326833678,
+          "stop" : 1630326834986,
+          "duration" : 1308
+        },
+        "flaky" : true,
+        "parameters" : [ "Correct_Login_with_email_test1" ]
+      } ],
+      "uid" : "7e36fa982790a03609ad459a04d5fa67"
+    } ],
+    "uid" : "47c1541137b592e80a8c7b2c315dcfa4"
+  }, {
+    "name" : "MenuItems",
+    "children" : [ {
+      "name" : "Menu items",
+      "children" : [ {
+        "name" : "I can all menu items",
+        "uid" : "bebea765f436a3de",
+        "parentUid" : "b155131ac4047a4821e3fd0473a7614a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630326834996,
+          "stop" : 1630326863403,
+          "duration" : 28407
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b155131ac4047a4821e3fd0473a7614a"
+    } ],
+    "uid" : "121c58b9c47139bf52452337a5c3d249"
+  }, {
+    "name" : "RegisterFormTests",
+    "children" : [ {
+      "name" : "Register",
+      "children" : [ {
+        "name" : "I can register with valid credentials",
+        "uid" : "a5d9e8b0669f35aa",
+        "parentUid" : "49b7676aa71061cd3e1495bdd5bb3d64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630326864555,
+          "stop" : 1630326868088,
+          "duration" : 3533
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49b7676aa71061cd3e1495bdd5bb3d64"
+    } ],
+    "uid" : "a9f0b28da0d24a6795d5b83d3000dc56"
+  } ]
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "1ff2b71330ea0841",
+  "name" : "I can login with valid credentials {0}",
+  "time" : {
+    "start" : 1630326829408,
+    "stop" : 1630326833672,
+    "duration" : 4264
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "965158f424e93094",
+  "name" : "I can access the pages through promo banners",
+  "time" : {
+    "start" : 1630326822569,
+    "stop" : 1630326829272,
+    "duration" : 6703
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a5d9e8b0669f35aa",
+  "name" : "I can register with valid credentials",
+  "time" : {
+    "start" : 1630326864555,
+    "stop" : 1630326868088,
+    "duration" : 3533
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "54dce986a0e65e3a",
+  "name" : "I can logout {0}",
+  "time" : {
+    "start" : 1630326833678,
+    "stop" : 1630326834986,
+    "duration" : 1308
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bebea765f436a3de",
+  "name" : "I can all menu items",
+  "time" : {
+    "start" : 1630326834996,
+    "stop" : 1630326863403,
+    "duration" : 28407
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "917f68cff0e7e0bb",
+  "name" : "First page Homepage Tests suit",
+  "time" : {
+    "start" : 1630315997097,
+    "stop" : 1630316005422,
+    "duration" : 8325
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

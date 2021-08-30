@@ -40,7 +40,7 @@ public class LoginFormTests extends MagentoTestBasePage {
             testName = "Logout {0}",
             dataProvider = "correct_credentials", dataProviderClass = DataProviderCredentials.class)
     public void can_logout(UserForTest user) {
-        can_login_with_valid_credentials(user);
+//        can_login_with_valid_credentials(user);
         String firstname = user.getFirstname();
         String middlename = user.getMiddlename();
         String lastname = user.getLastname();

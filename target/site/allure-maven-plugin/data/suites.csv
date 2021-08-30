@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","webshop.LoginFormTests.can_login_with_valid_credentials","4264",""
+"passed","webshop.FirstPageTests.can_access_pages_from_promos","6703",""
+"passed","webshop.RegisterFormTests.can_register_with_valid_credentials","3533",""
+"passed","webshop.LoginFormTests.can_logout","1308",""
+"passed","webshop.MenuItemsTests.can_access_menu","28407",""
+"passed","webshop.FirstPageTests.can_access_slider_links","8325",""

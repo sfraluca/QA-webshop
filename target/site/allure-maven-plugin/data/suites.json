@@ -1,0 +1,101 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "webshop.FirstPageTests",
+        "children" : [ {
+          "name" : "First page Homepage Tests suit",
+          "uid" : "917f68cff0e7e0bb",
+          "parentUid" : "6d462868eb9f431a18031f89608390e7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630315997097,
+            "stop" : 1630316005422,
+            "duration" : 8325
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "I can access the pages through promo banners",
+          "uid" : "965158f424e93094",
+          "parentUid" : "6d462868eb9f431a18031f89608390e7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630326822569,
+            "stop" : 1630326829272,
+            "duration" : 6703
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6d462868eb9f431a18031f89608390e7"
+      }, {
+        "name" : "webshop.LoginFormTests",
+        "children" : [ {
+          "name" : "I can login with valid credentials {0}",
+          "uid" : "1ff2b71330ea0841",
+          "parentUid" : "2d201b7d79aaaf5e8ebba7102f623fd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630326829408,
+            "stop" : 1630326833672,
+            "duration" : 4264
+          },
+          "flaky" : false,
+          "parameters" : [ "Correct_Login_with_email_test1" ]
+        }, {
+          "name" : "I can logout {0}",
+          "uid" : "54dce986a0e65e3a",
+          "parentUid" : "2d201b7d79aaaf5e8ebba7102f623fd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630326833678,
+            "stop" : 1630326834986,
+            "duration" : 1308
+          },
+          "flaky" : true,
+          "parameters" : [ "Correct_Login_with_email_test1" ]
+        } ],
+        "uid" : "2d201b7d79aaaf5e8ebba7102f623fd8"
+      }, {
+        "name" : "webshop.MenuItemsTests",
+        "children" : [ {
+          "name" : "I can all menu items",
+          "uid" : "bebea765f436a3de",
+          "parentUid" : "16e96db6ba4146a6e474fe93a4dd724e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630326834996,
+            "stop" : 1630326863403,
+            "duration" : 28407
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "16e96db6ba4146a6e474fe93a4dd724e"
+      }, {
+        "name" : "webshop.RegisterFormTests",
+        "children" : [ {
+          "name" : "I can register with valid credentials",
+          "uid" : "a5d9e8b0669f35aa",
+          "parentUid" : "34d673eb9dc0d6d1b38ab90719f4a98c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630326864555,
+            "stop" : 1630326868088,
+            "duration" : 3533
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "34d673eb9dc0d6d1b38ab90719f4a98c"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

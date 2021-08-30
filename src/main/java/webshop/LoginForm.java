@@ -10,7 +10,7 @@ public class LoginForm extends ScreenShooter {
     public SelenideElement emailInputLogin = $("input#email");
     public SelenideElement passwordInputLogin = $("input#pass");
     public SelenideElement accountLink = $(".skip-link.skip-account");
-    public SelenideElement logoutLink = $("a[title='Log Out']");
+    public SelenideElement logoutLink = $("li.last a[title='Log Out']");
     public SelenideElement loginButton = $(".account-login button#send2.button");
 
     /**
