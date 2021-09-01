@@ -19,12 +19,12 @@ public class MenuItemsTests extends MagentoTestBasePage {
         menuItems.clickOnMenuFirstLevel();
     }
 
-//    @Feature("SubMenu items")
-//    @Test(description = "I can all submenu items")
-//    public void can_access_submenu() {
-//        //to be reviewed
-//        menuItems.accessSecondMenu();
-//    }
+    @Feature("SubMenu items")
+    @Test(description = "I can all submenu items")
+    public void can_access_submenu() {
+        //to be reviewed
+        menuItems.accessSecondMenu();
+    }
 
 
 }

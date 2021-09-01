@@ -34,11 +34,13 @@ public class MenuItems {
 
     public void accessSecondMenu() {
         for (int i = 0; i<= menuFirstLevel.size(); i++) {
+            int counter = i;
             menuFirstLevel.get(i).hover();
             for (int j = 0; j<= menuSecondLevel.size(); j++) {
                 menuSecondLevel.get(j).click();
                 menuFirstLevel.get(i).hover();
             }
+
         }
 
     }

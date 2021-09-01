@@ -9,14 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45.631</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">65.880</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">webshop.FirstPageTests</td><td><a href="#m0">can_access_pages_from_promos</a></td><td rowspan="1">1630326822525</td><td rowspan="1">6741</td></tr><tr class="passedodd"><td rowspan="2">webshop.LoginFormTests</td><td><a href="#m1">can_login_with_valid_credentials</a></td><td rowspan="1">1630326829403</td><td rowspan="1">4269</td></tr><tr class="passedodd"><td><a href="#m2">can_logout</a></td><td rowspan="1">1630326833677</td><td rowspan="1">1309</td></tr><tr class="passedeven"><td rowspan="1">webshop.MenuItemsTests</td><td><a href="#m3">can_access_menu</a></td><td rowspan="1">1630326834994</td><td rowspan="1">28409</td></tr><tr class="passedodd"><td rowspan="1">webshop.RegisterFormTests</td><td><a href="#m4">can_register_with_valid_credentials</a></td><td rowspan="1">1630326864553</td><td rowspan="1">3535</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">webshop.MenuItemsTests</td><td><a href="#m0">can_access_submenu</a></td><td rowspan="1">1630485973410</td><td rowspan="1">7803</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">webshop.FirstPageTests</td><td><a href="#m1">can_access_pages_from_promos</a></td><td rowspan="1">1630485926798</td><td rowspan="1">9420</td></tr><tr class="passedodd"><td rowspan="2">webshop.LoginFormTests</td><td><a href="#m2">can_login_with_valid_credentials</a></td><td rowspan="1">1630485936431</td><td rowspan="1">3783</td></tr><tr class="passedodd"><td><a href="#m3">can_logout</a></td><td rowspan="1">1630485940224</td><td rowspan="1">1820</td></tr><tr class="passedeven"><td rowspan="1">webshop.MenuItemsTests</td><td><a href="#m4">can_access_menu</a></td><td rowspan="1">1630485942055</td><td rowspan="1">31351</td></tr><tr class="passedodd"><td rowspan="1">webshop.RegisterFormTests</td><td><a href="#m5">can_register_with_valid_credentials</a></td><td rowspan="1">1630485983000</td><td rowspan="1">4148</td></tr><tr class="passedeven"><td rowspan="2">webshop.SearchProductTests</td><td><a href="#m6">can_search_by_name</a></td><td rowspan="2">1630485987150</td><td rowspan="2">2596</td></tr><tr class="passedeven"><td><a href="#m7">can_search_by_name</a></td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">webshop.FirstPageTests#can_access_pages_from_promos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">webshop.LoginFormTests#can_login_with_valid_credentials</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Correct_Login_with_email_test1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">webshop.LoginFormTests#can_logout</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Correct_Login_with_email_test1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">webshop.MenuItemsTests#can_access_menu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">webshop.RegisterFormTests#can_register_with_valid_credentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">webshop.MenuItemsTests#can_access_submenu</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element should be visible or transparent: visible or have css value opacity=0 {.nav-primary li.level0 ul.level0 li.level1[3]}
+Element: &apos;&lt;li class=&quot;level1 view-all&quot; type value=&quot;0&quot; displayed:false&gt;&lt;/li&gt;&apos;
+Actual value: visible:false, 1
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:24)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:16)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+	at webshop.MenuItems.accessSecondMenu(MenuItems.java:40)
+	at webshop.MenuItemsTests.can_access_submenu(MenuItemsTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">webshop.FirstPageTests#can_access_pages_from_promos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">webshop.LoginFormTests#can_login_with_valid_credentials</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Correct_Login_with_email_test1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">webshop.LoginFormTests#can_logout</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Correct_Login_with_email_test1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">webshop.MenuItemsTests#can_access_menu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">webshop.RegisterFormTests#can_register_with_valid_credentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">webshop.SearchProductTests#can_search_by_name</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Correct_Search_with_Product1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">webshop.SearchProductTests#can_search_by_name</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Correct_Search_with_Product2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

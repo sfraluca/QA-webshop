@@ -3,17 +3,11 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="webshop.LoginFormTests">
+      <class name="webshop.MenuItemsTests">
         <methods>
-          <include name="can_logout" invocation-numbers="0"/>
+          <include name="can_access_submenu"/>
         </methods>
-      </class> <!-- webshop.LoginFormTests -->
-      <class name="webshop.RegisterFormTests">
-        <methods>
-          <include name="setup"/>
-          <include name="can_register_with_valid_credentials"/>
-        </methods>
-      </class> <!-- webshop.RegisterFormTests -->
+      </class> <!-- webshop.MenuItemsTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

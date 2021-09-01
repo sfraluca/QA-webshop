@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.991 s - in TestSuite
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 82.662 s <<< FAILURE! - in TestSuite
+webshop.MenuItemsTests.can_access_submenu  Time elapsed: 7.806 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: 
+Element should be visible or transparent: visible or have css value opacity=0 {.nav-primary li.level0 ul.level0 li.level1[3]}
+Element: '<li class="level1 view-all" type value="0" displayed:false></li>'
+Actual value: visible:false, 1
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.html
+Timeout: 4 s.
+	at webshop.MenuItemsTests.can_access_submenu(MenuItemsTests.java:26)
+
