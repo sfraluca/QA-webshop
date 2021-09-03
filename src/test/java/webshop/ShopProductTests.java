@@ -34,6 +34,16 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.clickOnAddToCart();
     }
 
+    @Feature("Filter blazers")
+    @Test(description = "I can filter blazers from category")
+    public void can_filter_by_blazers() {
+        shopProduct.isMenMenuVisible();
+        shopProduct.clickOnMenMenu();
+        shopProduct.isCategoryVisible();
+        shopProduct.isSubCategoryVisible();
+        shopProduct.clickOnBlazerInCategory();
+    }
+
     @Feature("Add To wishlist men cloths")
     @Test(description = "I can add to wishlist")
     public void can_add_to_wishlist_men_cloths() {

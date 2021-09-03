@@ -1,9 +1,11 @@
 package webshop;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$$;
 
 public class ShopProduct {
     public final SelenideElement menuMen = $(".nav-primary .level0.nav-2.parent a");
@@ -13,6 +15,9 @@ public class ShopProduct {
     public final SelenideElement colorBlackShirt = $("#configurable_swatch_color #swatch17");
     public final SelenideElement sizeXSProducts = $("#configurable_swatch_size #swatch81");
     public final SelenideElement addToWishlist = $(".add-to-links .link-wishlist");
+    public final ElementsCollection shirtCategory = $$("dl#narrow-by-list dd.odd ol");
+    public final ElementsCollection shirtSubCategory = $$("dl#narrow-by-list dd.odd ol li");
+    public final SelenideElement viewMenMenu= $(".level0.nav-2");
 
     /**
      * Validators
@@ -31,6 +36,22 @@ public class ShopProduct {
 
     public void isAddToWishlistVisible() { addToWishlist.shouldBe(Condition.visible); }
 
+    public void isCategoryVisible() {
+        for (int i = 0; i< shirtCategory.size(); i++) {
+            shirtCategory.get(i).shouldBe(Condition.visible);
+        }
+    };
+
+    public void isSubCategoryVisible() {
+        for (int i = 0; i< shirtSubCategory.size(); i++) {
+            shirtSubCategory.get(i).shouldBe(Condition.visible);
+        }
+    };
+
+    public void isMenMenuVisible() {
+        viewMenMenu.shouldBe(Condition.visible);
+    }
+
     /**
      * Actions
      */
@@ -47,5 +68,18 @@ public class ShopProduct {
     public void clickOnXSSize() { sizeXSProducts.click(); }
 
     public void clickOnWishList() { addToWishlist.click(); }
+
+    public void clickOnBlazerInCategory() {
+        for (int i = 0; i< shirtCategory.size(); i++) {
+            for (int j = 0; j < shirtSubCategory.size(); j++) {
+                shirtSubCategory.get(4).click();
+                return;
+            }
+        }
+    }
+
+    public void clickOnMenMenu() {
+        viewMenMenu.click();
+    }
 
 }
