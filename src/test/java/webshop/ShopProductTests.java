@@ -63,5 +63,62 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.clickOnWishList();
     }
 
+    @Feature("Sale price")
+    @Test(description = "I can see old price on sale")
+    public void can_view_old_price_on_sale() {
+        shopProduct.isSaleMenuVisible();
+        shopProduct.clickOnSaleMenu();
+        shopProduct.isOldPriceVisible();
+    }
+
+    @Feature("Baby's cloths shop")
+    @Test(description = "I can shop all products in little ones")
+    public void can_shop_little_ones_things() {
+        shopProduct.isLittleOnesMenuVisible();
+        shopProduct.clickOnLittleOnes();
+        shopProduct.isProductLittleOnesVisible();
+        shopProduct.addToCartAllProductsLittleOnes();
+
+    }
+
+    @Feature("Delete products from cart")
+    @Test(description = "I can delete items from cart")
+    public void can_delete_items_from_cart() {
+        can_shop_little_ones_things();
+        shopProduct.isMiniCartButtonVisible();
+        shopProduct.clickOnButtonCart();
+        shopProduct.isViewCartVisible();
+        shopProduct.clickOnViewCart();
+        shopProduct.isRemoveButtonCartVisible();
+        shopProduct.removeAllItemsFromCart();
+    }
+
+    @Feature("Quantity cart")
+    @Test(description = "I can change the quantity in the cart")
+    public void can_change_the_quantity() {
+        can_shop_little_ones_things();
+        shopProduct.isMiniCartButtonVisible();
+        shopProduct.clickOnButtonCart();
+        shopProduct.isViewCartVisible();
+        shopProduct.clickOnViewCart();
+        shopProduct.isQuantityInputVisible();
+        shopProduct.fillInQuantity("2");
+        shopProduct.isQuantityUpdateVisible();
+        shopProduct.clickOnUpdateQuantity();
+    }
+
+    @Feature("Compare products")
+    @Test(description = "I can compare the products cosplay")
+    public void can_compare_cosplay_products() {
+        shopProduct.isCosplayMenuVisible();
+        shopProduct.clickOnCosplayMenu();
+        shopProduct.isCompareLinksVisible();
+        shopProduct.clickOnCompareLinks();
+        sleep(1500);
+        shopProduct.isCompareButtonVisible();
+        shopProduct.clickOnCompareButton();
+        sleep(2000);
+    }
+
 
 }
