@@ -4,6 +4,8 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 
+import static com.codeborne.selenide.Condition.exactText;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
@@ -33,6 +35,20 @@ public class ShopProduct {
     public final ElementsCollection compareLinks = $$(".products-grid .link-compare");
     public final SelenideElement cosplayMenu = $(".level0.nav-7");
     public final SelenideElement compareButton = $("button[title='Compare']");
+    public final ElementsCollection menProducts = $$(".products-grid a[title='View Details']");
+    public final SelenideElement khakiColor = $("#swatch25");
+    public final SelenideElement size34Men = $("#swatch61");
+    public final SelenideElement quantityProductDetail = $(".qty-wrapper input#qty");
+    public final SelenideElement addToCartMsg = $("li.success-msg span");
+    public final ElementsCollection descriptionTab = $$(".toggle-tabs li");
+    public final SelenideElement booksMenu = $(".level0.nav-6");
+    public final SelenideElement bookTitle = $("h2.product-name");
+    public final ElementsCollection addReviewBooks = $$(".rating-links a");
+    public final ElementsCollection ratingStarsPrice = $$("#product-review-table tr");
+    public final SelenideElement descriptionReview = $(".input-box #review_field");
+    public final SelenideElement summaryReview = $(".inline-label .input-box #summary_field");
+    public final SelenideElement nicknameReview = $("#nickname_field");
+    public final SelenideElement submitReview= $(".buttons-set .button");
 
     /**
      * Validators
@@ -118,6 +134,48 @@ public class ShopProduct {
     public void isCosplayMenuVisible() { cosplayMenu.shouldBe(Condition.visible); }
     public void isCompareButtonVisible() { compareButton.shouldBe(Condition.visible); }
 
+    public void isMenProductsVisible() {
+        for (int i = 0; i< menProducts.size(); i++) {
+            menProducts.get(i).shouldBe(Condition.visible);
+        }
+    }
+
+    public void isMenKhakiColorVisible() { khakiColor.shouldBe(Condition.visible); }
+    public void isMen34SizeVisible() { size34Men.shouldBe(Condition.visible); }
+    public void isQtyDetailMenProductVisible() { quantityProductDetail.shouldBe(Condition.visible); }
+    public void isSuccessMsgAddToCartVisible() { addToCartMsg.shouldBe(Condition.visible); }
+    public void isProductTabVisible() {
+        for (int i = 0; i< descriptionTab.size(); i++) {
+            descriptionTab.get(i).click();
+        }
+    }
+    public void isBooksMenuVisible() { booksMenu.shouldBe(visible); }
+    public void isBookTitleVisible() { bookTitle.shouldBe(visible); }
+    public void isAddReviewBookVisible() {
+        for (int i = 0; i< addReviewBooks.size(); i++) {
+            addReviewBooks.get(i).click();
+        }
+    }
+
+    public void isRatingStarsVisible() {
+        for (int i = 0; i< ratingStarsPrice.size(); i++) {
+            ratingStarsPrice.get(i).click();
+        }
+    }
+    public void isDescriptionReviewVisible() {
+        descriptionReview.shouldBe(visible);
+    }
+
+    public void isSummaryReviewVisible() {
+        summaryReview.shouldBe(visible);
+    }
+
+    public void isNicknameVisible() {
+        nicknameReview.shouldBe(visible);
+    }
+
+    public void isSubmitReview() { submitReview.shouldBe(visible); }
+
 
     /**
      * Actions
@@ -196,6 +254,71 @@ public class ShopProduct {
 
     public void clickOnCompareButton() {
         compareButton.click();
+    }
+
+    public void clickOnViewDetailsMenProductsLinks() {
+        for (int i = 0; i< menProducts.size(); i++) {
+            menProducts.get(1).click();
+        }
+    }
+
+    public void clickOnKhakiColorMen() {
+        khakiColor.click();
+    }
+
+    public void  clickOn34SizeMen() {
+        size34Men.click();
+    }
+
+    public void updateQtyMenProduct(String input) {
+        quantityProductDetail.clear();
+        quantityProductDetail.click();
+        quantityProductDetail.sendKeys(input);
+    }
+
+    public void verifyMsgSuccessAddToCart(String successMsg) {
+        addToCartMsg.shouldHave(exactText(successMsg));
+    }
+
+    public void clickOnTabInformation() {
+        for (int i = 0; i< descriptionTab.size(); i++) {
+            descriptionTab.get(i).click();
+        }
+    }
+
+    public void clickOnBooksMenu() {
+        booksMenu.click();
+    }
+
+    public void clickOnBookTitle() {
+        bookTitle.click();
+    }
+
+    public void clickOnAddReviewBook() {
+        for (int i = 0; i< addReviewBooks.size(); i++) {
+            addReviewBooks.get(1).click();
+        }
+    }
+    public void selectRatingStarsPrice() {
+        for (int i = 0; i< ratingStarsPrice.size(); i++) {
+            ratingStarsPrice.get(2).click();
+        }
+    }
+
+    public void fillInDescriptionReview(String description) {
+        descriptionReview.sendKeys(description);
+    }
+
+    public void fillInSummaryReview(String summary) {
+        summaryReview.sendKeys(summary);
+    }
+
+    public void fillInNicknameReview(String nickname) {
+        nicknameReview.sendKeys(nickname);
+    }
+
+    public void clickOnSubmitReview() {
+        submitReview.click();
     }
 
 

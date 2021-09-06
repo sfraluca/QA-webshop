@@ -120,5 +120,55 @@ public class ShopProductTests extends MagentoTestBasePage {
         sleep(2000);
     }
 
+    public void can_add_to_cart_pants() {
+        shopProduct.isMenMenuVisible();
+        shopProduct.clickOnMenMenu();
+        shopProduct.isMenProductsVisible();
+        shopProduct.clickOnViewDetailsMenProductsLinks();
+        shopProduct.isMenKhakiColorVisible();
+        shopProduct.clickOnKhakiColorMen();
+        shopProduct.isMen34SizeVisible();
+        shopProduct.clickOn34SizeMen();
+        shopProduct.isQtyDetailMenProductVisible();
+        shopProduct.updateQtyMenProduct("3");
+        shopProduct.clickOnAddToCart();
+    }
+
+    public void verify_success_add_to_cart_msg() {
+        can_add_to_cart_pants();
+        shopProduct.isSuccessMsgAddToCartVisible();
+        shopProduct.verifyMsgSuccessAddToCart("Khaki Bowery Chino Pants was added to your shopping cart.");
+    }
+
+    public void can_open_tab() {
+        shopProduct.isMenMenuVisible();
+        shopProduct.clickOnMenMenu();
+        shopProduct.isMenProductsVisible();
+        shopProduct.clickOnViewDetailsMenProductsLinks();
+        shopProduct.isProductTabVisible();
+        shopProduct.clickOnTabInformation();
+    }
+
+    public void can_add_a_review_to_books() {
+        shopProduct.isBooksMenuVisible();
+        shopProduct.clickOnBooksMenu();
+        shopProduct.isBookTitleVisible();
+        shopProduct.clickOnBookTitle();
+        shopProduct.isAddReviewBookVisible();
+        shopProduct.clickOnAddReviewBook();
+        shopProduct.isRatingStarsVisible();
+        shopProduct.selectRatingStarsPrice();
+        shopProduct.isDescriptionReviewVisible();
+        shopProduct.fillInDescriptionReview("Description Review for book. The product is perfect");
+        shopProduct.isSummaryReviewVisible();
+        shopProduct.fillInSummaryReview("This is the summary");
+        shopProduct.isNicknameVisible();
+        shopProduct.fillInNicknameReview("Rohn");
+        shopProduct.isSubmitReview();
+        shopProduct.clickOnSubmitReview();
+    }
+
+
+
 
 }
