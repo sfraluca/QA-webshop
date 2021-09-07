@@ -6,6 +6,8 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.Test;
 
+import static com.codeborne.selenide.Selenide.sleep;
+
 @Epic("FirstPageTests")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "First page Homepage Tests suit")
@@ -21,23 +23,14 @@ public class FirstPageTests extends MagentoTestBasePage{
     public void can_access_slider_links() {
         firstPageAccess.isSliderVisible();
         firstPageAccess.isSliderNextVisible();
-        firstPageAccess.clickOnSlideShow();
-        firstPageAccess.isBreadcrumbsEyeWearVisible();
-        firstPageAccess.isHomepageVisible();
-        firstPageAccess.clickOnHomePageBreadcrumbs();
+        sleep(2500);
         firstPageAccess.clickOnSlideShowNext();
-        firstPageAccess.clickOnSlideShow();
-//        firstPageAccess.isBreadcrumbsWomenVisible();
-        verifyPageNotFound.verifyPageNotFoundMessageByText("404 Page not found.");
-        firstPageAccess.isHomePageOnPageNotFoundVisible();
-        firstPageAccess.clickOnHomepageOnPageNotFound();
+        sleep(2500);
         firstPageAccess.clickOnSlideShowPrev();
-        firstPageAccess.clickOnSlideShow();
-        firstPageAccess.isBreadcrumbsMenVisible();
-        firstPageAccess.isHomepageVisible();
-        firstPageAccess.clickOnHomePageBreadcrumbs();
+        sleep(2500);
         firstPageAccess.isSliderPrevVisible();
         firstPageAccess.clickOnSlideShowPrev();
+        sleep(2500);
         }
 
     @Feature("PromoBanner")

@@ -1,13 +1,35 @@
 {
-  "total" : 4,
+  "total" : 8,
   "items" : [ {
     "uid" : "1c654fc03bb30ea1a362d48ae710beef",
     "name" : "FirstPageTests",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "33a68c99e18e791bdde8b0d36dac7a3f",
+    "name" : "ShopProducts",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "121c58b9c47139bf52452337a5c3d249",
+    "name" : "MenuItems",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 2
     }
@@ -18,13 +40,24 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 2
+      "total" : 5
     }
   }, {
-    "uid" : "121c58b9c47139bf52452337a5c3d249",
-    "name" : "MenuItems",
+    "uid" : "a9f0b28da0d24a6795d5b83d3000dc56",
+    "name" : "RegisterFormTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6cda21464d700c742d0d9e66f04396bc",
+    "name" : "Filter blazers",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +67,19 @@
       "total" : 1
     }
   }, {
-    "uid" : "a9f0b28da0d24a6795d5b83d3000dc56",
-    "name" : "RegisterFormTests",
+    "uid" : "dacffb986a0b326c986d2cc445546d4a",
+    "name" : "Filter by price kitchen",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "14b8ab7f96f48231e15bdb665f42ad63",
+    "name" : "SearchInput",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

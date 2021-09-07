@@ -21,6 +21,7 @@ public class SearchProduct {
         searchIcon.shouldBe(Condition.visible);
     }
 
+
     /**
      * Actions
      */

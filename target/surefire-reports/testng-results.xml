@@ -1,23 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="25" passed="22" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-01T11:45:26 EEST" name="Surefire suite" finished-at="2021-09-01T11:46:32 EEST" duration-ms="65880">
+  <suite started-at="2021-09-07T12:57:10 EEST" name="Surefire suite" finished-at="2021-09-07T13:00:21 EEST" duration-ms="191064">
     <groups>
     </groups>
-    <test started-at="2021-09-01T11:45:26 EEST" name="Surefire test" finished-at="2021-09-01T11:46:32 EEST" duration-ms="65880">
-      <class name="webshop.RegisterFormTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:webshop.RegisterFormTests@2b170932]" started-at="2021-09-01T11:46:21 EEST" name="setup" finished-at="2021-09-01T11:46:23 EEST" duration-ms="1780" status="PASS">
+    <test started-at="2021-09-07T12:57:10 EEST" name="Surefire test" finished-at="2021-09-07T13:00:21 EEST" duration-ms="191064">
+      <class name="webshop.FilterSidebarTests">
+        <test-method signature="can_filter_by_blazers()[pri:0, instance:webshop.FilterSidebarTests@1b1252c8]" started-at="2021-09-07T12:57:10 EEST" name="can_filter_by_blazers" description="I can filter blazers from category" finished-at="2021-09-07T12:57:14 EEST" duration-ms="3532" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="can_register_with_valid_credentials()[pri:0, instance:webshop.RegisterFormTests@2b170932]" started-at="2021-09-01T11:46:23 EEST" name="can_register_with_valid_credentials" description="I can register with valid credentials" finished-at="2021-09-01T11:46:27 EEST" duration-ms="4148" status="PASS">
+        </test-method> <!-- can_filter_by_blazers -->
+        <test-method signature="can_filter_by_price_kitchen_devices()[pri:0, instance:webshop.FilterSidebarTests@1b1252c8]" started-at="2021-09-07T12:57:14 EEST" name="can_filter_by_price_kitchen_devices" description="I can filter by price kitchen devices" finished-at="2021-09-07T12:57:19 EEST" duration-ms="5205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_filter_by_price_kitchen_devices -->
+      </class> <!-- webshop.FilterSidebarTests -->
+      <class name="webshop.ShopProductTests">
+        <test-method signature="can_add_a_review_to_books()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:58:18 EEST" name="can_add_a_review_to_books" description="I can add a review to a book" finished-at="2021-09-07T12:58:27 EEST" duration-ms="8318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_a_review_to_books -->
+        <test-method signature="can_add_to_cart_pants()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:58:27 EEST" name="can_add_to_cart_pants" description="I can add to cart pants men" finished-at="2021-09-07T12:58:33 EEST" duration-ms="5755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_to_cart_pants -->
+        <test-method signature="can_add_to_cart_shirts_men()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:58:33 EEST" name="can_add_to_cart_shirts_men" description="I can add to cart shirts" finished-at="2021-09-07T12:58:39 EEST" duration-ms="6748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_to_cart_shirts_men -->
+        <test-method signature="can_add_to_wishlist_men_cloths()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:58:39 EEST" name="can_add_to_wishlist_men_cloths" description="I can add to wishlist" finished-at="2021-09-07T12:58:51 EEST" duration-ms="11809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_to_wishlist_men_cloths -->
+        <test-method signature="can_change_the_quantity()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:58:51 EEST" name="can_change_the_quantity" description="I can change the quantity in the cart" finished-at="2021-09-07T12:59:11 EEST" duration-ms="20360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_change_the_quantity -->
+        <test-method signature="can_compare_cosplay_products()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:59:11 EEST" name="can_compare_cosplay_products" description="I can compare the products cosplay" finished-at="2021-09-07T12:59:23 EEST" duration-ms="11428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_compare_cosplay_products -->
+        <test-method signature="can_delete_items_from_cart()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:59:23 EEST" name="can_delete_items_from_cart" description="I can delete items from cart" finished-at="2021-09-07T12:59:49 EEST" duration-ms="26367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_delete_items_from_cart -->
+        <test-method signature="can_open_tab()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:59:49 EEST" name="can_open_tab" description="I can open tab product" finished-at="2021-09-07T12:59:54 EEST" duration-ms="4843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_open_tab -->
+        <test-method signature="can_shop_little_ones_things()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T12:59:54 EEST" name="can_shop_little_ones_things" description="I can shop all products in little ones" finished-at="2021-09-07T13:00:08 EEST" duration-ms="13701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_shop_little_ones_things -->
+        <test-method signature="can_view_old_price_on_sale()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T13:00:08 EEST" name="can_view_old_price_on_sale" description="I can see old price on sale" finished-at="2021-09-07T13:00:15 EEST" duration-ms="7288" status="FAIL">
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {.products-grid .price-box p.old-price[2]}
+Expected: visible
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.html
+Timeout: 4 s.
+Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {.products-grid .price-box p.old-price[2]}
+Expected: visible
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.html
+Timeout: 4 s.
+Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+at com.codeborne.selenide.impl.CollectionElement.createElementNotFoundError(CollectionElement.java:63)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
+at webshop.ShopProduct.isOldPriceVisible(ShopProduct.java:99)
+at webshop.ShopProductTests.can_view_old_price_on_sale(ShopProductTests.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:34)
+at com.codeborne.selenide.impl.BySelectorCollection.getElement(BySelectorCollection.java:47)
+at com.codeborne.selenide.impl.CollectionElement.getWebElement(CollectionElement.java:46)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_view_old_price_on_sale -->
+        <test-method signature="verify_success_add_to_cart_msg()[pri:0, instance:webshop.ShopProductTests@d70e9a]" started-at="2021-09-07T13:00:15 EEST" name="verify_success_add_to_cart_msg" description="I can see message add to cart" finished-at="2021-09-07T13:00:21 EEST" duration-ms="6172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_success_add_to_cart_msg -->
+      </class> <!-- webshop.ShopProductTests -->
+      <class name="webshop.RegisterFormTests">
+        <test-method signature="can_register_with_valid_credentials(webshop.dataprovider.RegisterUsersForTest)[pri:0, instance:webshop.RegisterFormTests@51d8f2f2]" started-at="2021-09-07T12:58:07 EEST" name="can_register_with_valid_credentials" description="I can register {0}" data-provider="correct_credentials" finished-at="2021-09-07T12:58:10 EEST" duration-ms="3544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_register_with_test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_register_with_valid_credentials -->
+        <test-method signature="can_register_with_valid_credentials(webshop.dataprovider.RegisterUsersForTest)[pri:0, instance:webshop.RegisterFormTests@51d8f2f2]" started-at="2021-09-07T12:58:10 EEST" name="can_register_with_valid_credentials" description="I can register {0}" data-provider="correct_credentials" finished-at="2021-09-07T12:58:14 EEST" duration-ms="3650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_register_with_test1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- can_register_with_valid_credentials -->
       </class> <!-- webshop.RegisterFormTests -->
       <class name="webshop.SearchProductTests">
-        <test-method signature="can_search_by_name(webshop.dataprovider.ProductsForSearch)[pri:0, instance:webshop.SearchProductTests@591be8aa]" started-at="2021-09-01T11:46:27 EEST" name="can_search_by_name" description="I can search by name {0}" data-provider="search_by_name" finished-at="2021-09-01T11:46:29 EEST" duration-ms="2596" status="PASS">
+        <test-method signature="can_search_by_name(webshop.dataprovider.ProductsForSearch)[pri:0, instance:webshop.SearchProductTests@a323a5b]" started-at="2021-09-07T12:58:14 EEST" name="can_search_by_name" description="I can search by name {0}" data-provider="search_by_name" finished-at="2021-09-07T12:58:16 EEST" duration-ms="2343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +172,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- can_search_by_name -->
-        <test-method signature="can_search_by_name(webshop.dataprovider.ProductsForSearch)[pri:0, instance:webshop.SearchProductTests@591be8aa]" started-at="2021-09-01T11:46:29 EEST" name="can_search_by_name" description="I can search by name {0}" data-provider="search_by_name" finished-at="2021-09-01T11:46:32 EEST" duration-ms="2811" status="PASS">
+        <test-method signature="can_search_by_name(webshop.dataprovider.ProductsForSearch)[pri:0, instance:webshop.SearchProductTests@a323a5b]" started-at="2021-09-07T12:58:16 EEST" name="can_search_by_name" description="I can search by name {0}" data-provider="search_by_name" finished-at="2021-09-07T12:58:18 EEST" duration-ms="2388" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,62 +184,28 @@
           </reporter-output>
         </test-method> <!-- can_search_by_name -->
       </class> <!-- webshop.SearchProductTests -->
-      <class name="webshop.LoginFormTests">
-        <test-method signature="can_login_with_valid_credentials(webshop.dataprovider.UserForTest)[pri:0, instance:webshop.LoginFormTests@582dcd35]" started-at="2021-09-01T11:45:36 EEST" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-09-01T11:45:40 EEST" duration-ms="3783" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Correct_Login_with_email_test1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- can_login_with_valid_credentials -->
-        <test-method signature="can_logout(webshop.dataprovider.UserForTest)[pri:0, instance:webshop.LoginFormTests@582dcd35]" started-at="2021-09-01T11:45:40 EEST" name="can_logout" description="I can logout {0}" data-provider="correct_credentials" finished-at="2021-09-01T11:45:42 EEST" duration-ms="1820" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Correct_Login_with_email_test1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- can_logout -->
-      </class> <!-- webshop.LoginFormTests -->
-      <class name="webshop.MenuItemsTests">
-        <test-method signature="can_access_menu()[pri:0, instance:webshop.MenuItemsTests@40dd552c]" started-at="2021-09-01T11:45:42 EEST" name="can_access_menu" description="I can all menu items" finished-at="2021-09-01T11:46:13 EEST" duration-ms="31351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- can_access_menu -->
-        <test-method signature="can_access_submenu()[pri:0, instance:webshop.MenuItemsTests@40dd552c]" started-at="2021-09-01T11:46:13 EEST" name="can_access_submenu" description="I can all submenu items" finished-at="2021-09-01T11:46:21 EEST" duration-ms="7803" status="FAIL">
-          <exception class="com.codeborne.selenide.ex.ElementShould">
+      <class name="webshop.FirstPageTests">
+        <test-method signature="can_access_pages_from_promos()[pri:0, instance:webshop.FirstPageTests@3e74fd84]" started-at="2021-09-07T12:57:19 EEST" name="can_access_pages_from_promos" description="I can access the pages through promo banners" finished-at="2021-09-07T12:57:24 EEST" duration-ms="4376" status="FAIL">
+          <exception class="com.codeborne.selenide.ex.ListSizeMismatch">
             <message>
-              <![CDATA[Element should be visible or transparent: visible or have css value opacity=0 {.nav-primary li.level0 ul.level0 li.level1[3]}
-Element: '<li class="level1 view-all" type value="0" displayed:false></li>'
-Actual value: visible:false, 1
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.html
+              <![CDATA[List size mismatch: expected: = 3, actual: 0, collection: .promos li
+Elements: []
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.html
 Timeout: 4 s.]]>
             </message>
             <full-stacktrace>
-              <![CDATA[Element should be visible or transparent: visible or have css value opacity=0 {.nav-primary li.level0 ul.level0 li.level1[3]}
-Element: '<li class="level1 view-all" type value="0" displayed:false></li>'
-Actual value: visible:false, 1
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.html
+              <![CDATA[List size mismatch: expected: = 3, actual: 0, collection: .promos li
+Elements: []
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.html
 Timeout: 4 s.
-at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
-at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)
-at com.codeborne.selenide.commands.Click.execute(Click.java:24)
-at com.codeborne.selenide.commands.Click.execute(Click.java:16)
-at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
-at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
-at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
-at webshop.MenuItems.accessSecondMenu(MenuItems.java:40)
-at webshop.MenuItemsTests.can_access_submenu(MenuItemsTests.java:26)
+at com.codeborne.selenide.collections.ListSize.fail(ListSize.java:32)
+at com.codeborne.selenide.ElementsCollection.waitUntil(ElementsCollection.java:218)
+at com.codeborne.selenide.ElementsCollection.should(ElementsCollection.java:163)
+at com.codeborne.selenide.ElementsCollection.shouldHave(ElementsCollection.java:128)
+at webshop.FirstPageShopping.isPromoBannersVisible(FirstPageShopping.java:37)
+at webshop.FirstPageTests.can_access_pages_from_promos(FirstPageTests.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,17 +241,149 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.codeborne.selenide.ex.ElementShould -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- can_access_submenu -->
-      </class> <!-- webshop.MenuItemsTests -->
-      <class name="webshop.FirstPageTests">
-        <test-method signature="can_access_pages_from_promos()[pri:0, instance:webshop.FirstPageTests@1f7e52d1]" started-at="2021-09-01T11:45:26 EEST" name="can_access_pages_from_promos" description="I can access the pages through promo banners" finished-at="2021-09-01T11:45:36 EEST" duration-ms="9420" status="PASS">
+          </exception> <!-- com.codeborne.selenide.ex.ListSizeMismatch -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- can_access_pages_from_promos -->
+        <test-method signature="can_access_slider_links()[pri:0, instance:webshop.FirstPageTests@3e74fd84]" started-at="2021-09-07T12:57:24 EEST" name="can_access_slider_links" description="I can access slider links" finished-at="2021-09-07T12:57:28 EEST" duration-ms="4225" status="FAIL">
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}
+Expected: visible
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".slideshow-container ul.slideshow li.cycle-slide-active a"}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}
+Expected: visible
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".slideshow-container ul.slideshow li.cycle-slide-active a"}
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
+at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
+at webshop.FirstPageShopping.isSliderVisible(FirstPageShopping.java:28)
+at webshop.FirstPageTests.can_access_slider_links(FirstPageTests.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".slideshow-container ul.slideshow li.cycle-slide-active a"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AI7I6V4', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d83267af95e169dc520ffb13ccb25d3
+*** Element info: {Using=css selector, value=.slideshow-container ul.slideshow li.cycle-slide-active a}
+at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
+at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
+at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
+at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_access_slider_links -->
       </class> <!-- webshop.FirstPageTests -->
+      <class name="webshop.MenuItemsTests">
+        <test-method signature="can_access_menu()[pri:0, instance:webshop.MenuItemsTests@5fb7ab9c]" started-at="2021-09-07T12:57:36 EEST" name="can_access_menu" description="I can all menu items" finished-at="2021-09-07T12:58:07 EEST" duration-ms="30468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_access_menu -->
+      </class> <!-- webshop.MenuItemsTests -->
+      <class name="webshop.LoginFormTests">
+        <test-method signature="can_login_with_valid_credentials(webshop.dataprovider.UserForTest)[pri:0, instance:webshop.LoginFormTests@11399548]" started-at="2021-09-07T12:57:28 EEST" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-09-07T12:57:32 EEST" duration-ms="4166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_email_test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_logout(webshop.dataprovider.UserForTest)[pri:0, instance:webshop.LoginFormTests@11399548]" started-at="2021-09-07T12:57:32 EEST" name="can_logout" description="I can logout {0}" data-provider="correct_credentials" finished-at="2021-09-07T12:57:33 EEST" duration-ms="1350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_email_test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_logout -->
+        <test-method signature="cannot_login_with_wrong_password()[pri:0, instance:webshop.LoginFormTests@11399548]" started-at="2021-09-07T12:57:33 EEST" name="cannot_login_with_wrong_password" description="I can&#039;t login with wrong password" finished-at="2021-09-07T12:57:35 EEST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannot_login_with_wrong_password -->
+        <test-method signature="cannot_login_without_required_credentials()[pri:0, instance:webshop.LoginFormTests@11399548]" started-at="2021-09-07T12:57:35 EEST" name="cannot_login_without_required_credentials" description="I can&#039;t login without credentials" finished-at="2021-09-07T12:57:35 EEST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannot_login_without_required_credentials -->
+        <test-method signature="click_login_links()[pri:0, instance:webshop.LoginFormTests@11399548]" started-at="2021-09-07T12:57:35 EEST" name="click_login_links" description="Login Form Homepage tests suit" finished-at="2021-09-07T12:57:36 EEST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_login_links -->
+      </class> <!-- webshop.LoginFormTests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

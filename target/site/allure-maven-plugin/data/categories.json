@@ -1,5 +1,73 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be visible or transparent: visible or have css value opacity=0 {.nav-primary li.level0 ul.level0 li.level1[3]}\r\nElement: '<li class=\"level1 view-all\" type value=\"0\" displayed:false></li>'\r\nActual value: visible:false, 1\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "I can all submenu items",
+        "uid" : "a28f26525aa2ef38",
+        "parentUid" : "e1aea66ff1996319892671e1ff85e2b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630485973414,
+          "stop" : 1630485981213,
+          "duration" : 7799
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1aea66ff1996319892671e1ff85e2b9"
+    }, {
+      "name" : "List size mismatch: expected: = 3, actual: 0, collection: .promos li\r\nElements: []\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "I can access the pages through promo banners",
+        "uid" : "3cacbca3630875b6",
+        "parentUid" : "c17f4637b2dd3d01bcb87ec1b693461e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631008639640,
+          "stop" : 1631008644015,
+          "duration" : 4375
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c17f4637b2dd3d01bcb87ec1b693461e"
+    }, {
+      "name" : "Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".slideshow-container ul.slideshow li.cycle-slide-active a\"}",
+      "children" : [ {
+        "name" : "I can access slider links",
+        "uid" : "1b347fd189381baa",
+        "parentUid" : "b00fdfa6f21ae07ac24da57fa022ef7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631008644023,
+          "stop" : 1631008648253,
+          "duration" : 4230
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b00fdfa6f21ae07ac24da57fa022ef7c"
+    }, {
+      "name" : "Element not found {.products-grid .price-box p.old-price[2]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.html\r\nTimeout: 4 s.\r\nCaused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2",
+      "children" : [ {
+        "name" : "I can see old price on sale",
+        "uid" : "66279d573d63888c",
+        "parentUid" : "5359e8930a71bcfcfa614914e7ecfff9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631008808339,
+          "stop" : 1631008815626,
+          "duration" : 7287
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5359e8930a71bcfcfa614914e7ecfff9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

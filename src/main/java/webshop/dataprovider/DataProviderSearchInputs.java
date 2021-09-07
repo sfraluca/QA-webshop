@@ -14,7 +14,7 @@ public class DataProviderSearchInputs {
         genericData.put("Correct_Search_with_Product1", searchByProductName1);
 
         HashMap<String,String> searchByProductName2 = new HashMap<>();
-        searchByProductName2.put("searchInput", "STRETCH COTTON BLAZER");
+        searchByProductName2.put("searchInput", "KHAKI BOWERY CHINO PANTS");
         genericData.put("Correct_Search_with_Product2", searchByProductName2);
     }
 

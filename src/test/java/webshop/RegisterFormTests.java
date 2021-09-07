@@ -1,11 +1,11 @@
 package webshop;
 
 import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import webshop.dataprovider.DataProviderRegisterCredentials;
+import webshop.dataprovider.RegisterUsersForTest;
 
 import static com.codeborne.selenide.Selenide.sleep;
 
@@ -15,36 +15,41 @@ import static com.codeborne.selenide.Selenide.sleep;
 public class RegisterFormTests {
     MagentoTestBasePage magentoTestBasePage;
 
-    @BeforeClass
-    public void setup() {
-        magentoTestBasePage = new MagentoTestBasePage();
-    }
+//    @BeforeClass
+//    public void setup() {
+//        magentoTestBasePage = new MagentoTestBasePage();
+//    }
     RegisterForm registerForm = new RegisterForm();
     MagentoTestBasePage accountLink = new MagentoTestBasePage();
 
-    @Feature("Register")
-    @Test(description = "I can register with valid credentials")
-    public void can_register_with_valid_credentials() {
+    @Test(description = "I can register {0}",
+            testName = "Register {0}",
+            dataProvider = "correct_credentials", dataProviderClass = DataProviderRegisterCredentials.class)
+    public void can_register_with_valid_credentials(RegisterUsersForTest registerUser) {
+        String firstname = registerUser.getFirstname();
+        String middlename = registerUser.getMiddlename();
+        String lastname = registerUser.getLastname();
+        String email = registerUser.getEmail();
+        String password = registerUser.getPassWord();
+        String confirmPassword = registerUser.getConfirmPass();
         accountLink.clickOnAccountLink();
         registerForm.clickOnRegisterLink();
         registerForm.isFirstNameVisible();
-        registerForm.fillInFirstNameRegisterForm("Test");
+        registerForm.fillInFirstNameRegisterForm(firstname);
         registerForm.isMiddleNameVisible();
-        registerForm.fillInMiddleNameRegisterForm("R");
+        registerForm.fillInMiddleNameRegisterForm(middlename);
         registerForm.isLastNameVisible();
-        registerForm.fillInLastNameRegisterForm("Marina");
+        registerForm.fillInLastNameRegisterForm(lastname);
         registerForm.isEmailVisible();
-        registerForm.fillInEmailRegisterForm("test1@yahoo.com");
+        registerForm.fillInEmailRegisterForm(email);
         registerForm.isPasswordVisible();
-        registerForm.fillInPasswordRegisterForm("1a2b3c4d");
+        registerForm.fillInPasswordRegisterForm(password);
         registerForm.isConfirmationPasswordVisible();
-        registerForm.fillInConfirmationRegisterForm("1a2b3c4d");
+        registerForm.fillInConfirmationRegisterForm(confirmPassword);
         registerForm.isRegisterButtonVisible();
         registerForm.isRegisterButtonEnabled();
 //        registerForm.clickOnRegisterButton();
         sleep(2500);
     }
-
-    //verify with required fields
 
 }
