@@ -9,10 +9,15 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class FilterSidebar {
 
-    public final ElementsCollection filterPrice = $$("#narrow-by-list li a");
-    public final ElementsCollection productPrice = $$(".product-info .price-box");
     public final SelenideElement homeDecoMenu = $(".level0.nav-4");
     public final SelenideElement kitchenSubMenu = $(".level1.nav-4-5");
+    public final SelenideElement viewMenMenu = $(".level0.nav-2");
+
+    public final ElementsCollection filterPrice = $$("#narrow-by-list li a");
+    public final ElementsCollection productPrice = $$(".product-info .price-box");
+    public final ElementsCollection shirtCategory = $$("dl#narrow-by-list dd.odd ol");
+    public final ElementsCollection shirtSubCategory = $$("dl#narrow-by-list dd.odd ol li");
+
     /**
      * Validators
      */
@@ -22,16 +27,24 @@ public class FilterSidebar {
         }
     };
 
-    public void isProductPriceVisible() {
-        for (int i = 0; i< productPrice.size(); i++) {
-            productPrice.get(i).shouldBe(Condition.visible);
+    public void isCategoryVisible() {
+        for (int i = 0; i< shirtCategory.size(); i++) {
+            shirtCategory.get(i).shouldBe(Condition.visible);
         }
     };
 
+    public void isSubCategoryVisible() {
+        for (int i = 0; i< shirtSubCategory.size(); i++) {
+            shirtSubCategory.get(i).shouldBe(Condition.visible);
+        }
+    };
+
+    public void isMenMenuVisible() {
+        viewMenMenu.shouldBe(Condition.visible);
+    }
     public void isHomeDecoMenuVisible() {
         homeDecoMenu.shouldBe(Condition.visible);
     }
-
     public void isKitchenSubMenuVisible() {
             kitchenSubMenu.shouldBe(Condition.visible);
     }
@@ -39,12 +52,6 @@ public class FilterSidebar {
     /**
      * Actions
      */
-    public void clickOnPriceFilter() {
-        for (int i = 0; i< filterPrice.size(); i++) {
-            filterPrice.get(i).click();
-        }
-    }
-
     public void hoverOnHomeDecoMenuVisible() {
         homeDecoMenu.hover();
     }
@@ -52,9 +59,23 @@ public class FilterSidebar {
     public void clickOnKitchenSubMenu() {
         kitchenSubMenu.click();
     }
+    public void clickOnMenMenu() {
+        viewMenMenu.click();
+    }
 
+    public void clickOnPriceFilter() {
+        for (int i = 0; i< filterPrice.size(); i++) {
+            filterPrice.get(i).click();
+        }
+    }
 
-
-
+    public void clickOnBlazerInCategory() {
+        for (int i = 0; i< shirtCategory.size(); i++) {
+            for (int j = 0; j < shirtSubCategory.size(); j++) {
+                shirtSubCategory.get(4).click();
+                return;
+            }
+        }
+    }
 
 }

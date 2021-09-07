@@ -34,16 +34,6 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.clickOnAddToCart();
     }
 
-    @Feature("Filter blazers")
-    @Test(description = "I can filter blazers from category")
-    public void can_filter_by_blazers() {
-        shopProduct.isMenMenuVisible();
-        shopProduct.clickOnMenMenu();
-        shopProduct.isCategoryVisible();
-        shopProduct.isSubCategoryVisible();
-        shopProduct.clickOnBlazerInCategory();
-    }
-
     @Feature("Add To wishlist men cloths")
     @Test(description = "I can add to wishlist")
     public void can_add_to_wishlist_men_cloths() {
@@ -120,9 +110,12 @@ public class ShopProductTests extends MagentoTestBasePage {
         sleep(2000);
     }
 
+    @Feature("Add to cart pants")
+    @Test(description = "I can add to cart pants men")
     public void can_add_to_cart_pants() {
-        shopProduct.isMenMenuVisible();
-        shopProduct.clickOnMenMenu();
+        FilterSidebar filterSidebar = new FilterSidebar();
+        filterSidebar.isMenMenuVisible();
+        filterSidebar.clickOnMenMenu();
         shopProduct.isMenProductsVisible();
         shopProduct.clickOnViewDetailsMenProductsLinks();
         shopProduct.isMenKhakiColorVisible();
@@ -134,28 +127,40 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.clickOnAddToCart();
     }
 
+    @Feature("Message add to cart")
+    @Test(description = "I can see message add to cart")
     public void verify_success_add_to_cart_msg() {
         can_add_to_cart_pants();
         shopProduct.isSuccessMsgAddToCartVisible();
         shopProduct.verifyMsgSuccessAddToCart("Khaki Bowery Chino Pants was added to your shopping cart.");
     }
 
+    @Feature("Tab product")
+    @Test(description = "I can open tab product")
     public void can_open_tab() {
-        shopProduct.isMenMenuVisible();
-        shopProduct.clickOnMenMenu();
+        FilterSidebar filterSidebar = new FilterSidebar();
+        filterSidebar.isMenMenuVisible();
+        filterSidebar.clickOnMenMenu();
         shopProduct.isMenProductsVisible();
         shopProduct.clickOnViewDetailsMenProductsLinks();
         shopProduct.isProductTabVisible();
         shopProduct.clickOnTabInformation();
     }
 
+    @Feature("Add a review books and music")
+    @Test(description = "I can add a review to a book")
     public void can_add_a_review_to_books() {
-        shopProduct.isBooksMenuVisible();
-        shopProduct.clickOnBooksMenu();
-        shopProduct.isBookTitleVisible();
-        shopProduct.clickOnBookTitle();
-        shopProduct.isAddReviewBookVisible();
-        shopProduct.clickOnAddReviewBook();
+        shopProduct.isHomeDecoMenuVisible();
+        shopProduct.hoverOnHomeDecoMenu();
+        shopProduct.isBooksMusicVisible();
+        shopProduct.clickOnBooksMusicMenu();
+        shopProduct.isBooksMusicProductVisible();
+        shopProduct.clickOnBooksMusicProduct();
+        shopProduct.isReviewTabVisible();
+        shopProduct.clickOnReviewTab();
+        shopProduct.isFirstReviewTabVisible();
+        shopProduct.clickOnFirstReviewTab();
+        sleep(2000);
         shopProduct.isRatingStarsVisible();
         shopProduct.selectRatingStarsPrice();
         shopProduct.isDescriptionReviewVisible();
@@ -164,7 +169,7 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.fillInSummaryReview("This is the summary");
         shopProduct.isNicknameVisible();
         shopProduct.fillInNicknameReview("Rohn");
-        shopProduct.isSubmitReview();
+        shopProduct.isSubmitReviewVisible();
         shopProduct.clickOnSubmitReview();
     }
 

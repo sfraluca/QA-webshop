@@ -8,6 +8,7 @@ import static com.codeborne.selenide.Selenide.$$;
 public class MenuItems {
     public final ElementsCollection menuFirstLevel = $$(".nav-primary li.level0");
     public final ElementsCollection menuSecondLevel = $$(".nav-primary li.level0 ul.level0 li.level1");
+
     /**
      * Validators
      */
@@ -40,7 +41,6 @@ public class MenuItems {
                 menuSecondLevel.get(j).click();
                 menuFirstLevel.get(i).hover();
             }
-
         }
 
     }

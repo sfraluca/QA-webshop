@@ -38,5 +38,4 @@ public class MagentoTestBasePage extends ScreenShooter {
         pageNotFoundMessage.shouldHave(exactText(pageNotFoundText));
         takeScreenShot("Page Not Found");
     }
-    //takescreenshot in steps
 }

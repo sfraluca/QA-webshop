@@ -21,4 +21,14 @@ public class FilterSidebarTests extends MagentoTestBasePage {
         sleep(2000);
     }
 
+    @Feature("Filter blazers")
+    @Test(description = "I can filter blazers from category")
+    public void can_filter_by_blazers() {
+        filterSidebar.isMenMenuVisible();
+        filterSidebar.clickOnMenMenu();
+        filterSidebar.isCategoryVisible();
+        filterSidebar.isSubCategoryVisible();
+        filterSidebar.clickOnBlazerInCategory();
+    }
+
 }

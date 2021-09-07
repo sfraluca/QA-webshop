@@ -52,25 +52,28 @@ public class LoginFormTests extends MagentoTestBasePage {
         loginForm.clickOnLogoutLink();
     }
 
+    @Feature("Missing credentials")
+    @Test(description = "I can't login without credentials")
     public void cannot_login_without_required_credentials() {
-        loginForm.clickOnAccountLink();
-        loginForm.clickOnLoginLink();
-        loginForm.clickOnLoginButton();
+        click_login_links();
         loginForm.verifyRequiredEmailMessage("This is a required field.");
         loginForm.verifyRequiredPassMessage("This is a required field.");
     }
 
+    @Feature("Wrong password")
+    @Test(description = "I can't login with wrong password")
     public void cannot_login_with_wrong_password() {
-        loginForm.clickOnAccountLink();
-        loginForm.clickOnLoginLink();
-        loginForm.clickOnLoginButton();
+        click_login_links();
         loginForm.fillInEmailLoginForm("test1@yahoo.com");
         loginForm.fillInPasswordLoginForm("1af3bbdd");
         loginForm.clickOnLoginButton();
         loginForm.verifyInvalidPassOrEmailMessage("Invalid login or password.");
     }
 
-    //1. login with invalid credentials
-    //2. login without password (check the button login)
+    public void click_login_links() {
+        loginForm.clickOnAccountLink();
+        loginForm.clickOnLoginLink();
+        loginForm.clickOnLoginButton();
+    }
 
 }

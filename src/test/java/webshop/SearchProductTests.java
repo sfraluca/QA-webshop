@@ -28,7 +28,6 @@ public class SearchProductTests extends MagentoTestBasePage{
         searchProduct.clickOnSearchIcon();
         searchProduct.cleanSearchInput();
         sleep(1000);
-
     }
 
 }
