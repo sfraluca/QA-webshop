@@ -1,0 +1,70 @@
+{
+  "uid" : "aae4c3eea7f0072c",
+  "name" : "I can't login with wrong password",
+  "fullName" : "webshop.LoginFormTests.cannot_login_with_wrong_password",
+  "historyId" : "1b55a7eba068a3d5b5dd03558c783604",
+  "time" : {
+    "start" : 1631871577062,
+    "stop" : 1631871578699,
+    "duration" : 1637
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "webshop.LoginFormTests"
+  }, {
+    "name" : "testClass",
+    "value" : "webshop.LoginFormTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "cannot_login_with_wrong_password"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "webshop.LoginFormTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AI7I6V4"
+  }, {
+    "name" : "thread",
+    "value" : "9484@DESKTOP-AI7I6V4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Wrong password"
+  }, {
+    "name" : "epic",
+    "value" : "LoginFormTests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aae4c3eea7f0072c.json",
+  "parameterValues" : [ ]
+}

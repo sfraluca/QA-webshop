@@ -2,6 +2,7 @@ package webshop;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.$;
@@ -20,16 +21,28 @@ public class LoginForm extends ScreenShooter {
     /**
      * Validators
      */
-    public void isEmailLoginVisible() { emailInputLogin.shouldBe(Condition.visible); }
+    @Step("Email Login visibility")
+    public void isEmailLoginVisible() {
+        takeScreenShot("Email login should be visible");
+        emailInputLogin.shouldBe(Condition.visible); }
 
-    public void isPasswordLoginVisible() { passwordInputLogin.shouldBe(Condition.visible); }
+    @Step("Password Login visibility")
+    public void isPasswordLoginVisible() {
+        takeScreenShot("Password should be visible");
+        passwordInputLogin.shouldBe(Condition.visible); }
 
     /**
      * Actions
      */
-    public void fillInEmailLoginForm(String input) { emailInputLogin.sendKeys(input);}
+    @Step("Filling the email input")
+    public void fillInEmailLoginForm(String input) {
+        takeScreenShot("Email login can be filled");
+        emailInputLogin.sendKeys(input);}
 
-    public void fillInPasswordLoginForm(String input) { passwordInputLogin.sendKeys(input);}
+    @Step("Filling the password input")
+    public void fillInPasswordLoginForm(String input) {
+        takeScreenShot("Password login can be filled");
+        passwordInputLogin.sendKeys(input);}
 
     public void clickOnLoginLink() {
         loginLink.click();

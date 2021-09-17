@@ -4,69 +4,69 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be visible or transparent: visible or have css value opacity=0 {.nav-primary li.level0 ul.level0 li.level1[3]}\r\nElement: '<li class=\"level1 view-all\" type value=\"0\" displayed:false></li>'\r\nActual value: visible:false, 1\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1630485980922.0.html\r\nTimeout: 4 s.",
-      "children" : [ {
-        "name" : "I can all submenu items",
-        "uid" : "a28f26525aa2ef38",
-        "parentUid" : "e1aea66ff1996319892671e1ff85e2b9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1630485973414,
-          "stop" : 1630485981213,
-          "duration" : 7799
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e1aea66ff1996319892671e1ff85e2b9"
-    }, {
-      "name" : "List size mismatch: expected: = 3, actual: 0, collection: .promos li\r\nElements: []\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008643805.0.html\r\nTimeout: 4 s.",
+      "name" : "List size mismatch: expected: = 3, actual: 0, collection: .promos li\r\nElements: []\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.html\r\nTimeout: 4 s.",
       "children" : [ {
         "name" : "I can access the pages through promo banners",
-        "uid" : "3cacbca3630875b6",
-        "parentUid" : "c17f4637b2dd3d01bcb87ec1b693461e",
+        "uid" : "5660337710a625b1",
+        "parentUid" : "ea4d82cbcf3be8f2268cfe2ad45db711",
         "status" : "failed",
         "time" : {
-          "start" : 1631008639640,
-          "stop" : 1631008644015,
-          "duration" : 4375
+          "start" : 1631871562804,
+          "stop" : 1631871567383,
+          "duration" : 4579
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c17f4637b2dd3d01bcb87ec1b693461e"
+      "uid" : "ea4d82cbcf3be8f2268cfe2ad45db711"
     }, {
-      "name" : "Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008648023.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".slideshow-container ul.slideshow li.cycle-slide-active a\"}",
+      "name" : "Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".slideshow-container ul.slideshow li.cycle-slide-active a\"}",
       "children" : [ {
         "name" : "I can access slider links",
-        "uid" : "1b347fd189381baa",
-        "parentUid" : "b00fdfa6f21ae07ac24da57fa022ef7c",
+        "uid" : "2e8d94bd306d768b",
+        "parentUid" : "89b4c55cfa9c82107cf1be0fad1ac284",
         "status" : "failed",
         "time" : {
-          "start" : 1631008644023,
-          "stop" : 1631008648253,
-          "duration" : 4230
+          "start" : 1631871567392,
+          "stop" : 1631871571919,
+          "duration" : 4527
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b00fdfa6f21ae07ac24da57fa022ef7c"
+      "uid" : "89b4c55cfa9c82107cf1be0fad1ac284"
     }, {
-      "name" : "Element not found {.products-grid .price-box p.old-price[2]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631008815382.2.html\r\nTimeout: 4 s.\r\nCaused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2",
+      "name" : "Element not found {.products-grid .price-box p.old-price[2]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.html\r\nTimeout: 4 s.\r\nCaused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2",
       "children" : [ {
         "name" : "I can see old price on sale",
-        "uid" : "66279d573d63888c",
-        "parentUid" : "5359e8930a71bcfcfa614914e7ecfff9",
+        "uid" : "3cbafe4160948501",
+        "parentUid" : "3af796c03607a32d258a71961656cfba",
         "status" : "failed",
         "time" : {
-          "start" : 1631008808339,
-          "stop" : 1631008815626,
-          "duration" : 7287
+          "start" : 1631871664671,
+          "stop" : 1631871670737,
+          "duration" : 6066
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5359e8930a71bcfcfa614914e7ecfff9"
+      "uid" : "3af796c03607a32d258a71961656cfba"
+    }, {
+      "name" : "Element not found {li.success-msg span}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li.success-msg span\"}",
+      "children" : [ {
+        "name" : "I can see message add to cart",
+        "uid" : "bb3b48409c2f4dd5",
+        "parentUid" : "fddebf3b0e858539f1a9953db749201b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631871670740,
+          "stop" : 1631871674996,
+          "duration" : 4256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fddebf3b0e858539f1a9953db749201b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

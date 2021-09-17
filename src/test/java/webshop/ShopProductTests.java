@@ -74,7 +74,7 @@ public class ShopProductTests extends MagentoTestBasePage {
     @Feature("Delete products from cart")
     @Test(description = "I can delete items from cart")
     public void can_delete_items_from_cart() {
-        can_shop_little_ones_things();
+//        can_shop_little_ones_things();
         shopProduct.isMiniCartButtonVisible();
         shopProduct.clickOnButtonCart();
         shopProduct.isViewCartVisible();
@@ -86,33 +86,38 @@ public class ShopProductTests extends MagentoTestBasePage {
     @Feature("Quantity cart")
     @Test(description = "I can change the quantity in the cart")
     public void can_change_the_quantity() {
-        can_shop_little_ones_things();
+//        can_shop_little_ones_things();
         shopProduct.isMiniCartButtonVisible();
         shopProduct.clickOnButtonCart();
         shopProduct.isViewCartVisible();
         shopProduct.clickOnViewCart();
         shopProduct.isQuantityInputVisible();
-        shopProduct.fillInQuantity("2");
+        shopProduct.fillInQuantity("1");
         shopProduct.isQuantityUpdateVisible();
         shopProduct.clickOnUpdateQuantity();
     }
 
-    @Feature("Compare products")
-    @Test(description = "I can compare the products cosplay")
-    public void can_compare_cosplay_products() {
-        shopProduct.isCosplayMenuVisible();
-        shopProduct.clickOnCosplayMenu();
-        shopProduct.isCompareLinksVisible();
-        shopProduct.clickOnCompareLinks();
-        sleep(1500);
-        shopProduct.isCompareButtonVisible();
-        shopProduct.clickOnCompareButton();
-        sleep(2000);
-    }
+//    @Feature("Compare products")
+//    @Test(description = "I can compare the products cosplay")
+//    public void can_compare_cosplay_products() {
+//        shopProduct.isCosplayMenuVisible();
+//        shopProduct.clickOnCosplayMenu();
+//        shopProduct.isCompareLinksVisible();
+//        shopProduct.clickOnCompareLinks();
+//        sleep(1500);
+//        shopProduct.isCompareButtonVisible();
+//        shopProduct.clickOnCompareButton();
+//        sleep(2000);
+//        switchTo().window(1);
+//        shopProduct.isCloseCompareVisible();
+//        shopProduct.clickOnCloseCompare();
+//
+//    }
 
     @Feature("Add to cart pants")
     @Test(description = "I can add to cart pants men")
     public void can_add_to_cart_pants() {
+//        switchTo().defaultContent();
         FilterSidebar filterSidebar = new FilterSidebar();
         filterSidebar.isMenMenuVisible();
         filterSidebar.clickOnMenMenu();
@@ -130,7 +135,7 @@ public class ShopProductTests extends MagentoTestBasePage {
     @Feature("Message add to cart")
     @Test(description = "I can see message add to cart")
     public void verify_success_add_to_cart_msg() {
-        can_add_to_cart_pants();
+//        can_add_to_cart_pants();
         shopProduct.isSuccessMsgAddToCartVisible();
         shopProduct.verifyMsgSuccessAddToCart("Khaki Bowery Chino Pants was added to your shopping cart.");
     }

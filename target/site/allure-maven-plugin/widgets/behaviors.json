@@ -1,6 +1,17 @@
 {
   "total" : 8,
   "items" : [ {
+    "uid" : "33a68c99e18e791bdde8b0d36dac7a3f",
+    "name" : "ShopProducts",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
     "uid" : "1c654fc03bb30ea1a362d48ae710beef",
     "name" : "FirstPageTests",
     "statistic" : {
@@ -8,28 +19,6 @@
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "33a68c99e18e791bdde8b0d36dac7a3f",
-    "name" : "ShopProducts",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 10,
-      "unknown" : 0,
-      "total" : 11
-    }
-  }, {
-    "uid" : "121c58b9c47139bf52452337a5c3d249",
-    "name" : "MenuItems",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
       "unknown" : 0,
       "total" : 2
     }
@@ -51,9 +40,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 3
+      "total" : 2
     }
   }, {
     "uid" : "6cda21464d700c742d0d9e66f04396bc",
@@ -69,6 +58,17 @@
   }, {
     "uid" : "dacffb986a0b326c986d2cc445546d4a",
     "name" : "Filter by price kitchen",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "121c58b9c47139bf52452337a5c3d249",
+    "name" : "MenuItems",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -14,10 +14,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 public class FirstPageTests extends MagentoTestBasePage{
 
     FirstPageShopping firstPageAccess = new FirstPageShopping();
-    MagentoTestBasePage verifyPageNotFound = new MagentoTestBasePage();
 
-    //to be reviewed
-    //to be used element collection
     @Feature("Slider")
     @Test(description = "I can access slider links")
     public void can_access_slider_links() {

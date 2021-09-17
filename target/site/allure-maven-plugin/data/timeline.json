@@ -4,337 +4,297 @@
   "children" : [ {
     "name" : "DESKTOP-AI7I6V4",
     "children" : [ {
-      "name" : "14600@DESKTOP-AI7I6V4.main(1)",
+      "name" : "9484@DESKTOP-AI7I6V4.main(1)",
       "children" : [ {
-        "name" : "I can compare the products cosplay",
-        "uid" : "44e7278215db62ad",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
+        "name" : "I can filter blazers from category",
+        "uid" : "522f44461585bded",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
         "status" : "passed",
         "time" : {
-          "start" : 1631008751992,
-          "stop" : 1631008763418,
-          "duration" : 11426
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can add to cart pants men",
-        "uid" : "754d4f23cc2e1df6",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008707310,
-          "stop" : 1631008713063,
-          "duration" : 5753
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can all menu items",
-        "uid" : "d9a5d157d60c8cfd",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008656570,
-          "stop" : 1631008687037,
-          "duration" : 30467
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can see old price on sale",
-        "uid" : "66279d573d63888c",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1631008808339,
-          "stop" : 1631008815626,
-          "duration" : 7287
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can shop all products in little ones",
-        "uid" : "80db5a60edc71cfe",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008794637,
-          "stop" : 1631008808337,
-          "duration" : 13700
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can see message add to cart",
-        "uid" : "42df4759e4d0f137",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008815629,
-          "stop" : 1631008821800,
-          "duration" : 6171
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can register {0}",
-        "uid" : "f216c231c09691c0",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008690591,
-          "stop" : 1631008694239,
-          "duration" : 3648
-        },
-        "flaky" : false,
-        "parameters" : [ "Correct_register_with_test1" ]
-      }, {
-        "name" : "I can add a review to a book",
-        "uid" : "ab9743488a15b8f2",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008698986,
-          "stop" : 1631008707303,
-          "duration" : 8317
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Login Form Homepage tests suit",
-        "uid" : "6bc9e79d07ed8e2b",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008655986,
-          "stop" : 1631008656566,
-          "duration" : 580
+          "start" : 1631871555084,
+          "stop" : 1631871558605,
+          "duration" : 3521
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "I can login with valid credentials {0}",
-        "uid" : "8805f5bce43a4eeb",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
+        "uid" : "3654f056ec7ad749",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
         "status" : "passed",
         "time" : {
-          "start" : 1631008648267,
-          "stop" : 1631008652433,
-          "duration" : 4166
+          "start" : 1631871571933,
+          "stop" : 1631871575712,
+          "duration" : 3779
         },
         "flaky" : false,
-        "parameters" : [ "Correct_Login_with_email_test1" ]
-      }, {
-        "name" : "I can add to wishlist",
-        "uid" : "ea8ebdc9e309ef11",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008719819,
-          "stop" : 1631008731626,
-          "duration" : 11807
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can't login without credentials",
-        "uid" : "c2840644bc432909",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008655405,
-          "stop" : 1631008655983,
-          "duration" : 578
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can logout {0}",
-        "uid" : "f46925b6fa37178d",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008652445,
-          "stop" : 1631008653790,
-          "duration" : 1345
-        },
-        "flaky" : true,
         "parameters" : [ "Correct_Login_with_email_test1" ]
       }, {
         "name" : "I can add to cart shirts",
-        "uid" : "ea9a722c1ee8021f",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
+        "uid" : "8086da4e2d5bbd00",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
         "status" : "passed",
         "time" : {
-          "start" : 1631008713067,
-          "stop" : 1631008719815,
-          "duration" : 6748
+          "start" : 1631871619127,
+          "stop" : 1631871624351,
+          "duration" : 5224
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "I can register {0}",
-        "uid" : "213ac7242666c6",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
+        "name" : "I can shop all products in little ones",
+        "uid" : "f940a62542770bb",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
         "status" : "passed",
         "time" : {
-          "start" : 1631008687041,
-          "stop" : 1631008690583,
-          "duration" : 3542
-        },
-        "flaky" : false,
-        "parameters" : [ "Correct_register_with_test2" ]
-      }, {
-        "name" : "I can filter blazers from category",
-        "uid" : "b7915dc01cd0ca80",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008630837,
-          "stop" : 1631008634334,
-          "duration" : 3497
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can't login with wrong password",
-        "uid" : "e1275516c7ce3d07",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008653799,
-          "stop" : 1631008655402,
-          "duration" : 1603
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can search by name {0}",
-        "uid" : "1583614b155e2751",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008696590,
-          "stop" : 1631008698978,
-          "duration" : 2388
-        },
-        "flaky" : false,
-        "parameters" : [ "Correct_Search_with_Product2" ]
-      }, {
-        "name" : "I can search by name {0}",
-        "uid" : "b3c0af05017b9a4d",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008694248,
-          "stop" : 1631008696586,
-          "duration" : 2338
-        },
-        "flaky" : false,
-        "parameters" : [ "Correct_Search_with_Product1" ]
-      }, {
-        "name" : "I can access the pages through promo banners",
-        "uid" : "3cacbca3630875b6",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1631008639640,
-          "stop" : 1631008644015,
-          "duration" : 4375
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can delete items from cart",
-        "uid" : "a56bf84e7b46c5a7",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008763422,
-          "stop" : 1631008789786,
-          "duration" : 26364
+          "start" : 1631871652197,
+          "stop" : 1631871664668,
+          "duration" : 12471
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "I can open tab product",
-        "uid" : "ac3d0d08d1ad7953",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
+        "uid" : "8a014decc9362111",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
         "status" : "passed",
         "time" : {
-          "start" : 1631008789791,
-          "stop" : 1631008794634,
-          "duration" : 4843
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can change the quantity in the cart",
-        "uid" : "4983d393b1299abf",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008731629,
-          "stop" : 1631008751988,
-          "duration" : 20359
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "I can filter by price kitchen devices",
-        "uid" : "ddb372d986394405",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008634433,
-          "stop" : 1631008639635,
-          "duration" : 5202
+          "start" : 1631871648758,
+          "stop" : 1631871652195,
+          "duration" : 3437
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "I can access slider links",
-        "uid" : "1b347fd189381baa",
-        "parentUid" : "32e346cc53c549c2668b2ea1b7b2961f",
+        "uid" : "2e8d94bd306d768b",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
         "status" : "failed",
         "time" : {
-          "start" : 1631008644023,
-          "stop" : 1631008648253,
-          "duration" : 4230
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "32e346cc53c549c2668b2ea1b7b2961f"
-    }, {
-      "name" : "11868@DESKTOP-AI7I6V4.main(1)",
-      "children" : [ {
-        "name" : "I can all submenu items",
-        "uid" : "a28f26525aa2ef38",
-        "parentUid" : "67c9ddc0285686477f7f094e3fd6e888",
-        "status" : "failed",
-        "time" : {
-          "start" : 1630485973414,
-          "stop" : 1630485981213,
-          "duration" : 7799
+          "start" : 1631871567392,
+          "stop" : 1631871571919,
+          "duration" : 4527
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "I can register with valid credentials",
-        "uid" : "5017b83d480c0145",
-        "parentUid" : "67c9ddc0285686477f7f094e3fd6e888",
+        "name" : "I can add to wishlist",
+        "uid" : "de0c00d939d8d378",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
         "status" : "passed",
         "time" : {
-          "start" : 1630485983000,
-          "stop" : 1630485987148,
-          "duration" : 4148
+          "start" : 1631871624355,
+          "stop" : 1631871634849,
+          "duration" : 10494
         },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "I can register {0}",
+        "uid" : "3e7af5a439372e9d",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871594932,
+          "stop" : 1631871598434,
+          "duration" : 3502
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_register_with_test2" ]
+      }, {
+        "name" : "I can add to cart pants men",
+        "uid" : "6d4ddc7e2cbc4551",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871613788,
+          "stop" : 1631871619122,
+          "duration" : 5334
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can search by name {0}",
+        "uid" : "b5d9389961216805",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871601973,
+          "stop" : 1631871604101,
+          "duration" : 2128
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_Search_with_Product1" ]
+      }, {
+        "name" : "Login Form Homepage tests suit",
+        "uid" : "91c3054cc18f6f97",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871579640,
+          "stop" : 1631871580236,
+          "duration" : 596
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can access the pages through promo banners",
+        "uid" : "5660337710a625b1",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631871562804,
+          "stop" : 1631871567383,
+          "duration" : 4579
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can search by name {0}",
+        "uid" : "74489337d62a1b62",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871604108,
+          "stop" : 1631871606409,
+          "duration" : 2301
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_Search_with_Product2" ]
+      }, {
+        "name" : "I can add a review to a book",
+        "uid" : "4cbea443ed03d3c7",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871606421,
+          "stop" : 1631871613783,
+          "duration" : 7362
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can see old price on sale",
+        "uid" : "3cbafe4160948501",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631871664671,
+          "stop" : 1631871670737,
+          "duration" : 6066
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can see message add to cart",
+        "uid" : "bb3b48409c2f4dd5",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631871670740,
+          "stop" : 1631871674996,
+          "duration" : 4256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can filter by price kitchen devices",
+        "uid" : "83f2b8ec7f909091",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871558697,
+          "stop" : 1631871562799,
+          "duration" : 4102
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can all menu items",
+        "uid" : "418cdbe3db1d722d",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871580239,
+          "stop" : 1631871594928,
+          "duration" : 14689
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can delete items from cart",
+        "uid" : "9683ad8e69c68ac8",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871639264,
+          "stop" : 1631871648756,
+          "duration" : 9492
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can't login without credentials",
+        "uid" : "55f06ba048c07106",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871578702,
+          "stop" : 1631871579638,
+          "duration" : 936
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can't login with wrong password",
+        "uid" : "aae4c3eea7f0072c",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871577062,
+          "stop" : 1631871578699,
+          "duration" : 1637
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can change the quantity in the cart",
+        "uid" : "fd0265c4865ffd69",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871634854,
+          "stop" : 1631871639261,
+          "duration" : 4407
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I can logout {0}",
+        "uid" : "f327c44cd88282a5",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871575723,
+          "stop" : 1631871577057,
+          "duration" : 1334
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_Login_with_email_test1" ]
+      }, {
+        "name" : "I can register {0}",
+        "uid" : "d92a4d4f1868993a",
+        "parentUid" : "f3c5be427b7cb001ddb171ccdfe2dff7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871598438,
+          "stop" : 1631871601970,
+          "duration" : 3532
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_register_with_test1" ]
       } ],
-      "uid" : "67c9ddc0285686477f7f094e3fd6e888"
+      "uid" : "f3c5be427b7cb001ddb171ccdfe2dff7"
     } ],
     "uid" : "c72c16edc7abbb0999e86eb9368c23b2"
   } ]

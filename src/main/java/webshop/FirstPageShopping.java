@@ -4,6 +4,7 @@ import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
@@ -11,29 +12,39 @@ import static com.codeborne.selenide.Selenide.$$;
 public class FirstPageShopping extends ScreenShooter{
 
   public final SelenideElement slider = $(".slideshow-container ul.slideshow li.cycle-slide-active a");
-  public final SelenideElement breadcrumbsMen = $(".breadcrumbs li.category5");
-  public final SelenideElement breadcrumbsWomen = $(".breadcrumbs");
-  public final SelenideElement breadcrumbsEyeWear = $(".breadcrumbs li.category18");
   public final SelenideElement slideshowNext = $(".slideshow-container .slideshow-next");
   public final SelenideElement slideshowPrev = $(".slideshow-container .slideshow-prev");
   public final SelenideElement homepageBreadcrumbs = $(".breadcrumbs li.home a");
-  public final SelenideElement homepageOnPageNotFound = $("div.std a");
 
   private final ElementsCollection promoBanner = $$(".promos li");
 
   /**
    * Validators
    */
-  public void isHomepageVisible() { homepageBreadcrumbs.shouldBe(Condition.visible); }
-  public void isSliderVisible() { slider.shouldBe(Condition.visible); }
-  public void isSliderNextVisible() { slideshowNext.shouldBe(Condition.visible); }
-  public void isSliderPrevVisible() { slideshowPrev.shouldBe(Condition.visible); }
-  public void isBreadcrumbsMenVisible() { breadcrumbsMen.shouldBe(Condition.visible); }
-  public void isBreadcrumbsWomenVisible() { breadcrumbsWomen.shouldBe(Condition.visible); }
-  public void isBreadcrumbsEyeWearVisible() { breadcrumbsEyeWear.shouldBe(Condition.visible); }
-  public void isHomePageOnPageNotFoundVisible() { homepageOnPageNotFound.shouldBe(Condition.visible); }
+  @Step("Slider on first page")
+  public void isSliderVisible() {
+    takeScreenShot("Slider should be visible");
+    slider.shouldBe(Condition.visible);
 
+  }
+
+  @Step("Slider next on first page")
+  public void isSliderNextVisible() {
+    takeScreenShot("Slider next should be visible");
+    slideshowNext.shouldBe(Condition.visible);
+
+  }
+
+  @Step("Slider prev on first page")
+  public void isSliderPrevVisible() {
+    takeScreenShot("Slider prev should be visible");
+    slideshowPrev.shouldBe(Condition.visible);
+
+  }
+
+  @Step("Promo Banner on first page")
   public void isPromoBannersVisible() {
+    takeScreenShot("Promo banner should be visible");
     promoBanner.shouldHave(CollectionCondition.size(3));
     promoBanner.get(0).shouldBe(Condition.visible);
     promoBanner.get(1).shouldBe(Condition.visible);
@@ -44,10 +55,8 @@ public class FirstPageShopping extends ScreenShooter{
    * Actions
    */
   public void clickOnHomePageBreadcrumbs() { homepageBreadcrumbs.click(); }
-  public void clickOnSlideShow() { slider.click(); }
   public void clickOnSlideShowNext() { slideshowNext.click(); }
   public void clickOnSlideShowPrev() { slideshowPrev.click(); }
-  public void clickOnHomepageOnPageNotFound() { homepageOnPageNotFound.click(); }
 
   public void clickOnPromoBanner() {
     FirstPageShopping homepageBack = new FirstPageShopping();

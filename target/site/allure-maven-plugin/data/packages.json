@@ -4,96 +4,28 @@
   "children" : [ {
     "name" : "webshop",
     "children" : [ {
-      "name" : "MenuItemsTests",
-      "children" : [ {
-        "name" : "can_access_submenu",
-        "uid" : "a28f26525aa2ef38",
-        "parentUid" : "4cab11042e2cc277d9d9d0b46cd160c9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1630485973414,
-          "stop" : 1630485981213,
-          "duration" : 7799
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "can_access_menu",
-        "uid" : "d9a5d157d60c8cfd",
-        "parentUid" : "4cab11042e2cc277d9d9d0b46cd160c9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008656570,
-          "stop" : 1631008687037,
-          "duration" : 30467
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4cab11042e2cc277d9d9d0b46cd160c9"
-    }, {
-      "name" : "RegisterFormTests",
-      "children" : [ {
-        "name" : "can_register_with_valid_credentials",
-        "uid" : "5017b83d480c0145",
-        "parentUid" : "2f69b2f2bf95e28ba8a4807312337c52",
-        "status" : "passed",
-        "time" : {
-          "start" : 1630485983000,
-          "stop" : 1630485987148,
-          "duration" : 4148
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "can_register_with_valid_credentials",
-        "uid" : "213ac7242666c6",
-        "parentUid" : "2f69b2f2bf95e28ba8a4807312337c52",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008687041,
-          "stop" : 1631008690583,
-          "duration" : 3542
-        },
-        "flaky" : false,
-        "parameters" : [ "Correct_register_with_test2" ]
-      }, {
-        "name" : "can_register_with_valid_credentials",
-        "uid" : "f216c231c09691c0",
-        "parentUid" : "2f69b2f2bf95e28ba8a4807312337c52",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008690591,
-          "stop" : 1631008694239,
-          "duration" : 3648
-        },
-        "flaky" : false,
-        "parameters" : [ "Correct_register_with_test1" ]
-      } ],
-      "uid" : "2f69b2f2bf95e28ba8a4807312337c52"
-    }, {
       "name" : "FilterSidebarTests",
       "children" : [ {
         "name" : "can_filter_by_blazers",
-        "uid" : "b7915dc01cd0ca80",
+        "uid" : "522f44461585bded",
         "parentUid" : "9540f0142640ab6071c88eb846f0c3d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631008630837,
-          "stop" : 1631008634334,
-          "duration" : 3497
+          "start" : 1631871555084,
+          "stop" : 1631871558605,
+          "duration" : 3521
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_filter_by_price_kitchen_devices",
-        "uid" : "ddb372d986394405",
+        "uid" : "83f2b8ec7f909091",
         "parentUid" : "9540f0142640ab6071c88eb846f0c3d6",
         "status" : "passed",
         "time" : {
-          "start" : 1631008634433,
-          "stop" : 1631008639635,
-          "duration" : 5202
+          "start" : 1631871558697,
+          "stop" : 1631871562799,
+          "duration" : 4102
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -103,25 +35,25 @@
       "name" : "FirstPageTests",
       "children" : [ {
         "name" : "can_access_pages_from_promos",
-        "uid" : "3cacbca3630875b6",
+        "uid" : "5660337710a625b1",
         "parentUid" : "ff2c2dfd1077805a6552e1fbcb3ae044",
         "status" : "failed",
         "time" : {
-          "start" : 1631008639640,
-          "stop" : 1631008644015,
-          "duration" : 4375
+          "start" : 1631871562804,
+          "stop" : 1631871567383,
+          "duration" : 4579
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_access_slider_links",
-        "uid" : "1b347fd189381baa",
+        "uid" : "2e8d94bd306d768b",
         "parentUid" : "ff2c2dfd1077805a6552e1fbcb3ae044",
         "status" : "failed",
         "time" : {
-          "start" : 1631008644023,
-          "stop" : 1631008648253,
-          "duration" : 4230
+          "start" : 1631871567392,
+          "stop" : 1631871571919,
+          "duration" : 4527
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -131,89 +63,133 @@
       "name" : "LoginFormTests",
       "children" : [ {
         "name" : "can_login_with_valid_credentials",
-        "uid" : "8805f5bce43a4eeb",
+        "uid" : "3654f056ec7ad749",
         "parentUid" : "07211306823e633c29564961fd55fdc9",
         "status" : "passed",
         "time" : {
-          "start" : 1631008648267,
-          "stop" : 1631008652433,
-          "duration" : 4166
+          "start" : 1631871571933,
+          "stop" : 1631871575712,
+          "duration" : 3779
         },
         "flaky" : false,
         "parameters" : [ "Correct_Login_with_email_test1" ]
       }, {
         "name" : "can_logout",
-        "uid" : "f46925b6fa37178d",
+        "uid" : "f327c44cd88282a5",
         "parentUid" : "07211306823e633c29564961fd55fdc9",
         "status" : "passed",
         "time" : {
-          "start" : 1631008652445,
-          "stop" : 1631008653790,
-          "duration" : 1345
+          "start" : 1631871575723,
+          "stop" : 1631871577057,
+          "duration" : 1334
         },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ "Correct_Login_with_email_test1" ]
       }, {
         "name" : "cannot_login_with_wrong_password",
-        "uid" : "e1275516c7ce3d07",
+        "uid" : "aae4c3eea7f0072c",
         "parentUid" : "07211306823e633c29564961fd55fdc9",
         "status" : "passed",
         "time" : {
-          "start" : 1631008653799,
-          "stop" : 1631008655402,
-          "duration" : 1603
+          "start" : 1631871577062,
+          "stop" : 1631871578699,
+          "duration" : 1637
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "cannot_login_without_required_credentials",
-        "uid" : "c2840644bc432909",
+        "uid" : "55f06ba048c07106",
         "parentUid" : "07211306823e633c29564961fd55fdc9",
         "status" : "passed",
         "time" : {
-          "start" : 1631008655405,
-          "stop" : 1631008655983,
-          "duration" : 578
+          "start" : 1631871578702,
+          "stop" : 1631871579638,
+          "duration" : 936
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "click_login_links",
-        "uid" : "6bc9e79d07ed8e2b",
+        "uid" : "91c3054cc18f6f97",
         "parentUid" : "07211306823e633c29564961fd55fdc9",
         "status" : "passed",
         "time" : {
-          "start" : 1631008655986,
-          "stop" : 1631008656566,
-          "duration" : 580
+          "start" : 1631871579640,
+          "stop" : 1631871580236,
+          "duration" : 596
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "07211306823e633c29564961fd55fdc9"
     }, {
+      "name" : "MenuItemsTests",
+      "children" : [ {
+        "name" : "can_access_menu",
+        "uid" : "418cdbe3db1d722d",
+        "parentUid" : "4cab11042e2cc277d9d9d0b46cd160c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871580239,
+          "stop" : 1631871594928,
+          "duration" : 14689
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cab11042e2cc277d9d9d0b46cd160c9"
+    }, {
+      "name" : "RegisterFormTests",
+      "children" : [ {
+        "name" : "can_register_with_valid_credentials",
+        "uid" : "3e7af5a439372e9d",
+        "parentUid" : "2f69b2f2bf95e28ba8a4807312337c52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871594932,
+          "stop" : 1631871598434,
+          "duration" : 3502
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_register_with_test2" ]
+      }, {
+        "name" : "can_register_with_valid_credentials",
+        "uid" : "d92a4d4f1868993a",
+        "parentUid" : "2f69b2f2bf95e28ba8a4807312337c52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631871598438,
+          "stop" : 1631871601970,
+          "duration" : 3532
+        },
+        "flaky" : false,
+        "parameters" : [ "Correct_register_with_test1" ]
+      } ],
+      "uid" : "2f69b2f2bf95e28ba8a4807312337c52"
+    }, {
       "name" : "SearchProductTests",
       "children" : [ {
         "name" : "can_search_by_name",
-        "uid" : "b3c0af05017b9a4d",
+        "uid" : "b5d9389961216805",
         "parentUid" : "b3c850586f9e1ea0928e2b92a8759cbb",
         "status" : "passed",
         "time" : {
-          "start" : 1631008694248,
-          "stop" : 1631008696586,
-          "duration" : 2338
+          "start" : 1631871601973,
+          "stop" : 1631871604101,
+          "duration" : 2128
         },
         "flaky" : false,
         "parameters" : [ "Correct_Search_with_Product1" ]
       }, {
         "name" : "can_search_by_name",
-        "uid" : "1583614b155e2751",
+        "uid" : "74489337d62a1b62",
         "parentUid" : "b3c850586f9e1ea0928e2b92a8759cbb",
         "status" : "passed",
         "time" : {
-          "start" : 1631008696590,
-          "stop" : 1631008698978,
-          "duration" : 2388
+          "start" : 1631871604108,
+          "stop" : 1631871606409,
+          "duration" : 2301
         },
         "flaky" : false,
         "parameters" : [ "Correct_Search_with_Product2" ]
@@ -223,133 +199,121 @@
       "name" : "ShopProductTests",
       "children" : [ {
         "name" : "can_add_a_review_to_books",
-        "uid" : "ab9743488a15b8f2",
+        "uid" : "4cbea443ed03d3c7",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008698986,
-          "stop" : 1631008707303,
-          "duration" : 8317
+          "start" : 1631871606421,
+          "stop" : 1631871613783,
+          "duration" : 7362
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_add_to_cart_pants",
-        "uid" : "754d4f23cc2e1df6",
+        "uid" : "6d4ddc7e2cbc4551",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008707310,
-          "stop" : 1631008713063,
-          "duration" : 5753
+          "start" : 1631871613788,
+          "stop" : 1631871619122,
+          "duration" : 5334
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_add_to_cart_shirts_men",
-        "uid" : "ea9a722c1ee8021f",
+        "uid" : "8086da4e2d5bbd00",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008713067,
-          "stop" : 1631008719815,
-          "duration" : 6748
+          "start" : 1631871619127,
+          "stop" : 1631871624351,
+          "duration" : 5224
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_add_to_wishlist_men_cloths",
-        "uid" : "ea8ebdc9e309ef11",
+        "uid" : "de0c00d939d8d378",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008719819,
-          "stop" : 1631008731626,
-          "duration" : 11807
+          "start" : 1631871624355,
+          "stop" : 1631871634849,
+          "duration" : 10494
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_change_the_quantity",
-        "uid" : "4983d393b1299abf",
+        "uid" : "fd0265c4865ffd69",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008731629,
-          "stop" : 1631008751988,
-          "duration" : 20359
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "can_compare_cosplay_products",
-        "uid" : "44e7278215db62ad",
-        "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
-        "status" : "passed",
-        "time" : {
-          "start" : 1631008751992,
-          "stop" : 1631008763418,
-          "duration" : 11426
+          "start" : 1631871634854,
+          "stop" : 1631871639261,
+          "duration" : 4407
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_delete_items_from_cart",
-        "uid" : "a56bf84e7b46c5a7",
+        "uid" : "9683ad8e69c68ac8",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008763422,
-          "stop" : 1631008789786,
-          "duration" : 26364
+          "start" : 1631871639264,
+          "stop" : 1631871648756,
+          "duration" : 9492
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_open_tab",
-        "uid" : "ac3d0d08d1ad7953",
+        "uid" : "8a014decc9362111",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008789791,
-          "stop" : 1631008794634,
-          "duration" : 4843
+          "start" : 1631871648758,
+          "stop" : 1631871652195,
+          "duration" : 3437
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_shop_little_ones_things",
-        "uid" : "80db5a60edc71cfe",
+        "uid" : "f940a62542770bb",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "passed",
         "time" : {
-          "start" : 1631008794637,
-          "stop" : 1631008808337,
-          "duration" : 13700
+          "start" : 1631871652197,
+          "stop" : 1631871664668,
+          "duration" : 12471
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "can_view_old_price_on_sale",
-        "uid" : "66279d573d63888c",
+        "uid" : "3cbafe4160948501",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
         "status" : "failed",
         "time" : {
-          "start" : 1631008808339,
-          "stop" : 1631008815626,
-          "duration" : 7287
+          "start" : 1631871664671,
+          "stop" : 1631871670737,
+          "duration" : 6066
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "verify_success_add_to_cart_msg",
-        "uid" : "42df4759e4d0f137",
+        "uid" : "bb3b48409c2f4dd5",
         "parentUid" : "28a77998383fa6a12d67af0ce36c1433",
-        "status" : "passed",
+        "status" : "failed",
         "time" : {
-          "start" : 1631008815629,
-          "stop" : 1631008821800,
-          "duration" : 6171
+          "start" : 1631871670740,
+          "stop" : 1631871674996,
+          "duration" : 4256
         },
         "flaky" : false,
         "parameters" : [ ]

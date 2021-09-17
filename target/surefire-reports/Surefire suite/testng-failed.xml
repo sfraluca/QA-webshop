@@ -3,17 +3,18 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="webshop.ShopProductTests">
+        <methods>
+          <include name="can_view_old_price_on_sale"/>
+          <include name="verify_success_add_to_cart_msg"/>
+        </methods>
+      </class> <!-- webshop.ShopProductTests -->
       <class name="webshop.FirstPageTests">
         <methods>
           <include name="can_access_slider_links"/>
           <include name="can_access_pages_from_promos"/>
         </methods>
       </class> <!-- webshop.FirstPageTests -->
-      <class name="webshop.ShopProductTests">
-        <methods>
-          <include name="can_view_old_price_on_sale"/>
-        </methods>
-      </class> <!-- webshop.ShopProductTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
