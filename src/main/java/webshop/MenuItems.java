@@ -8,7 +8,6 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class MenuItems extends ScreenShooter {
     public final ElementsCollection menuFirstLevel = $$(".nav-primary li.level0");
-    public final ElementsCollection menuSecondLevel = $$(".nav-primary li.level0 ul.level0 li.level1");
 
     /**
      * Validators
@@ -21,12 +20,6 @@ public class MenuItems extends ScreenShooter {
         }
     }
 
-    public void isMenuSecondLevelVisible() {
-        for (int i = 0; i< menuSecondLevel.size(); i++) {
-            menuSecondLevel.get(i).shouldBe(Condition.visible);
-        }
-    }
-
     /**
      * Actions
      */
@@ -35,18 +28,4 @@ public class MenuItems extends ScreenShooter {
             menuFirstLevel.get(i).click();
         }
     }
-
-    public void accessSecondMenu() {
-        for (int i = 0; i< menuFirstLevel.size(); ++i) {
-            menuFirstLevel.get(i).hover();
-            for (int j = 0; j<= menuSecondLevel.size(); ++j) {
-                menuSecondLevel.get(j).click();
-                menuFirstLevel.get(0).hover();
-            }
-//            menuFirstLevel.get(1).hover();
-        }
-
-    }
-
-
 }

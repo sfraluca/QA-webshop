@@ -97,27 +97,17 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.clickOnUpdateQuantity();
     }
 
-//    @Feature("Compare products")
-//    @Test(description = "I can compare the products cosplay")
-//    public void can_compare_cosplay_products() {
-//        shopProduct.isCosplayMenuVisible();
-//        shopProduct.clickOnCosplayMenu();
-//        shopProduct.isCompareLinksVisible();
-//        shopProduct.clickOnCompareLinks();
-//        sleep(1500);
-//        shopProduct.isCompareButtonVisible();
-//        shopProduct.clickOnCompareButton();
-//        sleep(2000);
-//        switchTo().window(1);
-//        shopProduct.isCloseCompareVisible();
-//        shopProduct.clickOnCloseCompare();
-//
-//    }
+    @Feature("Message add to cart")
+    @Test(description = "I can see message add to cart")
+    public void verify_success_add_to_cart_msg() {
+//        can_add_to_cart_pants();
+        shopProduct.isSuccessMsgAddToCartVisible();
+        shopProduct.verifyMsgSuccessAddToCart("Khaki Bowery Chino Pants was added to your shopping cart.");
+    }
 
     @Feature("Add to cart pants")
     @Test(description = "I can add to cart pants men")
     public void can_add_to_cart_pants() {
-//        switchTo().defaultContent();
         FilterSidebar filterSidebar = new FilterSidebar();
         filterSidebar.isMenMenuVisible();
         filterSidebar.clickOnMenMenu();
@@ -130,14 +120,6 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.isQtyDetailMenProductVisible();
         shopProduct.updateQtyMenProduct("3");
         shopProduct.clickOnAddToCart();
-    }
-
-    @Feature("Message add to cart")
-    @Test(description = "I can see message add to cart")
-    public void verify_success_add_to_cart_msg() {
-//        can_add_to_cart_pants();
-        shopProduct.isSuccessMsgAddToCartVisible();
-        shopProduct.verifyMsgSuccessAddToCart("Khaki Bowery Chino Pants was added to your shopping cart.");
     }
 
     @Feature("Tab product")

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>22/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 17 12:39:15 EEST 2021</td>
+<td>Started on:</td><td>Thu Sep 23 10:55:50 EEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>119 seconds (119997 ms)</td>
+<tr><td>Total time:</td><td>230 seconds (230307 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,8 +78,8 @@ function toggleAllBoxes() {
 <td title='webshop.ShopProductTests.can_view_old_price_on_sale()'><b>can_view_old_price_on_sale</b><br>Test class: webshop.ShopProductTests<br>Test method: I can see old price on sale</td>
 <td><div><pre>Element not found {.products-grid .price-box p.old-price[2]}
 Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.html
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.html
 Timeout: 4 s.
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -91,7 +91,7 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
 	at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
-	at webshop.ShopProduct.isOldPriceVisible(ShopProduct.java:101)
+	at webshop.ShopProduct.isOldPriceVisible(ShopProduct.java:198)
 	at webshop.ShopProductTests.can_view_old_price_on_sale(ShopProductTests.java:61)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
@@ -105,11 +105,11 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length
 	at com.codeborne.selenide.impl.CollectionElement.getWebElement(CollectionElement.java:46)
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
 	... 41 more
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1684129395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1684129395'><pre>Element not found {.products-grid .price-box p.old-price[2]}
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace202859949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace202859949'><pre>Element not found {.products-grid .price-box p.old-price[2]}
 Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.html
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.html
 Timeout: 4 s.
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -121,7 +121,7 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
 	at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
-	at webshop.ShopProduct.isOldPriceVisible(ShopProduct.java:101)
+	at webshop.ShopProduct.isOldPriceVisible(ShopProduct.java:198)
 	at webshop.ShopProductTests.can_view_old_price_on_sale(ShopProductTests.java:61)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -168,326 +168,8 @@ Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
 	... 41 more
 </pre></div></td>
-<td>6</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
-<tr>
-<td title='webshop.ShopProductTests.verify_success_add_to_cart_msg()'><b>verify_success_add_to_cart_msg</b><br>Test class: webshop.ShopProductTests<br>Test method: I can see message add to cart</td>
-<td><div><pre>Element not found {li.success-msg span}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;li.success-msg span&quot;}
-	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
-	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
-	at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
-	at webshop.ShopProduct.isSuccessMsgAddToCartVisible(ShopProduct.java:81)
-	at webshop.ShopProductTests.verify_success_add_to_cart_msg(ShopProductTests.java:139)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;li.success-msg span&quot;}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-AI7I6V4&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=li.success-msg span}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
-	... 41 more
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1772176658", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1772176658'><pre>Element not found {li.success-msg span}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;li.success-msg span&quot;}
-	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
-	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
-	at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
-	at webshop.ShopProduct.isSuccessMsgAddToCartVisible(ShopProduct.java:81)
-	at webshop.ShopProductTests.verify_success_add_to_cart_msg(ShopProductTests.java:139)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;li.success-msg span&quot;}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-AI7I6V4&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=li.success-msg span}
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
-	... 41 more
-</pre></div></td>
-<td>4</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
-<tr>
-<td title='webshop.FirstPageTests.can_access_slider_links()'><b>can_access_slider_links</b><br>Test class: webshop.FirstPageTests<br>Test method: I can access slider links</td>
-<td><div><pre>Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.slideshow-container ul.slideshow li.cycle-slide-active a&quot;}
-	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
-	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
-	at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
-	at webshop.FirstPageShopping.isSliderVisible(FirstPageShopping.java:27)
-	at webshop.FirstPageTests.can_access_slider_links(FirstPageTests.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.slideshow-container ul.slideshow li.cycle-slide-active a&quot;}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-AI7I6V4&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=.slideshow-container ul.slideshow li.cycle-slide-active a}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
-	... 41 more
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1476823872", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1476823872'><pre>Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.slideshow-container ul.slideshow li.cycle-slide-active a&quot;}
-	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
-	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
-	at jdk.proxy2/jdk.proxy2.$Proxy8.shouldBe(Unknown Source)
-	at webshop.FirstPageShopping.isSliderVisible(FirstPageShopping.java:27)
-	at webshop.FirstPageTests.can_access_slider_links(FirstPageTests.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.slideshow-container ul.slideshow li.cycle-slide-active a&quot;}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-AI7I6V4&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=.slideshow-container ul.slideshow li.cycle-slide-active a}
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)
-	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
-	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
-	... 41 more
-</pre></div></td>
-<td>4</td>
-<td>webshop.FirstPageTests@70c491b8</td></tr>
-<tr>
-<td title='webshop.FirstPageTests.can_access_pages_from_promos()'><b>can_access_pages_from_promos</b><br>Test class: webshop.FirstPageTests<br>Test method: I can access the pages through promo banners</td>
-<td><div><pre>List size mismatch: expected: = 3, actual: 0, collection: .promos li
-Elements: []
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.html
-Timeout: 4 s.
-	at com.codeborne.selenide.collections.ListSize.fail(ListSize.java:32)
-	at com.codeborne.selenide.ElementsCollection.waitUntil(ElementsCollection.java:218)
-	at com.codeborne.selenide.ElementsCollection.should(ElementsCollection.java:163)
-	at com.codeborne.selenide.ElementsCollection.shouldHave(ElementsCollection.java:128)
-	at webshop.FirstPageShopping.isPromoBannersVisible(FirstPageShopping.java:48)
-	at webshop.FirstPageTests.can_access_pages_from_promos(FirstPageTests.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2114487283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2114487283'><pre>List size mismatch: expected: = 3, actual: 0, collection: .promos li
-Elements: []
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.html
-Timeout: 4 s.
-	at com.codeborne.selenide.collections.ListSize.fail(ListSize.java:32)
-	at com.codeborne.selenide.ElementsCollection.waitUntil(ElementsCollection.java:218)
-	at com.codeborne.selenide.ElementsCollection.should(ElementsCollection.java:163)
-	at com.codeborne.selenide.ElementsCollection.shouldHave(ElementsCollection.java:128)
-	at webshop.FirstPageShopping.isPromoBannersVisible(FirstPageShopping.java:48)
-	at webshop.FirstPageTests.can_access_pages_from_promos(FirstPageTests.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-</pre></div></td>
-<td>4</td>
-<td>webshop.FirstPageTests@70c491b8</td></tr>
+<td>10</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -497,105 +179,115 @@ Timeout: 4 s.
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='webshop.ShopProductTests.can_add_to_cart_shirts_men()'><b>can_add_to_cart_shirts_men</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add to cart shirts</td>
+<td title='webshop.FilterSidebarTests.can_filter_by_price_kitchen_devices()'><b>can_filter_by_price_kitchen_devices</b><br>Test class: webshop.FilterSidebarTests<br>Test method: I can filter by price kitchen devices</td>
 <td></td>
-<td>5</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
+<td>7</td>
+<td>webshop.FilterSidebarTests@36463b09</td></tr>
 <tr>
-<td title='webshop.RegisterFormTests.can_register_with_valid_credentials()'><b>can_register_with_valid_credentials</b><br>Test class: webshop.RegisterFormTests<br>Test method: I can register {0}<br>Parameters: Correct_register_with_test1</td>
+<td title='webshop.FirstPageTests.can_access_pages_from_promos()'><b>can_access_pages_from_promos</b><br>Test class: webshop.FirstPageTests<br>Test method: I can access the pages through promo banners</td>
 <td></td>
-<td>3</td>
-<td>webshop.RegisterFormTests@4c56644f</td></tr>
+<td>6</td>
+<td>webshop.FirstPageTests@39ace1a7</td></tr>
+<tr>
+<td title='webshop.ShopProductTests.can_open_tab()'><b>can_open_tab</b><br>Test class: webshop.ShopProductTests<br>Test method: I can open tab product</td>
+<td></td>
+<td>13</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
+<tr>
+<td title='webshop.ShopProductTests.can_add_to_wishlist_men_cloths()'><b>can_add_to_wishlist_men_cloths</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add to wishlist</td>
+<td></td>
+<td>14</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
+<tr>
+<td title='webshop.FirstPageTests.can_access_slider_links()'><b>can_access_slider_links</b><br>Test class: webshop.FirstPageTests<br>Test method: I can access slider links</td>
+<td></td>
+<td>14</td>
+<td>webshop.FirstPageTests@39ace1a7</td></tr>
+<tr>
+<td title='webshop.MenuItemsTests.can_access_menu()'><b>can_access_menu</b><br>Test class: webshop.MenuItemsTests<br>Test method: I can all menu items</td>
+<td></td>
+<td>21</td>
+<td>webshop.MenuItemsTests@46702c26</td></tr>
 <tr>
 <td title='webshop.LoginFormTests.cannot_login_without_required_credentials()'><b>cannot_login_without_required_credentials</b><br>Test class: webshop.LoginFormTests<br>Test method: I can't login without credentials</td>
 <td></td>
 <td>0</td>
-<td>webshop.LoginFormTests@2fca3eb5</td></tr>
+<td>webshop.LoginFormTests@74eec640</td></tr>
 <tr>
 <td title='webshop.RegisterFormTests.can_register_with_valid_credentials()'><b>can_register_with_valid_credentials</b><br>Test class: webshop.RegisterFormTests<br>Test method: I can register {0}<br>Parameters: Correct_register_with_test2</td>
 <td></td>
-<td>3</td>
-<td>webshop.RegisterFormTests@4c56644f</td></tr>
-<tr>
-<td title='webshop.ShopProductTests.can_delete_items_from_cart()'><b>can_delete_items_from_cart</b><br>Test class: webshop.ShopProductTests<br>Test method: I can delete items from cart</td>
-<td></td>
-<td>9</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
-<tr>
-<td title='webshop.ShopProductTests.can_add_to_wishlist_men_cloths()'><b>can_add_to_wishlist_men_cloths</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add to wishlist</td>
-<td></td>
-<td>10</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
-<tr>
-<td title='webshop.LoginFormTests.cannot_login_with_wrong_password()'><b>cannot_login_with_wrong_password</b><br>Test class: webshop.LoginFormTests<br>Test method: I can't login with wrong password</td>
-<td></td>
-<td>1</td>
-<td>webshop.LoginFormTests@2fca3eb5</td></tr>
-<tr>
-<td title='webshop.MenuItemsTests.can_access_menu()'><b>can_access_menu</b><br>Test class: webshop.MenuItemsTests<br>Test method: I can all menu items</td>
-<td></td>
-<td>14</td>
-<td>webshop.MenuItemsTests@22b82ddf</td></tr>
-<tr>
-<td title='webshop.ShopProductTests.can_add_a_review_to_books()'><b>can_add_a_review_to_books</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add a review to a book</td>
-<td></td>
 <td>7</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
+<td>webshop.RegisterFormTests@d76099a</td></tr>
 <tr>
 <td title='webshop.SearchProductTests.can_search_by_name()'><b>can_search_by_name</b><br>Test class: webshop.SearchProductTests<br>Test method: I can search by name {0}<br>Parameters: Correct_Search_with_Product1</td>
 <td></td>
-<td>2</td>
-<td>webshop.SearchProductTests@49e7e8f1</td></tr>
-<tr>
-<td title='webshop.ShopProductTests.can_open_tab()'><b>can_open_tab</b><br>Test class: webshop.ShopProductTests<br>Test method: I can open tab product</td>
-<td></td>
 <td>3</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
+<td>webshop.SearchProductTests@9f1ca74</td></tr>
 <tr>
-<td title='webshop.FilterSidebarTests.can_filter_by_blazers()'><b>can_filter_by_blazers</b><br>Test class: webshop.FilterSidebarTests<br>Test method: I can filter blazers from category</td>
+<td title='webshop.ShopProductTests.can_shop_little_ones_things()'><b>can_shop_little_ones_things</b><br>Test class: webshop.ShopProductTests<br>Test method: I can shop all products in little ones</td>
 <td></td>
-<td>3</td>
-<td>webshop.FilterSidebarTests@4357524b</td></tr>
+<td>17</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
 <tr>
 <td title='webshop.LoginFormTests.can_login_with_valid_credentials()'><b>can_login_with_valid_credentials</b><br>Test class: webshop.LoginFormTests<br>Test method: I can login with valid credentials {0}<br>Parameters: Correct_Login_with_email_test1</td>
 <td></td>
-<td>3</td>
-<td>webshop.LoginFormTests@2fca3eb5</td></tr>
+<td>5</td>
+<td>webshop.LoginFormTests@74eec640</td></tr>
 <tr>
-<td title='webshop.SearchProductTests.can_search_by_name()'><b>can_search_by_name</b><br>Test class: webshop.SearchProductTests<br>Test method: I can search by name {0}<br>Parameters: Correct_Search_with_Product2</td>
+<td title='webshop.ShopProductTests.can_add_to_cart_pants()'><b>can_add_to_cart_pants</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add to cart pants men</td>
 <td></td>
-<td>2</td>
-<td>webshop.SearchProductTests@49e7e8f1</td></tr>
+<td>15</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
+<tr>
+<td title='webshop.ShopProductTests.can_change_the_quantity()'><b>can_change_the_quantity</b><br>Test class: webshop.ShopProductTests<br>Test method: I can change the quantity in the cart</td>
+<td></td>
+<td>7</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
 <tr>
 <td title='webshop.LoginFormTests.can_logout()'><b>can_logout</b><br>Test class: webshop.LoginFormTests<br>Test method: I can logout {0}<br>Parameters: Correct_Login_with_email_test1</td>
 <td></td>
 <td>1</td>
-<td>webshop.LoginFormTests@2fca3eb5</td></tr>
+<td>webshop.LoginFormTests@74eec640</td></tr>
 <tr>
-<td title='webshop.ShopProductTests.can_change_the_quantity()'><b>can_change_the_quantity</b><br>Test class: webshop.ShopProductTests<br>Test method: I can change the quantity in the cart</td>
+<td title='webshop.ShopProductTests.can_delete_items_from_cart()'><b>can_delete_items_from_cart</b><br>Test class: webshop.ShopProductTests<br>Test method: I can delete items from cart</td>
 <td></td>
-<td>4</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
+<td>12</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
+<tr>
+<td title='webshop.FilterSidebarTests.can_filter_by_blazers()'><b>can_filter_by_blazers</b><br>Test class: webshop.FilterSidebarTests<br>Test method: I can filter blazers from category</td>
+<td></td>
+<td>30</td>
+<td>webshop.FilterSidebarTests@36463b09</td></tr>
+<tr>
+<td title='webshop.LoginFormTests.cannot_login_with_wrong_password()'><b>cannot_login_with_wrong_password</b><br>Test class: webshop.LoginFormTests<br>Test method: I can't login with wrong password</td>
+<td></td>
+<td>2</td>
+<td>webshop.LoginFormTests@74eec640</td></tr>
+<tr>
+<td title='webshop.RegisterFormTests.can_register_with_valid_credentials()'><b>can_register_with_valid_credentials</b><br>Test class: webshop.RegisterFormTests<br>Test method: I can register {0}<br>Parameters: Correct_register_with_test1</td>
+<td></td>
+<td>7</td>
+<td>webshop.RegisterFormTests@d76099a</td></tr>
+<tr>
+<td title='webshop.SearchProductTests.can_search_by_name()'><b>can_search_by_name</b><br>Test class: webshop.SearchProductTests<br>Test method: I can search by name {0}<br>Parameters: Correct_Search_with_Product2</td>
+<td></td>
+<td>3</td>
+<td>webshop.SearchProductTests@9f1ca74</td></tr>
+<tr>
+<td title='webshop.ShopProductTests.can_add_to_cart_shirts_men()'><b>can_add_to_cart_shirts_men</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add to cart shirts</td>
+<td></td>
+<td>8</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
+<tr>
+<td title='webshop.ShopProductTests.can_add_a_review_to_books()'><b>can_add_a_review_to_books</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add a review to a book</td>
+<td></td>
+<td>16</td>
+<td>webshop.ShopProductTests@74619273</td></tr>
 <tr>
 <td title='webshop.LoginFormTests.click_login_links()'><b>click_login_links</b><br>Test class: webshop.LoginFormTests<br>Test method: Login Form Homepage tests suit</td>
 <td></td>
 <td>0</td>
-<td>webshop.LoginFormTests@2fca3eb5</td></tr>
-<tr>
-<td title='webshop.FilterSidebarTests.can_filter_by_price_kitchen_devices()'><b>can_filter_by_price_kitchen_devices</b><br>Test class: webshop.FilterSidebarTests<br>Test method: I can filter by price kitchen devices</td>
-<td></td>
-<td>4</td>
-<td>webshop.FilterSidebarTests@4357524b</td></tr>
-<tr>
-<td title='webshop.ShopProductTests.can_add_to_cart_pants()'><b>can_add_to_cart_pants</b><br>Test class: webshop.ShopProductTests<br>Test method: I can add to cart pants men</td>
-<td></td>
-<td>5</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
-<tr>
-<td title='webshop.ShopProductTests.can_shop_little_ones_things()'><b>can_shop_little_ones_things</b><br>Test class: webshop.ShopProductTests<br>Test method: I can shop all products in little ones</td>
-<td></td>
-<td>12</td>
-<td>webshop.ShopProductTests@25d911a</td></tr>
+<td>webshop.LoginFormTests@74eec640</td></tr>
 </table><p>
 </body>
 </html>

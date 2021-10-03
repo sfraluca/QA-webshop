@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="133.576" tests="24" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="247.956" tests="23" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Raluca\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Raluca\AppData\Local\Temp\surefire2320823748351718215\surefirebooter2694331476828324953.jar C:\Users\Raluca\AppData\Local\Temp\surefire2320823748351718215 2021-09-17T12-39-00_380-jvmRun1 surefire10806335332865604366tmp surefire_011953203238423839972tmp"/>
+    <property name="sun.java.command" value="C:\Users\Raluca\AppData\Local\Temp\surefire4825897166388363460\surefirebooter8209603837854935918.jar C:\Users\Raluca\AppData\Local\Temp\surefire4825897166388363460 2021-09-23T10-55-32_033-jvmRun1 surefire12390117715848792483tmp surefire_018424733770935497792tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Raluca\Documents\testare\proiect\webshop\QA-webshop\target\test-classes;C:\Users\Raluca\Documents\testare\proiect\webshop\QA-webshop\target\classes;C:\Users\Raluca\.m2\repository\com\codeborne\selenide\5.23.0\selenide-5.23.0.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Raluca\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Raluca\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Raluca\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Raluca\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Raluca\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Raluca\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\Raluca\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Raluca\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Raluca\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Raluca\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Raluca\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Raluca\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Raluca\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1\httpclient5-5.1.jar;C:\Users\Raluca\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.1\httpcore5-5.1.1.jar;C:\Users\Raluca\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.1\httpcore5-h2-5.1.1.jar;C:\Users\Raluca\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Raluca\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\Raluca\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Raluca\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Raluca\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Raluca\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\Raluca\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\Raluca\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Raluca\.m2\repository\org\slf4j\slf4j-api\1.7.31\slf4j-api-1.7.31.jar;C:\Users\Raluca\.m2\repository\io\qameta\allure\allure-selenide\2.14.0\allure-selenide-2.14.0.jar;C:\Users\Raluca\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Raluca\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Raluca\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Raluca\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Raluca\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Raluca\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Raluca\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Raluca\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Raluca\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Raluca\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Raluca\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Raluca\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Raluca\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\Raluca\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Raluca\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Raluca\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Raluca\.m2\repository\org\jetbrains\annotations\22.0.0\annotations-22.0.0.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Raluca\Documents\testare\proiect\webshop\QA-webshop\target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Raluca\AppData\Local\Temp\surefire2320823748351718215\surefirebooter2694331476828324953.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Raluca\AppData\Local\Temp\surefire4825897166388363460\surefirebooter8209603837854935918.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -59,17 +59,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="can_filter_by_blazers" classname="webshop.FilterSidebarTests" time="3.572">
+  <testcase name="can_filter_by_blazers" classname="webshop.FilterSidebarTests" time="30.442">
     <system-err><![CDATA[[main] ERROR io.qameta.allure.AllureLifecycle - Could not start step: no test case running
 [main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\Raluca\Documents\testare\proiect\webshop\QA-webshop\build\downloads\1631871542756_9484_1
+[main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\Raluca\Documents\testare\proiect\webshop\QA-webshop\build\downloads\1632383734595_2428_1
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Raluca\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
-Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 5246
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 11529
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sept. 17, 2021 12:39:04 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+sept. 23, 2021 10:55:36 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
 [main] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
@@ -77,7 +77,7 @@ INFO: Detected dialect: W3C
 [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=93.0.4577.82 Platform=WINDOWS
 [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.23.0
 [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-[main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (18d2416fc5e3b00d8a84f82493d2b309)
+[main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (b7b9a2bb33b8dfeb9498e86485018cc2)
 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
 [main] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
 [main] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
@@ -115,90 +115,38 @@ INFO: Detected dialect: W3C
 [main] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
 ]]></system-err>
   </testcase>
-  <testcase name="can_filter_by_price_kitchen_devices" classname="webshop.FilterSidebarTests" time="4.104"/>
-  <testcase name="can_access_pages_from_promos" classname="webshop.FirstPageTests" time="4.586">
-    <failure message="List size mismatch: expected: = 3, actual: 0, collection: .promos li&#10;Elements: []&#10;Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.png&#10;Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ListSizeMismatch"><![CDATA[com.codeborne.selenide.ex.ListSizeMismatch: 
-List size mismatch: expected: = 3, actual: 0, collection: .promos li
-Elements: []
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.html
-Timeout: 4 s.
-	at webshop.FirstPageTests.can_access_pages_from_promos(FirstPageTests.java:36)
-]]></failure>
-  </testcase>
-  <testcase name="can_access_slider_links" classname="webshop.FirstPageTests" time="4.535">
-    <failure message="Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}&#10;Expected: visible&#10;Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.png&#10;Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.slideshow-container ul.slideshow li.cycle-slide-active a&quot;}" type="com.codeborne.selenide.ex.ElementNotFound"><![CDATA[com.codeborne.selenide.ex.ElementNotFound: 
-Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".slideshow-container ul.slideshow li.cycle-slide-active a"}
-	at webshop.FirstPageTests.can_access_slider_links(FirstPageTests.java:21)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":".slideshow-container ul.slideshow li.cycle-slide-active a"}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-AI7I6V4', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=.slideshow-container ul.slideshow li.cycle-slide-active a}
-	at webshop.FirstPageTests.can_access_slider_links(FirstPageTests.java:21)
-]]></failure>
-  </testcase>
-  <testcase name="can_login_with_valid_credentials[Correct_Login_with_email_test1](1)" classname="webshop.LoginFormTests" time="3.784"/>
-  <testcase name="can_logout[Correct_Login_with_email_test1](1)" classname="webshop.LoginFormTests" time="1.335"/>
-  <testcase name="cannot_login_with_wrong_password" classname="webshop.LoginFormTests" time="1.638"/>
-  <testcase name="cannot_login_without_required_credentials" classname="webshop.LoginFormTests" time="0.937"/>
-  <testcase name="click_login_links" classname="webshop.LoginFormTests" time="0.596"/>
-  <testcase name="can_access_menu" classname="webshop.MenuItemsTests" time="14.691"/>
-  <testcase name="can_register_with_valid_credentials[Correct_register_with_test2](1)" classname="webshop.RegisterFormTests" time="3.505"/>
-  <testcase name="can_register_with_valid_credentials[Correct_register_with_test1](2)" classname="webshop.RegisterFormTests" time="3.532"/>
-  <testcase name="can_search_by_name[Correct_Search_with_Product1](1)" classname="webshop.SearchProductTests" time="2.134"/>
-  <testcase name="can_search_by_name[Correct_Search_with_Product2](2)" classname="webshop.SearchProductTests" time="2.308"/>
-  <testcase name="can_add_a_review_to_books" classname="webshop.ShopProductTests" time="7.364"/>
-  <testcase name="can_add_to_cart_pants" classname="webshop.ShopProductTests" time="5.337"/>
-  <testcase name="can_add_to_cart_shirts_men" classname="webshop.ShopProductTests" time="5.226"/>
-  <testcase name="can_add_to_wishlist_men_cloths" classname="webshop.ShopProductTests" time="10.494"/>
-  <testcase name="can_change_the_quantity" classname="webshop.ShopProductTests" time="4.408"/>
-  <testcase name="can_delete_items_from_cart" classname="webshop.ShopProductTests" time="9.493"/>
-  <testcase name="can_open_tab" classname="webshop.ShopProductTests" time="3.437"/>
-  <testcase name="can_shop_little_ones_things" classname="webshop.ShopProductTests" time="12.472"/>
-  <testcase name="can_view_old_price_on_sale" classname="webshop.ShopProductTests" time="6.067">
-    <failure message="Element not found {.products-grid .price-box p.old-price[2]}&#10;Expected: visible&#10;Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.png&#10;Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.html&#10;Timeout: 4 s.&#10;Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2" type="com.codeborne.selenide.ex.ElementNotFound"><![CDATA[com.codeborne.selenide.ex.ElementNotFound: 
+  <testcase name="can_filter_by_price_kitchen_devices" classname="webshop.FilterSidebarTests" time="7.823"/>
+  <testcase name="can_access_pages_from_promos" classname="webshop.FirstPageTests" time="6.581"/>
+  <testcase name="can_access_slider_links" classname="webshop.FirstPageTests" time="14.042"/>
+  <testcase name="can_login_with_valid_credentials[Correct_Login_with_email_test1](1)" classname="webshop.LoginFormTests" time="5.179"/>
+  <testcase name="can_logout[Correct_Login_with_email_test1](1)" classname="webshop.LoginFormTests" time="1.781"/>
+  <testcase name="cannot_login_with_wrong_password" classname="webshop.LoginFormTests" time="2.677"/>
+  <testcase name="cannot_login_without_required_credentials" classname="webshop.LoginFormTests" time="0.901"/>
+  <testcase name="click_login_links" classname="webshop.LoginFormTests" time="0.775"/>
+  <testcase name="can_access_menu" classname="webshop.MenuItemsTests" time="21.411"/>
+  <testcase name="can_register_with_valid_credentials[Correct_register_with_test2](1)" classname="webshop.RegisterFormTests" time="7.745"/>
+  <testcase name="can_register_with_valid_credentials[Correct_register_with_test1](2)" classname="webshop.RegisterFormTests" time="7.676"/>
+  <testcase name="can_search_by_name[Correct_Search_with_Product1](1)" classname="webshop.SearchProductTests" time="3.344"/>
+  <testcase name="can_search_by_name[Correct_Search_with_Product2](2)" classname="webshop.SearchProductTests" time="3.8"/>
+  <testcase name="can_add_a_review_to_books" classname="webshop.ShopProductTests" time="16.322"/>
+  <testcase name="can_add_to_cart_pants" classname="webshop.ShopProductTests" time="15.394"/>
+  <testcase name="can_add_to_cart_shirts_men" classname="webshop.ShopProductTests" time="8.679"/>
+  <testcase name="can_add_to_wishlist_men_cloths" classname="webshop.ShopProductTests" time="14.631"/>
+  <testcase name="can_change_the_quantity" classname="webshop.ShopProductTests" time="7.785"/>
+  <testcase name="can_delete_items_from_cart" classname="webshop.ShopProductTests" time="12.176"/>
+  <testcase name="can_open_tab" classname="webshop.ShopProductTests" time="13.087"/>
+  <testcase name="can_shop_little_ones_things" classname="webshop.ShopProductTests" time="17.537"/>
+  <testcase name="can_view_old_price_on_sale" classname="webshop.ShopProductTests" time="10.031">
+    <failure message="Element not found {.products-grid .price-box p.old-price[2]}&#10;Expected: visible&#10;Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.png&#10;Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.html&#10;Timeout: 4 s.&#10;Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2" type="com.codeborne.selenide.ex.ElementNotFound"><![CDATA[com.codeborne.selenide.ex.ElementNotFound: 
 Element not found {.products-grid .price-box p.old-price[2]}
 Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.html
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.html
 Timeout: 4 s.
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at webshop.ShopProductTests.can_view_old_price_on_sale(ShopProductTests.java:61)
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at webshop.ShopProductTests.can_view_old_price_on_sale(ShopProductTests.java:61)
-]]></failure>
-  </testcase>
-  <testcase name="verify_success_add_to_cart_msg" classname="webshop.ShopProductTests" time="4.26">
-    <failure message="Element not found {li.success-msg span}&#10;Expected: visible&#10;Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.png&#10;Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;li.success-msg span&quot;}" type="com.codeborne.selenide.ex.ElementNotFound"><![CDATA[com.codeborne.selenide.ex.ElementNotFound: 
-Element not found {li.success-msg span}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"li.success-msg span"}
-	at webshop.ShopProductTests.verify_success_add_to_cart_msg(ShopProductTests.java:139)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"li.success-msg span"}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-AI7I6V4', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=li.success-msg span}
-	at webshop.ShopProductTests.verify_success_add_to_cart_msg(ShopProductTests.java:139)
 ]]></failure>
   </testcase>
 </testsuite>

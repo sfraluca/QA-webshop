@@ -31,13 +31,4 @@ public class MagentoTestBasePage extends ScreenShooter {
         welcomeMessage.shouldHave(exactText(welcomeText));
         takeScreenShot("Verify welcome message text");
     }
-
-
-
-//    @Step("Verify page not found message text is: {0}")
-//    public void verifyPageNotFoundMessageByText(String pageNotFoundText) {
-//        takeScreenShot("Verify page not found message text is " + pageNotFoundText);
-//        pageNotFoundMessage.shouldHave(exactText(pageNotFoundText));
-//        takeScreenShot("Page Not Found");
-//    }
 }

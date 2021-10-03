@@ -123,8 +123,6 @@ public class ShopProduct extends ScreenShooter {
     public void isQuantityUpdateVisible() {
         takeScreenShot("Quantity update should be visible");
         quantityUpdate.shouldBe(Condition.visible); }
-    public void isCosplayMenuVisible() { cosplayMenu.shouldBe(Condition.visible); }
-    public void isCompareButtonVisible() { compareButton.shouldBe(Condition.visible); }
 
     @Step("Men Color visibility")
     public void isMenKhakiColorVisible() {
@@ -188,7 +186,6 @@ public class ShopProduct extends ScreenShooter {
     public void isFirstReviewTabVisible() {
         takeScreenShot("First review should be visible");
         firstReviewTab.shouldBe(visible); }
-    public void isCloseCompareVisible() { clickOnCloseCompare.shouldBe(visible); }
 
     @Step("Old price visibility")
     public void isOldPriceVisible() {
@@ -222,13 +219,6 @@ public class ShopProduct extends ScreenShooter {
         for (int i = 0; i< quantityInput.size(); i++) {
             takeScreenShot("Quantity input should be visible");
             quantityInput.get(i).shouldBe(Condition.visible);
-        }
-    }
-
-    public void isCompareLinksVisible() {
-        for (int i = 0; i< compareLinks.size(); i++) {
-            takeScreenShot("Slider should be visible");
-            compareLinks.get(i).shouldBe(Condition.visible);
         }
     }
 
@@ -289,9 +279,6 @@ public class ShopProduct extends ScreenShooter {
     public void clickOnCosplayMenu() {
         cosplayMenu.click();
     }
-    public void clickOnCompareButton() {
-        compareButton.click();
-    }
     public void clickOnKhakiColorMen() {
         khakiColor.click();
     }
@@ -303,7 +290,6 @@ public class ShopProduct extends ScreenShooter {
     }
     public void clickOnReviewTab() { reviewTab.click(); }
     public void clickOnFirstReviewTab() { firstReviewTab.click(); }
-    public void clickOnCloseCompare() { clickOnCloseCompare.click(); }
 
     public void fillInDescriptionReview(String description) {
         descriptionReview.sendKeys(description);
@@ -340,12 +326,6 @@ public class ShopProduct extends ScreenShooter {
             quantityInput.get(0).sendKeys(input);
             quantityInput.get(0).click();
             return;
-        }
-    }
-
-    public void clickOnCompareLinks() {
-        for (int i = 0; i< compareLinks.size(); i++) {
-            compareLinks.get(i).click();
         }
     }
 

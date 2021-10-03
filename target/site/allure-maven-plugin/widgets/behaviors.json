@@ -4,23 +4,12 @@
     "uid" : "33a68c99e18e791bdde8b0d36dac7a3f",
     "name" : "ShopProducts",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
-    }
-  }, {
-    "uid" : "1c654fc03bb30ea1a362d48ae710beef",
-    "name" : "FirstPageTests",
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
+      "total" : 9
     }
   }, {
     "uid" : "47c1541137b592e80a8c7b2c315dcfa4",
@@ -32,6 +21,17 @@
       "passed" : 5,
       "unknown" : 0,
       "total" : 5
+    }
+  }, {
+    "uid" : "1c654fc03bb30ea1a362d48ae710beef",
+    "name" : "FirstPageTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "a9f0b28da0d24a6795d5b83d3000dc56",

@@ -1,67 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 133.576 s <<< FAILURE! - in TestSuite
-webshop.FirstPageTests.can_access_pages_from_promos  Time elapsed: 4.586 s  <<< FAILURE!
-com.codeborne.selenide.ex.ListSizeMismatch: 
-List size mismatch: expected: = 3, actual: 0, collection: .promos li
-Elements: []
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871567163.0.html
-Timeout: 4 s.
-	at webshop.FirstPageTests.can_access_pages_from_promos(FirstPageTests.java:36)
-
-webshop.FirstPageTests.can_access_slider_links  Time elapsed: 4.535 s  <<< FAILURE!
-com.codeborne.selenide.ex.ElementNotFound: 
-Element not found {.slideshow-container ul.slideshow li.cycle-slide-active a}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871571666.1.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".slideshow-container ul.slideshow li.cycle-slide-active a"}
-	at webshop.FirstPageTests.can_access_slider_links(FirstPageTests.java:21)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":".slideshow-container ul.slideshow li.cycle-slide-active a"}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-AI7I6V4', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=.slideshow-container ul.slideshow li.cycle-slide-active a}
-	at webshop.FirstPageTests.can_access_slider_links(FirstPageTests.java:21)
-
-webshop.ShopProductTests.can_view_old_price_on_sale  Time elapsed: 6.067 s  <<< FAILURE!
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 247.956 s <<< FAILURE! - in TestSuite
+webshop.ShopProductTests.can_view_old_price_on_sale  Time elapsed: 10.031 s  <<< FAILURE!
 com.codeborne.selenide.ex.ElementNotFound: 
 Element not found {.products-grid .price-box p.old-price[2]}
 Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871670498.2.html
+Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.png
+Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.html
 Timeout: 4 s.
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at webshop.ShopProductTests.can_view_old_price_on_sale(ShopProductTests.java:61)
 Caused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
 	at webshop.ShopProductTests.can_view_old_price_on_sale(ShopProductTests.java:61)
-
-webshop.ShopProductTests.verify_success_add_to_cart_msg  Time elapsed: 4.26 s  <<< FAILURE!
-com.codeborne.selenide.ex.ElementNotFound: 
-Element not found {li.success-msg span}
-Expected: visible
-Screenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.png
-Page source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1631871674744.3.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"li.success-msg span"}
-	at webshop.ShopProductTests.verify_success_add_to_cart_msg(ShopProductTests.java:139)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"li.success-msg span"}
-  (Session info: chrome=93.0.4577.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-AI7I6V4', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Raluca\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 18d2416fc5e3b00d8a84f82493d2b309
-*** Element info: {Using=css selector, value=li.success-msg span}
-	at webshop.ShopProductTests.verify_success_add_to_cart_msg(ShopProductTests.java:139)
 

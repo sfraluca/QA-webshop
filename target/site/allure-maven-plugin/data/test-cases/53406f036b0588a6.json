@@ -1,0 +1,356 @@
+{
+  "uid" : "53406f036b0588a6",
+  "name" : "I can add a review to a book",
+  "fullName" : "webshop.ShopProductTests.can_add_a_review_to_books",
+  "historyId" : "7f771f903bc2bc80f9e11d7b65f124da",
+  "time" : {
+    "start" : 1632383865380,
+    "stop" : 1632383881702,
+    "duration" : 16322
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Home Deco visibility",
+      "time" : {
+        "start" : 1632383865380,
+        "stop" : 1632383865841,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af41f5ff1a58b955",
+        "name" : "PrintScreen Home Deco should be visible",
+        "source" : "af41f5ff1a58b955.png",
+        "type" : "image/png",
+        "size" : 366846
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Books Music visibility",
+      "time" : {
+        "start" : 1632383865985,
+        "stop" : 1632383866439,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e3da7a48c15c1e1",
+        "name" : "PrintScreen Books Music should be visible",
+        "source" : "2e3da7a48c15c1e1.png",
+        "type" : "image/png",
+        "size" : 352789
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Book music visibility",
+      "time" : {
+        "start" : 1632383867279,
+        "stop" : 1632383870771,
+        "duration" : 3492
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "996e38dd07b01837",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "996e38dd07b01837.png",
+        "type" : "image/png",
+        "size" : 420283
+      }, {
+        "uid" : "b7dce4e09b3f6439",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "b7dce4e09b3f6439.png",
+        "type" : "image/png",
+        "size" : 420283
+      }, {
+        "uid" : "7941492f601dd488",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "7941492f601dd488.png",
+        "type" : "image/png",
+        "size" : 420283
+      }, {
+        "uid" : "a6b02a9892c77746",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "a6b02a9892c77746.png",
+        "type" : "image/png",
+        "size" : 420283
+      }, {
+        "uid" : "d002c784435aab89",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "d002c784435aab89.png",
+        "type" : "image/png",
+        "size" : 420283
+      }, {
+        "uid" : "6b0d85106d0bf057",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "6b0d85106d0bf057.png",
+        "type" : "image/png",
+        "size" : 420283
+      }, {
+        "uid" : "39b93ec02bf6f622",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "39b93ec02bf6f622.png",
+        "type" : "image/png",
+        "size" : 420283
+      }, {
+        "uid" : "3d9dac4746ad0a90",
+        "name" : "PrintScreen Book music should be visible",
+        "source" : "3d9dac4746ad0a90.png",
+        "type" : "image/png",
+        "size" : 420283
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 8,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Review tab visibility",
+      "time" : {
+        "start" : 1632383871962,
+        "stop" : 1632383872683,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5788892a803b1049",
+        "name" : "PrintScreen Review tab should be visible",
+        "source" : "5788892a803b1049.png",
+        "type" : "image/png",
+        "size" : 1092762
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "First review visibility",
+      "time" : {
+        "start" : 1632383872772,
+        "stop" : 1632383873758,
+        "duration" : 986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7e504bf0d146324",
+        "name" : "PrintScreen First review should be visible",
+        "source" : "e7e504bf0d146324.png",
+        "type" : "image/png",
+        "size" : 1682169
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Rating stars visibility",
+      "time" : {
+        "start" : 1632383876631,
+        "stop" : 1632383878105,
+        "duration" : 1474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84ada0a31e61c9d8",
+        "name" : "PrintScreen Rating stars should be visible",
+        "source" : "84ada0a31e61c9d8.png",
+        "type" : "image/png",
+        "size" : 67269
+      }, {
+        "uid" : "9ab71b92697230cd",
+        "name" : "PrintScreen Rating stars should be visible",
+        "source" : "9ab71b92697230cd.png",
+        "type" : "image/png",
+        "size" : 67269
+      }, {
+        "uid" : "22bdf46f4e4c4720",
+        "name" : "PrintScreen Rating stars should be visible",
+        "source" : "22bdf46f4e4c4720.png",
+        "type" : "image/png",
+        "size" : 67269
+      }, {
+        "uid" : "f535bbb71bd87b1c",
+        "name" : "PrintScreen Rating stars should be visible",
+        "source" : "f535bbb71bd87b1c.png",
+        "type" : "image/png",
+        "size" : 67269
+      }, {
+        "uid" : "e16260aaae705a68",
+        "name" : "PrintScreen Rating stars should be visible",
+        "source" : "e16260aaae705a68.png",
+        "type" : "image/png",
+        "size" : 67269
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Description review visibility",
+      "time" : {
+        "start" : 1632383878574,
+        "stop" : 1632383878874,
+        "duration" : 300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9029404f2ae9e805",
+        "name" : "PrintScreen Description review should be visible",
+        "source" : "9029404f2ae9e805.png",
+        "type" : "image/png",
+        "size" : 69565
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Summary visibility",
+      "time" : {
+        "start" : 1632383878994,
+        "stop" : 1632383879311,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0a1e806e91b5be3",
+        "name" : "PrintScreen Summary should be visible",
+        "source" : "b0a1e806e91b5be3.png",
+        "type" : "image/png",
+        "size" : 76172
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Mick name visibility",
+      "time" : {
+        "start" : 1632383879432,
+        "stop" : 1632383879733,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cecad7b441e8f140",
+        "name" : "PrintScreen Mick name should be visible",
+        "source" : "cecad7b441e8f140.png",
+        "type" : "image/png",
+        "size" : 78729
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Submit review visibility",
+      "time" : {
+        "start" : 1632383879840,
+        "stop" : 1632383880179,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32e17a784c5ca639",
+        "name" : "PrintScreen Submit should be visible",
+        "source" : "32e17a784c5ca639.png",
+        "type" : "image/png",
+        "size" : 80010
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "testClass",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can_add_a_review_to_books"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AI7I6V4"
+  }, {
+    "name" : "thread",
+    "value" : "2428@DESKTOP-AI7I6V4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Add a review books and music"
+  }, {
+    "name" : "epic",
+    "value" : "ShopProducts"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53406f036b0588a6.json",
+  "parameterValues" : [ ]
+}

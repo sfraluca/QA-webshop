@@ -5,13 +5,13 @@
     "name" : "Filter blazers",
     "children" : [ {
       "name" : "I can filter blazers from category",
-      "uid" : "522f44461585bded",
+      "uid" : "509d259def5db9a7",
       "parentUid" : "6cda21464d700c742d0d9e66f04396bc",
       "status" : "passed",
       "time" : {
-        "start" : 1631871555084,
-        "stop" : 1631871558605,
-        "duration" : 3521
+        "start" : 1632383750966,
+        "stop" : 1632383781370,
+        "duration" : 30404
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -21,13 +21,13 @@
     "name" : "Filter by price kitchen",
     "children" : [ {
       "name" : "I can filter by price kitchen devices",
-      "uid" : "83f2b8ec7f909091",
+      "uid" : "ecba91c1f3a1b76a",
       "parentUid" : "dacffb986a0b326c986d2cc445546d4a",
       "status" : "passed",
       "time" : {
-        "start" : 1631871558697,
-        "stop" : 1631871562799,
-        "duration" : 4102
+        "start" : 1632383781580,
+        "stop" : 1632383789394,
+        "duration" : 7814
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -39,13 +39,13 @@
       "name" : "PromoBanner",
       "children" : [ {
         "name" : "I can access the pages through promo banners",
-        "uid" : "5660337710a625b1",
+        "uid" : "c871d33d6860f84e",
         "parentUid" : "b11dc4cf47f6e9bd47a1c29e74ab6a00",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1631871562804,
-          "stop" : 1631871567383,
-          "duration" : 4579
+          "start" : 1632383789401,
+          "stop" : 1632383795981,
+          "duration" : 6580
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -55,13 +55,13 @@
       "name" : "Slider",
       "children" : [ {
         "name" : "I can access slider links",
-        "uid" : "2e8d94bd306d768b",
+        "uid" : "e374354c5ec4a458",
         "parentUid" : "f9d710d469b068492158c6f894ce88ec",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1631871567392,
-          "stop" : 1631871571919,
-          "duration" : 4527
+          "start" : 1632383795984,
+          "stop" : 1632383810025,
+          "duration" : 14041
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -75,13 +75,13 @@
       "name" : "Login",
       "children" : [ {
         "name" : "I can login with valid credentials {0}",
-        "uid" : "3654f056ec7ad749",
+        "uid" : "585a38a4f512407a",
         "parentUid" : "936665e77a178b4b42d63b29b7dd1109",
         "status" : "passed",
         "time" : {
-          "start" : 1631871571933,
-          "stop" : 1631871575712,
-          "duration" : 3779
+          "start" : 1632383810059,
+          "stop" : 1632383815225,
+          "duration" : 5166
         },
         "flaky" : false,
         "parameters" : [ "Correct_Login_with_email_test1" ]
@@ -91,13 +91,13 @@
       "name" : "Logout",
       "children" : [ {
         "name" : "I can logout {0}",
-        "uid" : "f327c44cd88282a5",
+        "uid" : "d907c38805403012",
         "parentUid" : "7e36fa982790a03609ad459a04d5fa67",
         "status" : "passed",
         "time" : {
-          "start" : 1631871575723,
-          "stop" : 1631871577057,
-          "duration" : 1334
+          "start" : 1632383815233,
+          "stop" : 1632383817013,
+          "duration" : 1780
         },
         "flaky" : false,
         "parameters" : [ "Correct_Login_with_email_test1" ]
@@ -107,13 +107,13 @@
       "name" : "Wrong password",
       "children" : [ {
         "name" : "I can't login with wrong password",
-        "uid" : "aae4c3eea7f0072c",
+        "uid" : "fde0b5244c3cb75",
         "parentUid" : "7795cc6afffc8d64fe03ac1fe13b03fc",
         "status" : "passed",
         "time" : {
-          "start" : 1631871577062,
-          "stop" : 1631871578699,
-          "duration" : 1637
+          "start" : 1632383817018,
+          "stop" : 1632383819693,
+          "duration" : 2675
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -123,13 +123,13 @@
       "name" : "Missing credentials",
       "children" : [ {
         "name" : "I can't login without credentials",
-        "uid" : "55f06ba048c07106",
+        "uid" : "76778e93c227d33b",
         "parentUid" : "fca103ffe19320b9fdaefcbe9b099913",
         "status" : "passed",
         "time" : {
-          "start" : 1631871578702,
-          "stop" : 1631871579638,
-          "duration" : 936
+          "start" : 1632383819696,
+          "stop" : 1632383820597,
+          "duration" : 901
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -137,13 +137,13 @@
       "uid" : "fca103ffe19320b9fdaefcbe9b099913"
     }, {
       "name" : "Login Form Homepage tests suit",
-      "uid" : "91c3054cc18f6f97",
+      "uid" : "39076d5d8520e62b",
       "parentUid" : "47c1541137b592e80a8c7b2c315dcfa4",
       "status" : "passed",
       "time" : {
-        "start" : 1631871579640,
-        "stop" : 1631871580236,
-        "duration" : 596
+        "start" : 1632383820602,
+        "stop" : 1632383821374,
+        "duration" : 772
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -155,13 +155,13 @@
       "name" : "Menu items",
       "children" : [ {
         "name" : "I can all menu items",
-        "uid" : "418cdbe3db1d722d",
+        "uid" : "9a88a4acad1f8511",
         "parentUid" : "b155131ac4047a4821e3fd0473a7614a",
         "status" : "passed",
         "time" : {
-          "start" : 1631871580239,
-          "stop" : 1631871594928,
-          "duration" : 14689
+          "start" : 1632383821378,
+          "stop" : 1632383842788,
+          "duration" : 21410
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -173,25 +173,25 @@
     "name" : "RegisterFormTests",
     "children" : [ {
       "name" : "I can register {0}",
-      "uid" : "3e7af5a439372e9d",
+      "uid" : "d211164bb844ab25",
       "parentUid" : "a9f0b28da0d24a6795d5b83d3000dc56",
       "status" : "passed",
       "time" : {
-        "start" : 1631871594932,
-        "stop" : 1631871598434,
-        "duration" : 3502
+        "start" : 1632383842795,
+        "stop" : 1632383850536,
+        "duration" : 7741
       },
       "flaky" : false,
       "parameters" : [ "Correct_register_with_test2" ]
     }, {
       "name" : "I can register {0}",
-      "uid" : "d92a4d4f1868993a",
+      "uid" : "8f4ee538d3a6e491",
       "parentUid" : "a9f0b28da0d24a6795d5b83d3000dc56",
       "status" : "passed",
       "time" : {
-        "start" : 1631871598438,
-        "stop" : 1631871601970,
-        "duration" : 3532
+        "start" : 1632383850544,
+        "stop" : 1632383858218,
+        "duration" : 7674
       },
       "flaky" : false,
       "parameters" : [ "Correct_register_with_test1" ]
@@ -203,25 +203,25 @@
       "name" : "Search by name",
       "children" : [ {
         "name" : "I can search by name {0}",
-        "uid" : "b5d9389961216805",
+        "uid" : "9c0b912c145d4990",
         "parentUid" : "cce48fe31bb101bb513e7ef49c47075a",
         "status" : "passed",
         "time" : {
-          "start" : 1631871601973,
-          "stop" : 1631871604101,
-          "duration" : 2128
+          "start" : 1632383858225,
+          "stop" : 1632383861567,
+          "duration" : 3342
         },
         "flaky" : false,
         "parameters" : [ "Correct_Search_with_Product1" ]
       }, {
         "name" : "I can search by name {0}",
-        "uid" : "74489337d62a1b62",
+        "uid" : "179fbc6b83c3715b",
         "parentUid" : "cce48fe31bb101bb513e7ef49c47075a",
         "status" : "passed",
         "time" : {
-          "start" : 1631871604108,
-          "stop" : 1631871606409,
-          "duration" : 2301
+          "start" : 1632383861573,
+          "stop" : 1632383865372,
+          "duration" : 3799
         },
         "flaky" : false,
         "parameters" : [ "Correct_Search_with_Product2" ]
@@ -235,13 +235,13 @@
       "name" : "Add a review books and music",
       "children" : [ {
         "name" : "I can add a review to a book",
-        "uid" : "4cbea443ed03d3c7",
+        "uid" : "53406f036b0588a6",
         "parentUid" : "658e16f787f2c1fdbe587513ec306083",
         "status" : "passed",
         "time" : {
-          "start" : 1631871606421,
-          "stop" : 1631871613783,
-          "duration" : 7362
+          "start" : 1632383865380,
+          "stop" : 1632383881702,
+          "duration" : 16322
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -251,13 +251,13 @@
       "name" : "Add to cart pants",
       "children" : [ {
         "name" : "I can add to cart pants men",
-        "uid" : "6d4ddc7e2cbc4551",
+        "uid" : "af8ae2d5a55af08d",
         "parentUid" : "b7ddb59acb152116adb10025136197fd",
         "status" : "passed",
         "time" : {
-          "start" : 1631871613788,
-          "stop" : 1631871619122,
-          "duration" : 5334
+          "start" : 1632383881707,
+          "stop" : 1632383897099,
+          "duration" : 15392
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -267,13 +267,13 @@
       "name" : "Shop by men cloths",
       "children" : [ {
         "name" : "I can add to cart shirts",
-        "uid" : "8086da4e2d5bbd00",
+        "uid" : "6394774df38a2605",
         "parentUid" : "d93ac01df978ecf867437ed01210dc4c",
         "status" : "passed",
         "time" : {
-          "start" : 1631871619127,
-          "stop" : 1631871624351,
-          "duration" : 5224
+          "start" : 1632383897106,
+          "stop" : 1632383905784,
+          "duration" : 8678
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -283,13 +283,13 @@
       "name" : "Add To wishlist men cloths",
       "children" : [ {
         "name" : "I can add to wishlist",
-        "uid" : "de0c00d939d8d378",
+        "uid" : "932f94e499fe72e8",
         "parentUid" : "26758683dd929a82bc72890949d3e4b2",
         "status" : "passed",
         "time" : {
-          "start" : 1631871624355,
-          "stop" : 1631871634849,
-          "duration" : 10494
+          "start" : 1632383905789,
+          "stop" : 1632383920417,
+          "duration" : 14628
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -299,13 +299,13 @@
       "name" : "Quantity cart",
       "children" : [ {
         "name" : "I can change the quantity in the cart",
-        "uid" : "fd0265c4865ffd69",
+        "uid" : "76397e906e2fb450",
         "parentUid" : "fe3806d9ea1b0edac5a279d581e7ae67",
         "status" : "passed",
         "time" : {
-          "start" : 1631871634854,
-          "stop" : 1631871639261,
-          "duration" : 4407
+          "start" : 1632383920423,
+          "stop" : 1632383928207,
+          "duration" : 7784
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -315,13 +315,13 @@
       "name" : "Delete products from cart",
       "children" : [ {
         "name" : "I can delete items from cart",
-        "uid" : "9683ad8e69c68ac8",
+        "uid" : "546b2553d6f5fdff",
         "parentUid" : "20b179d2ca87ea194d184d3fdc721e87",
         "status" : "passed",
         "time" : {
-          "start" : 1631871639264,
-          "stop" : 1631871648756,
-          "duration" : 9492
+          "start" : 1632383928211,
+          "stop" : 1632383940386,
+          "duration" : 12175
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -331,13 +331,13 @@
       "name" : "Tab product",
       "children" : [ {
         "name" : "I can open tab product",
-        "uid" : "8a014decc9362111",
+        "uid" : "3e57a2d3b03d0e7e",
         "parentUid" : "867b3f5fe9322ba80a1bace58185339d",
         "status" : "passed",
         "time" : {
-          "start" : 1631871648758,
-          "stop" : 1631871652195,
-          "duration" : 3437
+          "start" : 1632383940390,
+          "stop" : 1632383953473,
+          "duration" : 13083
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -347,13 +347,13 @@
       "name" : "Baby's cloths shop",
       "children" : [ {
         "name" : "I can shop all products in little ones",
-        "uid" : "f940a62542770bb",
+        "uid" : "aa0457bc0cf2f339",
         "parentUid" : "eeb093bce3fee0fce8ecca305c7c4169",
         "status" : "passed",
         "time" : {
-          "start" : 1631871652197,
-          "stop" : 1631871664668,
-          "duration" : 12471
+          "start" : 1632383953480,
+          "stop" : 1632383971015,
+          "duration" : 17535
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -363,34 +363,18 @@
       "name" : "Sale price",
       "children" : [ {
         "name" : "I can see old price on sale",
-        "uid" : "3cbafe4160948501",
+        "uid" : "b1f47f4be0919a65",
         "parentUid" : "833faae99fc55659276a02cff5788f02",
         "status" : "failed",
         "time" : {
-          "start" : 1631871664671,
-          "stop" : 1631871670737,
-          "duration" : 6066
+          "start" : 1632383971023,
+          "stop" : 1632383981053,
+          "duration" : 10030
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "833faae99fc55659276a02cff5788f02"
-    }, {
-      "name" : "Message add to cart",
-      "children" : [ {
-        "name" : "I can see message add to cart",
-        "uid" : "bb3b48409c2f4dd5",
-        "parentUid" : "a64ce25f269ac8297b1665991665227c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1631871670740,
-          "stop" : 1631871674996,
-          "duration" : 4256
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a64ce25f269ac8297b1665991665227c"
     } ],
     "uid" : "33a68c99e18e791bdde8b0d36dac7a3f"
   } ]

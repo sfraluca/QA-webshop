@@ -1,0 +1,164 @@
+{
+  "uid" : "e374354c5ec4a458",
+  "name" : "I can access slider links",
+  "fullName" : "webshop.FirstPageTests.can_access_slider_links",
+  "historyId" : "2030a5d4b751aa2e0853c5f36fdb1c5b",
+  "time" : {
+    "start" : 1632383795984,
+    "stop" : 1632383810025,
+    "duration" : 14041
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Homepage Logo",
+      "time" : {
+        "start" : 1632383795984,
+        "stop" : 1632383796813,
+        "duration" : 829
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27c9393f6c42ccf0",
+        "name" : "PrintScreen Homepage Logo should be visible",
+        "source" : "27c9393f6c42ccf0.png",
+        "type" : "image/png",
+        "size" : 1039012
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Slider on first page",
+      "time" : {
+        "start" : 1632383797407,
+        "stop" : 1632383798217,
+        "duration" : 810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2efc0202c0f5641d",
+        "name" : "PrintScreen Slider should be visible",
+        "source" : "2efc0202c0f5641d.png",
+        "type" : "image/png",
+        "size" : 1039012
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Slider next on first page",
+      "time" : {
+        "start" : 1632383798218,
+        "stop" : 1632383799018,
+        "duration" : 800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "267a5f4956fbc042",
+        "name" : "PrintScreen Slider next should be visible",
+        "source" : "267a5f4956fbc042.png",
+        "type" : "image/png",
+        "size" : 1039012
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Slider prev on first page",
+      "time" : {
+        "start" : 1632383806818,
+        "stop" : 1632383807422,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbeaa02ead0027d5",
+        "name" : "PrintScreen Slider prev should be visible",
+        "source" : "fbeaa02ead0027d5.png",
+        "type" : "image/png",
+        "size" : 728941
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "webshop.FirstPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "webshop.FirstPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can_access_slider_links"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "webshop.FirstPageTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AI7I6V4"
+  }, {
+    "name" : "thread",
+    "value" : "2428@DESKTOP-AI7I6V4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Slider"
+  }, {
+    "name" : "epic",
+    "value" : "FirstPageTests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e374354c5ec4a458.json",
+  "parameterValues" : [ ]
+}

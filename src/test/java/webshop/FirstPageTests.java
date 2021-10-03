@@ -18,6 +18,8 @@ public class FirstPageTests extends MagentoTestBasePage{
     @Feature("Slider")
     @Test(description = "I can access slider links")
     public void can_access_slider_links() {
+        firstPageAccess.isHomePageVisible();
+        firstPageAccess.clickOnHomepageLogo();
         firstPageAccess.isSliderVisible();
         firstPageAccess.isSliderNextVisible();
         sleep(2500);
@@ -33,8 +35,9 @@ public class FirstPageTests extends MagentoTestBasePage{
     @Feature("PromoBanner")
     @Test(description = "I can access the pages through promo banners")
     public void can_access_pages_from_promos() {
-            firstPageAccess.isPromoBannersVisible();
-            firstPageAccess.clickOnPromoBanner();
+        firstPageAccess.clickOnHomePageBreadcrumbs();
+        firstPageAccess.isPromoBannersVisible();
+        firstPageAccess.clickOnPromoBanner();
     }
 
 

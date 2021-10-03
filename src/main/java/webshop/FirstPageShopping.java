@@ -15,6 +15,7 @@ public class FirstPageShopping extends ScreenShooter{
   public final SelenideElement slideshowNext = $(".slideshow-container .slideshow-next");
   public final SelenideElement slideshowPrev = $(".slideshow-container .slideshow-prev");
   public final SelenideElement homepageBreadcrumbs = $(".breadcrumbs li.home a");
+  public final SelenideElement homepageLogo = $(".logo");
 
   private final ElementsCollection promoBanner = $$(".promos li");
 
@@ -25,6 +26,13 @@ public class FirstPageShopping extends ScreenShooter{
   public void isSliderVisible() {
     takeScreenShot("Slider should be visible");
     slider.shouldBe(Condition.visible);
+
+  }
+
+  @Step("Homepage Logo")
+  public void isHomePageVisible() {
+    takeScreenShot("Homepage Logo should be visible");
+    homepageLogo.shouldBe(Condition.visible);
 
   }
 
@@ -57,6 +65,7 @@ public class FirstPageShopping extends ScreenShooter{
   public void clickOnHomePageBreadcrumbs() { homepageBreadcrumbs.click(); }
   public void clickOnSlideShowNext() { slideshowNext.click(); }
   public void clickOnSlideShowPrev() { slideshowPrev.click(); }
+  public void clickOnHomepageLogo() { homepageLogo.click(); }
 
   public void clickOnPromoBanner() {
     FirstPageShopping homepageBack = new FirstPageShopping();

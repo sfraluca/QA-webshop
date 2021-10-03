@@ -1,241 +1,231 @@
 [ {
-  "uid" : "74489337d62a1b62",
-  "name" : "I can search by name {0}",
-  "time" : {
-    "start" : 1631871604108,
-    "stop" : 1631871606409,
-    "duration" : 2301
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "f327c44cd88282a5",
-  "name" : "I can logout {0}",
-  "time" : {
-    "start" : 1631871575723,
-    "stop" : 1631871577057,
-    "duration" : 1334
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d92a4d4f1868993a",
-  "name" : "I can register {0}",
-  "time" : {
-    "start" : 1631871598438,
-    "stop" : 1631871601970,
-    "duration" : 3532
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "9683ad8e69c68ac8",
-  "name" : "I can delete items from cart",
-  "time" : {
-    "start" : 1631871639264,
-    "stop" : 1631871648756,
-    "duration" : 9492
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "3cbafe4160948501",
-  "name" : "I can see old price on sale",
-  "time" : {
-    "start" : 1631871664671,
-    "stop" : 1631871670737,
-    "duration" : 6066
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "5660337710a625b1",
-  "name" : "I can access the pages through promo banners",
-  "time" : {
-    "start" : 1631871562804,
-    "stop" : 1631871567383,
-    "duration" : 4579
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "6d4ddc7e2cbc4551",
-  "name" : "I can add to cart pants men",
-  "time" : {
-    "start" : 1631871613788,
-    "stop" : 1631871619122,
-    "duration" : 5334
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "522f44461585bded",
-  "name" : "I can filter blazers from category",
-  "time" : {
-    "start" : 1631871555084,
-    "stop" : 1631871558605,
-    "duration" : 3521
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb3b48409c2f4dd5",
-  "name" : "I can see message add to cart",
-  "time" : {
-    "start" : 1631871670740,
-    "stop" : 1631871674996,
-    "duration" : 4256
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "3e7af5a439372e9d",
-  "name" : "I can register {0}",
-  "time" : {
-    "start" : 1631871594932,
-    "stop" : 1631871598434,
-    "duration" : 3502
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b5d9389961216805",
-  "name" : "I can search by name {0}",
-  "time" : {
-    "start" : 1631871601973,
-    "stop" : 1631871604101,
-    "duration" : 2128
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "3654f056ec7ad749",
-  "name" : "I can login with valid credentials {0}",
-  "time" : {
-    "start" : 1631871571933,
-    "stop" : 1631871575712,
-    "duration" : 3779
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "8a014decc9362111",
-  "name" : "I can open tab product",
-  "time" : {
-    "start" : 1631871648758,
-    "stop" : 1631871652195,
-    "duration" : 3437
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "2e8d94bd306d768b",
-  "name" : "I can access slider links",
-  "time" : {
-    "start" : 1631871567392,
-    "stop" : 1631871571919,
-    "duration" : 4527
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "de0c00d939d8d378",
-  "name" : "I can add to wishlist",
-  "time" : {
-    "start" : 1631871624355,
-    "stop" : 1631871634849,
-    "duration" : 10494
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "8086da4e2d5bbd00",
-  "name" : "I can add to cart shirts",
-  "time" : {
-    "start" : 1631871619127,
-    "stop" : 1631871624351,
-    "duration" : 5224
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "91c3054cc18f6f97",
-  "name" : "Login Form Homepage tests suit",
-  "time" : {
-    "start" : 1631871579640,
-    "stop" : 1631871580236,
-    "duration" : 596
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "55f06ba048c07106",
-  "name" : "I can't login without credentials",
-  "time" : {
-    "start" : 1631871578702,
-    "stop" : 1631871579638,
-    "duration" : 936
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "aae4c3eea7f0072c",
-  "name" : "I can't login with wrong password",
-  "time" : {
-    "start" : 1631871577062,
-    "stop" : 1631871578699,
-    "duration" : 1637
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4cbea443ed03d3c7",
-  "name" : "I can add a review to a book",
-  "time" : {
-    "start" : 1631871606421,
-    "stop" : 1631871613783,
-    "duration" : 7362
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "fd0265c4865ffd69",
-  "name" : "I can change the quantity in the cart",
-  "time" : {
-    "start" : 1631871634854,
-    "stop" : 1631871639261,
-    "duration" : 4407
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "f940a62542770bb",
-  "name" : "I can shop all products in little ones",
-  "time" : {
-    "start" : 1631871652197,
-    "stop" : 1631871664668,
-    "duration" : 12471
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "418cdbe3db1d722d",
-  "name" : "I can all menu items",
-  "time" : {
-    "start" : 1631871580239,
-    "stop" : 1631871594928,
-    "duration" : 14689
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "83f2b8ec7f909091",
+  "uid" : "ecba91c1f3a1b76a",
   "name" : "I can filter by price kitchen devices",
   "time" : {
-    "start" : 1631871558697,
-    "stop" : 1631871562799,
-    "duration" : 4102
+    "start" : 1632383781580,
+    "stop" : 1632383789394,
+    "duration" : 7814
   },
   "status" : "passed",
   "severity" : "normal"
+}, {
+  "uid" : "53406f036b0588a6",
+  "name" : "I can add a review to a book",
+  "time" : {
+    "start" : 1632383865380,
+    "stop" : 1632383881702,
+    "duration" : 16322
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "af8ae2d5a55af08d",
+  "name" : "I can add to cart pants men",
+  "time" : {
+    "start" : 1632383881707,
+    "stop" : 1632383897099,
+    "duration" : 15392
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e374354c5ec4a458",
+  "name" : "I can access slider links",
+  "time" : {
+    "start" : 1632383795984,
+    "stop" : 1632383810025,
+    "duration" : 14041
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d907c38805403012",
+  "name" : "I can logout {0}",
+  "time" : {
+    "start" : 1632383815233,
+    "stop" : 1632383817013,
+    "duration" : 1780
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c871d33d6860f84e",
+  "name" : "I can access the pages through promo banners",
+  "time" : {
+    "start" : 1632383789401,
+    "stop" : 1632383795981,
+    "duration" : 6580
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "546b2553d6f5fdff",
+  "name" : "I can delete items from cart",
+  "time" : {
+    "start" : 1632383928211,
+    "stop" : 1632383940386,
+    "duration" : 12175
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b1f47f4be0919a65",
+  "name" : "I can see old price on sale",
+  "time" : {
+    "start" : 1632383971023,
+    "stop" : 1632383981053,
+    "duration" : 10030
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa0457bc0cf2f339",
+  "name" : "I can shop all products in little ones",
+  "time" : {
+    "start" : 1632383953480,
+    "stop" : 1632383971015,
+    "duration" : 17535
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9a88a4acad1f8511",
+  "name" : "I can all menu items",
+  "time" : {
+    "start" : 1632383821378,
+    "stop" : 1632383842788,
+    "duration" : 21410
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "76778e93c227d33b",
+  "name" : "I can't login without credentials",
+  "time" : {
+    "start" : 1632383819696,
+    "stop" : 1632383820597,
+    "duration" : 901
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "76397e906e2fb450",
+  "name" : "I can change the quantity in the cart",
+  "time" : {
+    "start" : 1632383920423,
+    "stop" : 1632383928207,
+    "duration" : 7784
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "39076d5d8520e62b",
+  "name" : "Login Form Homepage tests suit",
+  "time" : {
+    "start" : 1632383820602,
+    "stop" : 1632383821374,
+    "duration" : 772
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "585a38a4f512407a",
+  "name" : "I can login with valid credentials {0}",
+  "time" : {
+    "start" : 1632383810059,
+    "stop" : 1632383815225,
+    "duration" : 5166
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9c0b912c145d4990",
+  "name" : "I can search by name {0}",
+  "time" : {
+    "start" : 1632383858225,
+    "stop" : 1632383861567,
+    "duration" : 3342
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fde0b5244c3cb75",
+  "name" : "I can't login with wrong password",
+  "time" : {
+    "start" : 1632383817018,
+    "stop" : 1632383819693,
+    "duration" : 2675
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "932f94e499fe72e8",
+  "name" : "I can add to wishlist",
+  "time" : {
+    "start" : 1632383905789,
+    "stop" : 1632383920417,
+    "duration" : 14628
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3e57a2d3b03d0e7e",
+  "name" : "I can open tab product",
+  "time" : {
+    "start" : 1632383940390,
+    "stop" : 1632383953473,
+    "duration" : 13083
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6394774df38a2605",
+  "name" : "I can add to cart shirts",
+  "time" : {
+    "start" : 1632383897106,
+    "stop" : 1632383905784,
+    "duration" : 8678
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "509d259def5db9a7",
+  "name" : "I can filter blazers from category",
+  "time" : {
+    "start" : 1632383750966,
+    "stop" : 1632383781370,
+    "duration" : 30404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "179fbc6b83c3715b",
+  "name" : "I can search by name {0}",
+  "time" : {
+    "start" : 1632383861573,
+    "stop" : 1632383865372,
+    "duration" : 3799
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d211164bb844ab25",
+  "name" : "I can register {0}",
+  "time" : {
+    "start" : 1632383842795,
+    "stop" : 1632383850536,
+    "duration" : 7741
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8f4ee538d3a6e491",
+  "name" : "I can register {0}",
+  "time" : {
+    "start" : 1632383850544,
+    "stop" : 1632383858218,
+    "duration" : 7674
+  },
+  "status" : "passed",
+  "severity" : "critical"
 } ]
