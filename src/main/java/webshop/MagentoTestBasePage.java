@@ -14,7 +14,6 @@ public class MagentoTestBasePage extends ScreenShooter {
     public MagentoTestBasePage() {
         openPage();
     }
-
     public void clickOnAccountLink() {
         accountLink.click();
     }

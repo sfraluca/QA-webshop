@@ -13,14 +13,8 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "Register Homepage tests suit")
 public class RegisterFormTests {
-    MagentoTestBasePage magentoTestBasePage;
 
-//    @BeforeClass
-//    public void setup() {
-//        magentoTestBasePage = new MagentoTestBasePage();
-//    }
     RegisterForm registerForm = new RegisterForm();
-    MagentoTestBasePage accountLink = new MagentoTestBasePage();
 
     @Test(description = "I can register {0}",
             testName = "Register {0}",
@@ -32,6 +26,7 @@ public class RegisterFormTests {
         String email = registerUser.getEmail();
         String password = registerUser.getPassWord();
         String confirmPassword = registerUser.getConfirmPass();
+        MagentoTestBasePage accountLink = new MagentoTestBasePage();
         accountLink.clickOnAccountLink();
         registerForm.clickOnRegisterLink();
         registerForm.isFirstNameVisible();

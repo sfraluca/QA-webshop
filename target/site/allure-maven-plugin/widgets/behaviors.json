@@ -4,12 +4,12 @@
     "uid" : "33a68c99e18e791bdde8b0d36dac7a3f",
     "name" : "ShopProducts",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 9
+      "total" : 11
     }
   }, {
     "uid" : "47c1541137b592e80a8c7b2c315dcfa4",

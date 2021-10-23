@@ -14,6 +14,7 @@ public class FilterSidebar extends ScreenShooter{
     public final SelenideElement kitchenSubMenu = $(".level1.nav-4-5");
     public final SelenideElement viewMenMenu = $(".level0.nav-2");
 
+
     public final ElementsCollection filterPrice = $$("#narrow-by-list li a");
     public final ElementsCollection productPrice = $$(".product-info .price-box");
     public final ElementsCollection shirtCategory = $$("dl#narrow-by-list dd.odd ol");
@@ -78,6 +79,9 @@ public class FilterSidebar extends ScreenShooter{
     }
     public void clickOnMenMenu() {
         viewMenMenu.click();
+    }
+    public void hoverOnMenMenu() {
+        viewMenMenu.hover();
     }
 
     public void clickOnPriceFilter() {

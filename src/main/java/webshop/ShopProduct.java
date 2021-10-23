@@ -26,7 +26,6 @@ public class ShopProduct extends ScreenShooter {
     public final SelenideElement viewCart = $(".cart-link");
     public final SelenideElement quantityUpdate = $(".product-cart-actions .button.btn-update");
     public final SelenideElement cosplayMenu = $(".level0.nav-7");
-    public final SelenideElement compareButton = $("button[title='Compare']");
     public final SelenideElement khakiColor = $("#swatch25");
     public final SelenideElement size34Men = $("#swatch61");
     public final SelenideElement quantityProductDetail = $(".qty-wrapper input#qty");
@@ -39,7 +38,10 @@ public class ShopProduct extends ScreenShooter {
     public final SelenideElement booksMusicMenu = $(".level1.nav-4-1");
     public final SelenideElement reviewTab = $(".toggle-tabs li.last");
     public final SelenideElement firstReviewTab = $(".tab-content .no-rating a");
-    public final SelenideElement clickOnCloseCompare = $(".buttons-set button");
+    public final SelenideElement pantsMenMenu = $(".level0 .level1.nav-2-4");
+    public final SelenideElement subTotalPrice = $("tbody tr td.a-right span.price");
+    public final SelenideElement checkoutButton = $("ul.checkout-types.top button[title='Proceed to Checkout']");
+    public final SelenideElement continueButtonGuest = $(".buttons-set #onepage-guest-register-button");
 
     public final ElementsCollection saleProductListOldPrice = $$(".products-grid .price-box p.old-price");
     public final ElementsCollection saleProducts = $$(".products-grid .price-box");
@@ -51,7 +53,7 @@ public class ShopProduct extends ScreenShooter {
     public final ElementsCollection descriptionTab = $$(".toggle-tabs li");
     public final ElementsCollection ratingStarsPrice = $$("#product-review-table tr");
     public final ElementsCollection booksProducts = $$(".products-grid li h2 a");
-
+    public final ElementsCollection subtotalCart = $$("td.product-cart-total span.cart-price .price");
 
 
     /**
@@ -187,6 +189,11 @@ public class ShopProduct extends ScreenShooter {
         takeScreenShot("First review should be visible");
         firstReviewTab.shouldBe(visible); }
 
+    @Step("Pants Menu is visible")
+    public void isPantsMenuVisible() {
+        takeScreenShot("Pants Menu should be visible");
+        pantsMenMenu.shouldBe(visible); }
+
     @Step("Old price visibility")
     public void isOldPriceVisible() {
         if (saleProductListOldPrice.size() < saleProducts.size()) {
@@ -254,6 +261,14 @@ public class ShopProduct extends ScreenShooter {
         }
     }
 
+    @Step("Cart price visibility")
+    public void isCartPriceVisible() {
+        for(int i=0; i< subtotalCart.size(); i++) {
+            takeScreenShot("Cart price visibility");
+            subtotalCart.get(i).shouldBe(visible);
+        }
+    }
+
     /**
      * Actions
      */
@@ -290,6 +305,7 @@ public class ShopProduct extends ScreenShooter {
     }
     public void clickOnReviewTab() { reviewTab.click(); }
     public void clickOnFirstReviewTab() { firstReviewTab.click(); }
+    public void clickOnPantsMenu() { pantsMenMenu.click(); }
 
     public void fillInDescriptionReview(String description) {
         descriptionReview.sendKeys(description);
@@ -331,7 +347,7 @@ public class ShopProduct extends ScreenShooter {
 
     public void clickOnViewDetailsMenProductsLinks() {
         for (int i = 0; i< menProducts.size(); i++) {
-            menProducts.get(1).click();
+            menProducts.get(3).click();
         }
     }
 
@@ -363,8 +379,26 @@ public class ShopProduct extends ScreenShooter {
 
     public void clickOnBooksMusicProduct() {
         for (int i = 0; i< booksProducts.size(); i++) {
-            booksProducts.get(2).click();
+            booksProducts.get(1).click();
         }
+    }
+
+    public void checkSubTotalPrice() {
+        int sum = 0;
+        for(int i = 0; i < subtotalCart.size(); i++) {
+            sum = sum + Integer.parseInt(subtotalCart.get(i).innerText().replaceAll("\\D+",""));
+        }
+
+        int subTotalNumber = Integer.parseInt(subTotalPrice.innerText().replaceAll("\\D+",""));
+        if (sum != subTotalNumber) {
+            return;
+        } else {
+            checkoutButton.click();
+        }
+    }
+
+    public void clickContinueButtonGuest() {
+        continueButtonGuest.click();
     }
 
 

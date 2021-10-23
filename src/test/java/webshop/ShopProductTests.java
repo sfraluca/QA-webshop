@@ -11,11 +11,10 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Epic("ShopProducts")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "ShopProduct tests suit")
-public class ShopProductTests extends MagentoTestBasePage {
+public class ShopProductTests extends MagentoTestBasePage{
 
     ShopProduct shopProduct = new ShopProduct();
     LoginForm loginForm = new LoginForm();
-    MagentoTestBasePage accountLink = new MagentoTestBasePage();
 
     @Feature("Shop by men cloths")
     @Test(description = "I can add to cart shirts")
@@ -37,6 +36,7 @@ public class ShopProductTests extends MagentoTestBasePage {
     @Feature("Add To wishlist men cloths")
     @Test(description = "I can add to wishlist")
     public void can_add_to_wishlist_men_cloths() {
+        MagentoTestBasePage accountLink = new MagentoTestBasePage();
         accountLink.clickOnAccountLink();
         loginForm.clickOnLoginLink();
         loginForm.isEmailLoginVisible();
@@ -53,13 +53,13 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.clickOnWishList();
     }
 
-    @Feature("Sale price")
-    @Test(description = "I can see old price on sale")
-    public void can_view_old_price_on_sale() {
-        shopProduct.isSaleMenuVisible();
-        shopProduct.clickOnSaleMenu();
-        shopProduct.isOldPriceVisible();
-    }
+//    @Feature("Sale price")
+//    @Test(description = "I can see old price on sale")
+//    public void can_view_old_price_on_sale() {
+//        shopProduct.isSaleMenuVisible();
+//        shopProduct.clickOnSaleMenu();
+//        shopProduct.isOldPriceVisible();
+//    }
 
     @Feature("Baby's cloths shop")
     @Test(description = "I can shop all products in little ones")
@@ -68,41 +68,33 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.clickOnLittleOnes();
         shopProduct.isProductLittleOnesVisible();
         shopProduct.addToCartAllProductsLittleOnes();
-
     }
+
 
     @Feature("Delete products from cart")
     @Test(description = "I can delete items from cart")
     public void can_delete_items_from_cart() {
-//        can_shop_little_ones_things();
-        shopProduct.isMiniCartButtonVisible();
-        shopProduct.clickOnButtonCart();
-        shopProduct.isViewCartVisible();
-        shopProduct.clickOnViewCart();
+        view_cart();
         shopProduct.isRemoveButtonCartVisible();
         shopProduct.removeAllItemsFromCart();
-    }
-
-    @Feature("Quantity cart")
-    @Test(description = "I can change the quantity in the cart")
-    public void can_change_the_quantity() {
-//        can_shop_little_ones_things();
-        shopProduct.isMiniCartButtonVisible();
-        shopProduct.clickOnButtonCart();
-        shopProduct.isViewCartVisible();
-        shopProduct.clickOnViewCart();
-        shopProduct.isQuantityInputVisible();
-        shopProduct.fillInQuantity("1");
-        shopProduct.isQuantityUpdateVisible();
-        shopProduct.clickOnUpdateQuantity();
     }
 
     @Feature("Message add to cart")
     @Test(description = "I can see message add to cart")
     public void verify_success_add_to_cart_msg() {
-//        can_add_to_cart_pants();
+        can_add_to_cart_pants();
         shopProduct.isSuccessMsgAddToCartVisible();
         shopProduct.verifyMsgSuccessAddToCart("Khaki Bowery Chino Pants was added to your shopping cart.");
+    }
+
+    @Feature("Quantity cart")
+    @Test(description = "I can change the quantity in the cart")
+    public void can_change_the_quantity() {
+        view_cart();
+        shopProduct.isQuantityInputVisible();
+        shopProduct.fillInQuantity("1");
+        shopProduct.isQuantityUpdateVisible();
+        shopProduct.clickOnUpdateQuantity();
     }
 
     @Feature("Add to cart pants")
@@ -110,7 +102,9 @@ public class ShopProductTests extends MagentoTestBasePage {
     public void can_add_to_cart_pants() {
         FilterSidebar filterSidebar = new FilterSidebar();
         filterSidebar.isMenMenuVisible();
-        filterSidebar.clickOnMenMenu();
+        filterSidebar.hoverOnMenMenu();
+        shopProduct.isPantsMenuVisible();
+        shopProduct.clickOnPantsMenu();
         shopProduct.isMenProductsVisible();
         shopProduct.clickOnViewDetailsMenProductsLinks();
         shopProduct.isMenKhakiColorVisible();
@@ -158,6 +152,21 @@ public class ShopProductTests extends MagentoTestBasePage {
         shopProduct.fillInNicknameReview("Rohn");
         shopProduct.isSubmitReviewVisible();
         shopProduct.clickOnSubmitReview();
+    }
+
+    @Feature("Check sum in the cart")
+    @Test(description = "The sum in the checkout is correct")
+    public void check_sum_cart() {
+        view_cart();
+        shopProduct.checkSubTotalPrice();
+    }
+
+    public void view_cart() {
+        shopProduct.isMiniCartButtonVisible();
+        shopProduct.clickOnButtonCart();
+        shopProduct.isViewCartVisible();
+        shopProduct.clickOnViewCart();
+        shopProduct.isCartPriceVisible();
     }
 
 

@@ -13,9 +13,8 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Epic("LoginFormTests")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "Login Form Homepage tests suit")
-public class LoginFormTests extends MagentoTestBasePage {
+public class LoginFormTests  {
     LoginForm loginForm = new LoginForm();
-    MagentoTestBasePage accountLink = new MagentoTestBasePage();
 
     @Feature("Login")
     @Test(description = "I can login with valid credentials {0}",
@@ -24,6 +23,7 @@ public class LoginFormTests extends MagentoTestBasePage {
     public void can_login_with_valid_credentials(UserForTest user) {
         String email = user.getEmail();
         String password = user.getPassWord();
+        MagentoTestBasePage accountLink = new MagentoTestBasePage();
         accountLink.clickOnAccountLink();
         LoginForm loginForm = new LoginForm();
         loginForm.clickOnLoginLink();
@@ -40,10 +40,10 @@ public class LoginFormTests extends MagentoTestBasePage {
             testName = "Logout {0}",
             dataProvider = "correct_credentials", dataProviderClass = DataProviderCredentials.class)
     public void can_logout(UserForTest user) {
-//        can_login_with_valid_credentials(user);
         String firstname = user.getFirstname();
         String middlename = user.getMiddlename();
         String lastname = user.getLastname();
+        MagentoTestBasePage accountLink = new MagentoTestBasePage();
         accountLink.verifyWelcomeMessageByText("WELCOME, " +
                                                     firstname + " " +
                                                     middlename + " " +

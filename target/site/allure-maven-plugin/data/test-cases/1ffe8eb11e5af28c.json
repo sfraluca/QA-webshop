@@ -1,0 +1,245 @@
+{
+  "uid" : "1ffe8eb11e5af28c",
+  "name" : "I can see message add to cart",
+  "fullName" : "webshop.ShopProductTests.verify_success_add_to_cart_msg",
+  "historyId" : "6f1e0ff8c05e5f08a31f8ed1213c1cd1",
+  "time" : {
+    "start" : 1634984417099,
+    "stop" : 1634984426252,
+    "duration" : 9153
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Men menu visibility",
+      "time" : {
+        "start" : 1634984417099,
+        "stop" : 1634984417340,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "beab4cc831eac40d",
+        "name" : "PrintScreen Men menu should be visible",
+        "source" : "beab4cc831eac40d.png",
+        "type" : "image/png",
+        "size" : 129209
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Pants Menu is visible",
+      "time" : {
+        "start" : 1634984417469,
+        "stop" : 1634984417707,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb30359ef463953c",
+        "name" : "PrintScreen Pants Menu should be visible",
+        "source" : "fb30359ef463953c.png",
+        "type" : "image/png",
+        "size" : 129741
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Men products visibility",
+      "time" : {
+        "start" : 1634984419332,
+        "stop" : 1634984420562,
+        "duration" : 1230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "607243dc02b7c9fd",
+        "name" : "PrintScreen Men products should be visible",
+        "source" : "607243dc02b7c9fd.png",
+        "type" : "image/png",
+        "size" : 349345
+      }, {
+        "uid" : "9d095eb4c76b41b",
+        "name" : "PrintScreen Men products should be visible",
+        "source" : "9d095eb4c76b41b.png",
+        "type" : "image/png",
+        "size" : 349345
+      }, {
+        "uid" : "9422da2916e19b6c",
+        "name" : "PrintScreen Men products should be visible",
+        "source" : "9422da2916e19b6c.png",
+        "type" : "image/png",
+        "size" : 349345
+      }, {
+        "uid" : "2d417b38bef70674",
+        "name" : "PrintScreen Men products should be visible",
+        "source" : "2d417b38bef70674.png",
+        "type" : "image/png",
+        "size" : 349345
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Men Color visibility",
+      "time" : {
+        "start" : 1634984422119,
+        "stop" : 1634984422441,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8655f8c09123c0f4",
+        "name" : "PrintScreen Men Color should be visible",
+        "source" : "8655f8c09123c0f4.png",
+        "type" : "image/png",
+        "size" : 348346
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Men size visibility",
+      "time" : {
+        "start" : 1634984422506,
+        "stop" : 1634984422819,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fc8807be0589459",
+        "name" : "PrintScreen Men size should be visible",
+        "source" : "2fc8807be0589459.png",
+        "type" : "image/png",
+        "size" : 349593
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Quantity Detail Men visibility",
+      "time" : {
+        "start" : 1634984422877,
+        "stop" : 1634984423200,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d36ea3bb3da5e17",
+        "name" : "PrintScreen Quantity Detail Men should be visible",
+        "source" : "5d36ea3bb3da5e17.png",
+        "type" : "image/png",
+        "size" : 350447
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Success Msg add to cart visibility",
+      "time" : {
+        "start" : 1634984425968,
+        "stop" : 1634984426232,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdd858038c29fad4",
+        "name" : "PrintScreen Success Msg add to cart should be visible",
+        "source" : "cdd858038c29fad4.png",
+        "type" : "image/png",
+        "size" : 195431
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "testClass",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify_success_add_to_cart_msg"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AI7I6V4"
+  }, {
+    "name" : "thread",
+    "value" : "8960@DESKTOP-AI7I6V4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Message add to cart"
+  }, {
+    "name" : "epic",
+    "value" : "ShopProducts"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ffe8eb11e5af28c.json",
+  "parameterValues" : [ ]
+}

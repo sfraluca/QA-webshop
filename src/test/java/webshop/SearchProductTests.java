@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Epic("SearchInput")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "Search input tests suit")
-public class SearchProductTests extends MagentoTestBasePage{
+public class SearchProductTests {
 
     @Feature("Search by name")
     @Test(description = "I can search by name {0}",

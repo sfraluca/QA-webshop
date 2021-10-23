@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {.products-grid .price-box p.old-price[2]}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.png\r\nPage source: file:/C:/Users/Raluca/Documents/testare/proiect/webshop/QA-webshop/build/reports/tests/1632383980629.0.html\r\nTimeout: 4 s.\r\nCaused by: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2",
-      "children" : [ {
-        "name" : "I can see old price on sale",
-        "uid" : "b1f47f4be0919a65",
-        "parentUid" : "9e04deeb6080454bf1a711784afb2c50",
-        "status" : "failed",
-        "time" : {
-          "start" : 1632383971023,
-          "stop" : 1632383981053,
-          "duration" : 10030
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9e04deeb6080454bf1a711784afb2c50"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

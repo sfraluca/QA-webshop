@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 @Epic("MenuItems")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "Menu items tests suit")
-public class MenuItemsTests extends MagentoTestBasePage {
+public class MenuItemsTests {
     MenuItems menuItems = new MenuItems();
 
     @Feature("Menu items")
