@@ -1,6 +1,6 @@
 # QA-webshop
 Test automation Quality Assurance for a webshop
-###Test automation on Magento web application
+### Test automation on Magento web application
 
 
 ## Project created by Raluca Sferle
