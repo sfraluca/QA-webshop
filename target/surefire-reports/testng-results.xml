@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-23T13:17:15 EEST" name="Surefire suite" finished-at="2021-10-23T13:20:28 EEST" duration-ms="192535">
+    <groups>
+    </groups>
+    <test started-at="2021-10-23T13:17:15 EEST" name="Surefire test" finished-at="2021-10-23T13:20:28 EEST" duration-ms="192535">
+      <class name="webshop.FilterSidebarTests">
+        <test-method signature="can_filter_by_blazers()[pri:0, instance:webshop.FilterSidebarTests@6fca5907]" started-at="2021-10-23T13:17:15 EEST" name="can_filter_by_blazers" description="I can filter blazers from category" finished-at="2021-10-23T13:17:17 EEST" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_filter_by_blazers -->
+        <test-method signature="can_filter_by_price_kitchen_devices()[pri:0, instance:webshop.FilterSidebarTests@6fca5907]" started-at="2021-10-23T13:17:17 EEST" name="can_filter_by_price_kitchen_devices" description="I can filter by price kitchen devices" finished-at="2021-10-23T13:17:29 EEST" duration-ms="11135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_filter_by_price_kitchen_devices -->
+      </class> <!-- webshop.FilterSidebarTests -->
+      <class name="webshop.ShopProductTests">
+        <test-method signature="can_add_a_review_to_books()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:18:40 EEST" name="can_add_a_review_to_books" description="I can add a review to a book" finished-at="2021-10-23T13:18:53 EEST" duration-ms="13376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_a_review_to_books -->
+        <test-method signature="can_add_to_cart_pants()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:18:53 EEST" name="can_add_to_cart_pants" description="I can add to cart pants men" finished-at="2021-10-23T13:19:01 EEST" duration-ms="7338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_to_cart_pants -->
+        <test-method signature="can_add_to_cart_shirts_men()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:19:01 EEST" name="can_add_to_cart_shirts_men" description="I can add to cart shirts" finished-at="2021-10-23T13:19:08 EEST" duration-ms="7369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_to_cart_shirts_men -->
+        <test-method signature="can_add_to_wishlist_men_cloths()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:19:08 EEST" name="can_add_to_wishlist_men_cloths" description="I can add to wishlist" finished-at="2021-10-23T13:19:23 EEST" duration-ms="14785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_add_to_wishlist_men_cloths -->
+        <test-method signature="can_change_the_quantity()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:19:23 EEST" name="can_change_the_quantity" description="I can change the quantity in the cart" finished-at="2021-10-23T13:19:30 EEST" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_change_the_quantity -->
+        <test-method signature="can_delete_items_from_cart()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:19:30 EEST" name="can_delete_items_from_cart" description="I can delete items from cart" finished-at="2021-10-23T13:19:42 EEST" duration-ms="11863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_delete_items_from_cart -->
+        <test-method signature="can_open_tab()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:19:42 EEST" name="can_open_tab" description="I can open tab product" finished-at="2021-10-23T13:19:51 EEST" duration-ms="9305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_open_tab -->
+        <test-method signature="can_shop_little_ones_things()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:19:51 EEST" name="can_shop_little_ones_things" description="I can shop all products in little ones" finished-at="2021-10-23T13:20:12 EEST" duration-ms="21329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_shop_little_ones_things -->
+        <test-method signature="check_sum_cart()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:20:12 EEST" name="check_sum_cart" description="The sum in the checkout is correct" finished-at="2021-10-23T13:20:17 EEST" duration-ms="4378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_sum_cart -->
+        <test-method signature="verify_success_add_to_cart_msg()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:20:17 EEST" name="verify_success_add_to_cart_msg" description="I can see message add to cart" finished-at="2021-10-23T13:20:26 EEST" duration-ms="9155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_success_add_to_cart_msg -->
+        <test-method signature="view_cart()[pri:0, instance:webshop.ShopProductTests@1ab9c735]" started-at="2021-10-23T13:20:26 EEST" name="view_cart" description="ShopProduct tests suit" finished-at="2021-10-23T13:20:28 EEST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_cart -->
+      </class> <!-- webshop.ShopProductTests -->
+      <class name="webshop.RegisterFormTests">
+        <test-method signature="can_register_with_valid_credentials(webshop.dataprovider.RegisterUsersForTest)[pri:0, instance:webshop.RegisterFormTests@1caa9eb6]" started-at="2021-10-23T13:18:19 EEST" name="can_register_with_valid_credentials" description="I can register {0}" data-provider="correct_credentials" finished-at="2021-10-23T13:18:26 EEST" duration-ms="7249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_register_with_test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_register_with_valid_credentials -->
+        <test-method signature="can_register_with_valid_credentials(webshop.dataprovider.RegisterUsersForTest)[pri:0, instance:webshop.RegisterFormTests@1caa9eb6]" started-at="2021-10-23T13:18:26 EEST" name="can_register_with_valid_credentials" description="I can register {0}" data-provider="correct_credentials" finished-at="2021-10-23T13:18:34 EEST" duration-ms="7174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_register_with_test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_register_with_valid_credentials -->
+      </class> <!-- webshop.RegisterFormTests -->
+      <class name="webshop.MenuItemsTests">
+        <test-method signature="can_access_menu()[pri:0, instance:webshop.MenuItemsTests@6cfd9a54]" started-at="2021-10-23T13:18:00 EEST" name="can_access_menu" description="I can all menu items" finished-at="2021-10-23T13:18:19 EEST" duration-ms="18999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_access_menu -->
+      </class> <!-- webshop.MenuItemsTests -->
+      <class name="webshop.LoginFormTests">
+        <test-method signature="can_login_with_valid_credentials(webshop.dataprovider.UserForTest)[pri:0, instance:webshop.LoginFormTests@2d272b0d]" started-at="2021-10-23T13:17:47 EEST" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-10-23T13:17:53 EEST" duration-ms="5604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_email_test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_logout(webshop.dataprovider.UserForTest)[pri:0, instance:webshop.LoginFormTests@2d272b0d]" started-at="2021-10-23T13:17:53 EEST" name="can_logout" description="I can logout {0}" data-provider="correct_credentials" finished-at="2021-10-23T13:17:57 EEST" duration-ms="4212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_email_test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_logout -->
+        <test-method signature="cannot_login_with_wrong_password()[pri:0, instance:webshop.LoginFormTests@2d272b0d]" started-at="2021-10-23T13:17:57 EEST" name="cannot_login_with_wrong_password" description="I can&#039;t login with wrong password" finished-at="2021-10-23T13:17:59 EEST" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannot_login_with_wrong_password -->
+        <test-method signature="cannot_login_without_required_credentials()[pri:0, instance:webshop.LoginFormTests@2d272b0d]" started-at="2021-10-23T13:17:59 EEST" name="cannot_login_without_required_credentials" description="I can&#039;t login without credentials" finished-at="2021-10-23T13:18:00 EEST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannot_login_without_required_credentials -->
+        <test-method signature="click_login_links()[pri:0, instance:webshop.LoginFormTests@2d272b0d]" started-at="2021-10-23T13:18:00 EEST" name="click_login_links" description="Login Form Homepage tests suit" finished-at="2021-10-23T13:18:00 EEST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_login_links -->
+      </class> <!-- webshop.LoginFormTests -->
+      <class name="webshop.SearchProductTests">
+        <test-method signature="can_search_by_name(webshop.dataprovider.ProductsForSearch)[pri:0, instance:webshop.SearchProductTests@1f53481b]" started-at="2021-10-23T13:18:34 EEST" name="can_search_by_name" description="I can search by name {0}" data-provider="search_by_name" finished-at="2021-10-23T13:18:37 EEST" duration-ms="2963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Search_with_Product1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_search_by_name -->
+        <test-method signature="can_search_by_name(webshop.dataprovider.ProductsForSearch)[pri:0, instance:webshop.SearchProductTests@1f53481b]" started-at="2021-10-23T13:18:37 EEST" name="can_search_by_name" description="I can search by name {0}" data-provider="search_by_name" finished-at="2021-10-23T13:18:40 EEST" duration-ms="3199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Search_with_Product2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_search_by_name -->
+      </class> <!-- webshop.SearchProductTests -->
+      <class name="webshop.FirstPageTests">
+        <test-method signature="can_access_pages_from_promos()[pri:0, instance:webshop.FirstPageTests@5e671e20]" started-at="2021-10-23T13:17:29 EEST" name="can_access_pages_from_promos" description="I can access the pages through promo banners" finished-at="2021-10-23T13:17:34 EEST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_access_pages_from_promos -->
+        <test-method signature="can_access_slider_links()[pri:0, instance:webshop.FirstPageTests@5e671e20]" started-at="2021-10-23T13:17:34 EEST" name="can_access_slider_links" description="I can access slider links" finished-at="2021-10-23T13:17:47 EEST" duration-ms="12883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_access_slider_links -->
+      </class> <!-- webshop.FirstPageTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

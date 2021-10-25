@@ -1,0 +1,15 @@
+webshop\dataprovider\DataProviderSearchInputs.class
+webshop\SearchProduct.class
+webshop\LoginForm.class
+webshop\MenuItems.class
+webshop\ScreenShooter.class
+webshop\dataprovider\RegisterUsersForTest.class
+webshop\dataprovider\DataProviderCredentials.class
+webshop\MagentoTestBasePage.class
+webshop\RegisterForm.class
+webshop\FilterSidebar.class
+webshop\dataprovider\UserForTest.class
+webshop\ShopProduct.class
+webshop\dataprovider\DataProviderRegisterCredentials.class
+webshop\dataprovider\ProductsForSearch.class
+webshop\FirstPageShopping.class

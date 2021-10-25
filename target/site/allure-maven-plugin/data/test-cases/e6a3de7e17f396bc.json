@@ -1,0 +1,275 @@
+{
+  "uid" : "e6a3de7e17f396bc",
+  "name" : "I can add to wishlist",
+  "fullName" : "webshop.ShopProductTests.can_add_to_wishlist_men_cloths",
+  "historyId" : "41e896128accaba08e692d3a5033276e",
+  "time" : {
+    "start" : 1634984348414,
+    "stop" : 1634984363197,
+    "duration" : 14783
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open Website",
+      "time" : {
+        "start" : 1634984348415,
+        "stop" : 1634984350130,
+        "duration" : 1715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab47c5d8c9c949a1",
+        "name" : "PrintScreen Open Website",
+        "source" : "ab47c5d8c9c949a1.png",
+        "type" : "image/png",
+        "size" : 827142
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Email Login visibility",
+      "time" : {
+        "start" : 1634984351434,
+        "stop" : 1634984351661,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "583153cc12414221",
+        "name" : "PrintScreen Email login should be visible",
+        "source" : "583153cc12414221.png",
+        "type" : "image/png",
+        "size" : 148106
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Filling the email input",
+      "time" : {
+        "start" : 1634984351661,
+        "stop" : 1634984351896,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ee9c1a95a552af0",
+        "name" : "PrintScreen Email login can be filled",
+        "source" : "6ee9c1a95a552af0.png",
+        "type" : "image/png",
+        "size" : 148106
+      } ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "test1@yahoo.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Password Login visibility",
+      "time" : {
+        "start" : 1634984351896,
+        "stop" : 1634984352142,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1aac435efff24d9",
+        "name" : "PrintScreen Password should be visible",
+        "source" : "c1aac435efff24d9.png",
+        "type" : "image/png",
+        "size" : 151907
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Filling the password input",
+      "time" : {
+        "start" : 1634984352142,
+        "stop" : 1634984352396,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c3bb9fbdbe5a8fe",
+        "name" : "PrintScreen Password login can be filled",
+        "source" : "3c3bb9fbdbe5a8fe.png",
+        "type" : "image/png",
+        "size" : 151907
+      } ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "1a2b3c4d"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Men menu visibility",
+      "time" : {
+        "start" : 1634984357847,
+        "stop" : 1634984358062,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edbdab50913c305b",
+        "name" : "PrintScreen Men menu should be visible",
+        "source" : "edbdab50913c305b.png",
+        "type" : "image/png",
+        "size" : 174005
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Hovering menu men",
+      "time" : {
+        "start" : 1634984358063,
+        "stop" : 1634984358382,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98ecf2842e32a5e",
+        "name" : "PrintScreen Hover menu men",
+        "source" : "98ecf2842e32a5e.png",
+        "type" : "image/png",
+        "size" : 174005
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Menu Shirts visibility",
+      "time" : {
+        "start" : 1634984358382,
+        "stop" : 1634984358595,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bc8c034a6509b08",
+        "name" : "PrintScreen Menu Shirts should be visible",
+        "source" : "3bc8c034a6509b08.png",
+        "type" : "image/png",
+        "size" : 165469
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Add to wishlist visibility",
+      "time" : {
+        "start" : 1634984360408,
+        "stop" : 1634984360774,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2b8a857b9a6bd8",
+        "name" : "PrintScreen Add to wishlist should be visible",
+        "source" : "d2b8a857b9a6bd8.png",
+        "type" : "image/png",
+        "size" : 285938
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "testClass",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can_add_to_wishlist_men_cloths"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "webshop.ShopProductTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AI7I6V4"
+  }, {
+    "name" : "thread",
+    "value" : "8960@DESKTOP-AI7I6V4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Add To wishlist men cloths"
+  }, {
+    "name" : "epic",
+    "value" : "ShopProducts"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6a3de7e17f396bc.json",
+  "parameterValues" : [ ]
+}
