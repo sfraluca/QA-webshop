@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Epic("FirstPageTests")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "First page Homepage Tests suit")
-public class FirstPageTests {
+public class FirstPageTests extends MagentoTestBasePage {
 
     FirstPageShopping firstPageAccess = new FirstPageShopping();
 

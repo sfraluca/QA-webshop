@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.sleep;
 
-public class FilterSidebarTests {
+public class FilterSidebarTests extends MagentoTestBasePage {
 
     FilterSidebar filterSidebar = new FilterSidebar();
 

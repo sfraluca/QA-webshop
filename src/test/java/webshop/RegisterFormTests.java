@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Epic("RegisterFormTests")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "Register Homepage tests suit")
-public class RegisterFormTests {
+public class RegisterFormTests  extends MagentoTestBasePage{
 
     RegisterForm registerForm = new RegisterForm();
 

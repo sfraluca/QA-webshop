@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.sleep;
 @Epic("LoginFormTests")
 @Severity(SeverityLevel.CRITICAL)
 @Test(description = "Login Form Homepage tests suit")
-public class LoginFormTests  {
+public class LoginFormTests extends MagentoTestBasePage{
     LoginForm loginForm = new LoginForm();
 
     @Feature("Login")
